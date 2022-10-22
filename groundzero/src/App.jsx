@@ -11,7 +11,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Homepage / About Us
+        Homepage / About
       </div>
     </div>
 
@@ -20,7 +20,7 @@ const App = () => (
         Sign up call
         Teaser
         Past Events
-        Why You Should Join
+        Reasons To Join
         Problem Statements
         Workshops
         Timeline
