@@ -1,9 +1,36 @@
-import React from 'react'
+import styles from "./style";
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+/* Main entry point of the web application. */
+const App = () => (
+  <div className="bg-black-gradient w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        Navigation Bar
+      </div>
+    </div>
 
-export default App
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        Homepage / About Us
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        Sign up call
+        Teaser
+        Past Events
+        Why You Should Join
+        Problem Statements
+        Workshops
+        Timeline
+        Partners
+        Contact Us
+        Footer 
+      </div>
+    </div>
+
+  </div>
+);
+
+export default App;

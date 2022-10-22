@@ -1,4 +1,7 @@
-/* This file contains list of static texts that will be displayed in the web page. */
+/* 
+This file contains list of static texts that will be displayed in the web page.
+In the future, please use this file as the only way to interact with editing texts.
+*/
 
 import { groundzero, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox } from "../assets";
 
