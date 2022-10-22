@@ -3,6 +3,8 @@
 ## Getting Started
 Recommends going through this [video](https://www.youtube.com/watch?v=_oO4Qi5aVZs), as it is the main reference for the project structure and has comprehensive step-by-step tutorial on how to build the project with similar tech stack and componenents from scratch.
 
+If this is your first React project, the video will also help you to install necessary dependencies required to develop the application.
+
 ## Project Structure and Layout
 The main repository of this project, [groundzero](), contains all the code and dependencies for building the [GroundZero web application]().
 
