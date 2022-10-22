@@ -1,32 +1,33 @@
 import styles from "./style";
+import { NavigationBar, About, SignUp, Teaser, PastEvents, ReasonsToJoin, ProblemStatements, Workshops, Timeline, Partners, ContactUs, Footer } from './components';
 
 /* Main entry point of the web application. */
 const App = () => (
   <div className="bg-black-gradient w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        Navigation Bar
+        <NavigationBar />
       </div>
     </div>
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Homepage / About
+      <About />
       </div>
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Sign up call
-        Teaser
-        Past Events
-        Reasons To Join
-        Problem Statements
-        Workshops
-        Timeline
-        Partners
-        Contact Us
-        Footer 
+      <SignUp />
+        <Teaser />
+        <PastEvents />
+        <ReasonsToJoin />
+        <ProblemStatements />
+        <Workshops />
+        <Timeline />
+        <Partners />
+        <ContactUs />
+        <Footer />
       </div>
     </div>
 
