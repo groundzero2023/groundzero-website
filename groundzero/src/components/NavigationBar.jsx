@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import "../index.css"
 
 const NavigationBar = () => {
@@ -7,19 +8,29 @@ const NavigationBar = () => {
       <a href="/" className="site-title">[image]</a>
       <ul>
         <li>
-          <a href="/About">About</a>
+          <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="/Timeline">Timeline</a>
+          <Link activeClass="active" to="timeline" spy={true} smooth={true} offset={-100} duration={500}>
+            Timeline
+          </Link>
         </li>
         <li>
-          <a href="/Problems">Problems</a>
+          <Link activeClass="active" to="problems" spy={true} smooth={true} offset={-100} duration={500}>
+            Problems
+          </Link>
         </li>
         <li>
-          <a href="/Contact">Contact</a>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>
+            Contact
+          </Link>
         </li>
         <li id="nav-register-button">
-          <a href="/Register">Register</a>
+          <Link activeClass="active" to="signup" spy={true} smooth={true} offset={-100} duration={500}>
+            Register
+          </Link>
         </li>
       </ul> 
     </nav>

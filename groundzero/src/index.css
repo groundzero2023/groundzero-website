@@ -158,6 +158,8 @@ This file contains styling customization for fonts and colors.
   align-items: stretch;
   gap: 1rem;
   padding: 0.5rem 3rem;
+  position: fixed;
+  top: 0;
 }
 
 .nav ul {
@@ -199,3 +201,8 @@ This file contains styling customization for fonts and colors.
   border-radius: 30px;
   font-weight: 600;
 }
+
+/* For navbar fixed position and link scroll test purposes */
+/* .about,.signup,.timeline,.problems,.contact {
+  height: 1000px;
+} */

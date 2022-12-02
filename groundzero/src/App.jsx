@@ -4,7 +4,7 @@ import { NavigationBar, About, SignUp, Teaser, PastEvents, ReasonsToJoin, Proble
 /* Main entry point of the web application. */
 const App = () => (
   <div className="bg-black-gradient w-full overflow-hidden">
-    
+
     <NavigationBar />
 
     <div className={`bg-primary ${styles.flexStart}`}>
