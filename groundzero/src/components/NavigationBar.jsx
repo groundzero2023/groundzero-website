@@ -27,9 +27,11 @@ const NavigationBar = () => {
             Contact
           </Link>
         </li>
-        <li id="nav-register-button">
+        <li>
           <Link activeClass="active" to="signup" spy={true} smooth={true} offset={-100} duration={500}>
-            Register
+            <div id="nav-register-button">
+              Register
+            </div>
           </Link>
         </li>
       </ul> 
