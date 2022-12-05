@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProblemStatements = () => {
   return (
-    <div>ProblemStatements</div>
+    <div className='problems' id='problems'>ProblemStatements</div>
   )
 }
 

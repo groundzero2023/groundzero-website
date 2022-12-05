@@ -22,6 +22,7 @@ This file contains styling customization for fonts and colors.
 
 * {
   scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
 }
 
 .text-gradient {
@@ -143,4 +144,65 @@ This file contains styling customization for fonts and colors.
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.nav {
+  background-color: #1F1B40;
+  color: white;
+  width: 100%;
+  min-width: auto;
+  max-width: auto;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 0.5rem 3rem;
+  position: fixed;
+  top: 0;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+}
+
+#nav-register-button {
+  background-color: #a733bb;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: .5rem 2rem;
+  border-radius: 30px;
+}
+
+#nav-register-button a {
+  color: white;
+  width: inherit;
+  height: 90%;
+  align-items: center;
+  display: inline-flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* For navbar fixed position and link scroll test purposes  */
+.about,.signup,.timeline,.problems,.contact {
+  height: 1000px;
 }
