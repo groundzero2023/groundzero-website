@@ -83,8 +83,21 @@ This file contains styling customization for fonts and colors.
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
+.bg-purple {
+  background: #1F1B40;
+}
+
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.heading {
+  font-weight: 800;
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .sidebar {
@@ -146,6 +159,8 @@ This file contains styling customization for fonts and colors.
   filter: blur(750px);
 }
 
+/* NAVIGATION BAR */
+
 .nav {
   background-color: #1F1B40;
   color: white;
@@ -203,6 +218,50 @@ This file contains styling customization for fonts and colors.
 }
 
 /* For navbar fixed position and link scroll test purposes  */
-.about,.signup,.timeline,.problems,.contact {
+/* .about,.signup,.timeline,.problems,.contact {
   height: 1000px;
+} */
+
+/* FAQ PAGE */
+
+.faq {
+  align-items: center;
+  background-color: #1F1B40;
+}
+
+.faq-accordion {
+  width: 100%;
+}
+
+.faq-item {
+  background: #2B2853;
+  margin-bottom: 15px;
+  padding: 20px 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 40px;
+}
+
+.faq-item-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-item-content {
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.faq-item-content-show {
+  color: white;
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
 }
