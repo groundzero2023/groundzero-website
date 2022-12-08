@@ -11,12 +11,13 @@ import {
   Timeline,
   Partners,
   ContactUs,
+  Faq,
   Footer,
 } from "./components";
 
 /* Main entry point of the web application. */
 const App = () => (
-  <div className="bg-black-gradient w-full overflow-hidden">
+  <div className="bg-purple w-full overflow-hidden">
     <NavigationBar />
 
     <div className={`bg-primary ${styles.flexStart}`}>
@@ -36,6 +37,7 @@ const App = () => (
         <Timeline />
         <Partners />
         <ContactUs />
+        <Faq />
         <Footer />
       </div>
     </div>

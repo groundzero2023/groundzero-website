@@ -6,6 +6,7 @@ In the future, please always import and export your components here.
 import About from "./About";
 import ContactUs from "./ContactUs";
 import ContactUsCard from "./ContactUsCard";
+import Faq from "./Faq";
 import Footer from "./Footer";
 import NavigationBar from "./NavigationBar";
 import Partners from "./Partners";
@@ -21,6 +22,7 @@ export {
     About,
     ContactUs,
     ContactUsCard,
+    Faq,
     Footer,
     NavigationBar,
     Partners,
