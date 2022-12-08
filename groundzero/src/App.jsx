@@ -1,15 +1,27 @@
 import styles from "./style";
-import { NavigationBar, About, SignUp, Teaser, PastEvents, ReasonsToJoin, ProblemStatements, Workshops, Timeline, Partners, ContactUs, Faq, Footer } from './components';
+import {
+  NavigationBar,
+  About,
+  SignUp,
+  Teaser,
+  PastEvents,
+  ReasonsToJoin,
+  ProblemStatements,
+  Workshops,
+  Timeline,
+  Partners,
+  ContactUs,
+  Footer,
+} from "./components";
 
 /* Main entry point of the web application. */
 const App = () => (
-  <div className="bg-purple">
-
+  <div className="bg-purple w-full overflow-hidden">
     <NavigationBar />
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-      <About />
+        <About />
       </div>
     </div>
 
@@ -28,7 +40,6 @@ const App = () => (
         <Footer />
       </div>
     </div>
-
   </div>
 );
 
