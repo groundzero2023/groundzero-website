@@ -182,6 +182,24 @@ export const socialMedia = [
   },
 ];
 
+export const contacts = [
+  {
+    id: "email",
+    icon: email,
+    link: "groundzero@nes.com",
+  },
+  {
+    id: "telephone",
+    icon: telephone,
+    link: "12345678",
+  },
+  {
+    id: "telegram",
+    icon: telegram,
+    link: "groundzero@telegram",
+  },
+];
+
 export const companies = [
   {
     id: "companies-1",
