@@ -11,6 +11,7 @@ import {
   Timeline,
   Partners,
   ContactUs,
+  Faq,
   Footer,
 } from "./components";
 
