@@ -3,7 +3,17 @@ This file contains list of static texts that will be displayed in the web page.
 In the future, please use this file as the only way to interact with editing texts.
 */
 
-import { groundzero, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox } from "../assets";
+import {
+  groundzero,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -27,51 +37,45 @@ export const navLinks = [
 export const timeline = [
   {
     id: "timeline-1",
-    icon: registration,
+    icon: groundzero,
     title: "Registration",
-    content:
-      "January - March 2023",
+    content: "January - March 2023",
   },
   {
     id: "timeline-2",
-    icon: problemStatement,
+    icon: groundzero,
     title: "Problem Statements Released",
-    content:
-      "March 2023",
+    content: "March 2023",
   },
   {
     id: "timeline-3",
-    icon: pitchDay,
+    icon: groundzero,
     title: "Pitch Day",
-    content:
-      "April 2023",
+    content: "April 2023",
   },
 ];
 
 export const problems = [
   {
     id: "problem-1",
-    content:
-      "How can we reduce carbonization through tax?",
+    content: "How can we reduce carbonization through tax?",
     category: "Environment",
     title: "Green Money",
-    img: environment,
+    img: groundzero,
   },
   {
     id: "problem-2",
-    content:
-      "Something cool that tech cannot do.",
+    content: "Something cool that tech cannot do.",
     category: "Education",
     title: "New Education",
-    img: education,
+    img: groundzero,
   },
   {
     id: "problem-3",
-    content:
-      "Elevate the poor using tech. Any idea?",
+    content: "Elevate the poor using tech. Any idea?",
     category: "Technology",
     title: "Disruptive Income Equality",
-    img: technology,
+    img: groundzero,
   },
 ];
 
@@ -182,6 +186,24 @@ export const socialMedia = [
   },
 ];
 
+export const contacts = [
+  {
+    id: "contacts-1",
+    icon: groundzero,
+    link: "groundzero@nes.com",
+  },
+  {
+    id: "contacts-2",
+    icon: instagram,
+    link: "12345678",
+  },
+  {
+    id: "contacts-3",
+    icon: instagram,
+    link: "groundzero@telegram",
+  },
+];
+
 export const companies = [
   {
     id: "companies-1",
@@ -197,6 +219,37 @@ export const companies = [
   },
   {
     id: "companies-4",
+    logo: dropbox,
+  },
+];
+
+export const partners = [
+  {
+    id: "organizer-1",
+    logo: binance,
+  },
+  {
+    id: "platinumSponsor-1",
+    logo: airbnb,
+  },
+  {
+    id: "platinumSponsor-2",
+    logo: dropbox,
+  },
+  {
+    id: "ecosystemPartner-1",
+    logo: airbnb,
+  },
+  {
+    id: "ecosystemPartner-2",
+    logo: dropbox,
+  },
+  {
+    id: "workshopPartner-1",
+    logo: airbnb,
+  },
+  {
+    id: "workshopPartner-2",
     logo: dropbox,
   },
 ];
