@@ -3,7 +3,17 @@ This file contains list of static texts that will be displayed in the web page.
 In the future, please use this file as the only way to interact with editing texts.
 */
 
-import { groundzero, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox } from "../assets";
+import airbnb from "../assets/airbnb.png"
+import binance from "../assets/binance.png"
+import coinbase from "../assets/coinbase.png"
+import dropbox from "../assets/dropbox.png"
+import facebook from "../assets/facebook.svg"
+import groundzero from "../assets/groundzero.png"
+import instagram from "../assets/instagram.svg"
+import linkedin from "../assets/linkedin.svg"
+import twitter from "../assets/twitter.svg"
+
+// import { groundzero, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox } from "../assets";
 
 export const navLinks = [
   {
@@ -24,56 +34,61 @@ export const navLinks = [
   },
 ];
 
-export const timeline = [
-  {
-    id: "timeline-1",
-    icon: registration,
-    title: "Registration",
-    content:
-      "January - March 2023",
-  },
-  {
-    id: "timeline-2",
-    icon: problemStatement,
-    title: "Problem Statements Released",
-    content:
-      "March 2023",
-  },
-  {
-    id: "timeline-3",
-    icon: pitchDay,
-    title: "Pitch Day",
-    content:
-      "April 2023",
-  },
-];
+/**
+ * NOTE: Timeline and Problems are commented due to missing images causing uncaught
+ * reference errors. Please uncomment accordingly, should you want to use these constants.
+ */
 
-export const problems = [
-  {
-    id: "problem-1",
-    content:
-      "How can we reduce carbonization through tax?",
-    category: "Environment",
-    title: "Green Money",
-    img: environment,
-  },
-  {
-    id: "problem-2",
-    content:
-      "Something cool that tech cannot do.",
-    category: "Education",
-    title: "New Education",
-    img: education,
-  },
-  {
-    id: "problem-3",
-    content:
-      "Elevate the poor using tech. Any idea?",
-    category: "Technology",
-    title: "Disruptive Income Equality",
-    img: technology,
-  },
-];
+// export const timeline = [
+//   {
+//     id: "timeline-1",
+//     icon: registration,
+//     title: "Registration",
+//     content:
+//       "January - March 2023",
+//   },
+//   {
+//     id: "timeline-2",
+//     icon: problemStatement,
+//     title: "Problem Statements Released",
+//     content:
+//       "March 2023",
+//   },
+//   {
+//     id: "timeline-3",
+//     icon: pitchDay,
+//     title: "Pitch Day",
+//     content:
+//       "April 2023",
+//   },
+// ];
+
+// export const problems = [
+//   {
+//     id: "problem-1",
+//     content:
+//       "How can we reduce carbonization through tax?",
+//     category: "Environment",
+//     title: "Green Money",
+//     img: environment,
+//   },
+//   {
+//     id: "problem-2",
+//     content:
+//       "Something cool that tech cannot do.",
+//     category: "Education",
+//     title: "New Education",
+//     img: education,
+//   },
+//   {
+//     id: "problem-3",
+//     content:
+//       "Elevate the poor using tech. Any idea?",
+//     category: "Technology",
+//     title: "Disruptive Income Equality",
+//     img: technology,
+//   },
+// ];
 
 export const stats = [
   {
@@ -200,3 +215,26 @@ export const companies = [
     logo: dropbox,
   },
 ];
+
+export const questions = [
+  {
+      "Question": "Lorem Ipsum",
+      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+      "Question": "Should I pay to join?",
+      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+      "Question": "I am a Computer Science student, can I join?",
+      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+      "Question": "Qualification Round what?",
+      "Answer": "First follow this: \n something \n someone"
+  },
+  {
+      "Question": "Lorem Ipsum",
+      "Answer": "Dolor sit amet"
+  }
+]

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import data from "../assets/faq-questions/faq.json"
+import { questions } from '../constants/index'
 
 const Faq = () => {
 
@@ -18,7 +18,7 @@ const Faq = () => {
             Frequently Asked Questions
         </div>
         <div className="faq-accordion">
-            {data.map((item, i) => (
+            {questions.map((item, i) => (
                 <div className='faq-item'>
                     <div className='faq-item-title' onClick={() => toggle(i)}>
                         <h2>{item.Question}</h2>
