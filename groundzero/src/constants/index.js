@@ -37,19 +37,19 @@ export const navLinks = [
 export const timeline = [
   {
     id: "timeline-1",
-    icon: registration,
+    icon: groundzero,
     title: "Registration",
     content: "January - March 2023",
   },
   {
     id: "timeline-2",
-    icon: problemStatement,
+    icon: groundzero,
     title: "Problem Statements Released",
     content: "March 2023",
   },
   {
     id: "timeline-3",
-    icon: pitchDay,
+    icon: groundzero,
     title: "Pitch Day",
     content: "April 2023",
   },
@@ -61,21 +61,21 @@ export const problems = [
     content: "How can we reduce carbonization through tax?",
     category: "Environment",
     title: "Green Money",
-    img: environment,
+    img: groundzero,
   },
   {
     id: "problem-2",
     content: "Something cool that tech cannot do.",
     category: "Education",
     title: "New Education",
-    img: education,
+    img: groundzero,
   },
   {
     id: "problem-3",
     content: "Elevate the poor using tech. Any idea?",
     category: "Technology",
     title: "Disruptive Income Equality",
-    img: technology,
+    img: groundzero,
   },
 ];
 
