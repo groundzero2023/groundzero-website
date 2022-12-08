@@ -63,32 +63,29 @@ export const navLinks = [
 //   },
 // ];
 
-// export const problems = [
-//   {
-//     id: "problem-1",
-//     content:
-//       "How can we reduce carbonization through tax?",
-//     category: "Environment",
-//     title: "Green Money",
-//     img: environment,
-//   },
-//   {
-//     id: "problem-2",
-//     content:
-//       "Something cool that tech cannot do.",
-//     category: "Education",
-//     title: "New Education",
-//     img: education,
-//   },
-//   {
-//     id: "problem-3",
-//     content:
-//       "Elevate the poor using tech. Any idea?",
-//     category: "Technology",
-//     title: "Disruptive Income Equality",
-//     img: technology,
-//   },
-// ];
+export const problems = [
+  {
+    id: "problem-1",
+    content:
+      "How can we reduce carbonization through tax?",
+    category: "Environment",
+    title: "Green Money",
+  },
+  {
+    id: "problem-2",
+    content:
+      "Something cool that tech cannot do.",
+    category: "Education",
+    title: "New Education",
+  },
+  {
+    id: "problem-3",
+    content:
+      "Elevate the poor using tech. Any idea?",
+    category: "Technology",
+    title: "Disruptive Income Equality",
+  },
+];
 
 export const stats = [
   {

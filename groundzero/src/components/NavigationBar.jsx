@@ -1,42 +1,34 @@
-import React from 'react'
-import { Link } from 'react-scroll'
-import "../index.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "../index.css";
 
 const NavigationBar = () => {
   return (
     <nav className="nav">
-      <a href="/" className="site-title">[image]</a>
+      <a href="/" className="site-title">
+        [image]
+      </a>
       <ul>
         <li>
-          <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>
-            About
-          </Link>
+          <Link to="/#about">About</Link>
         </li>
         <li>
-          <Link activeClass="active" to="timeline" spy={true} smooth={true} offset={-100} duration={500}>
-            Timeline
-          </Link>
+          <Link to="/#timeline">Timeline</Link>
         </li>
         <li>
-          <Link activeClass="active" to="problems" spy={true} smooth={true} offset={-100} duration={500}>
-            Problems
-          </Link>
+          <Link to="/#problems">Problems</Link>
         </li>
         <li>
-          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>
-            Contact
-          </Link>
+          <Link to="/#contact">Contact</Link>
         </li>
         <li>
-          <Link activeClass="active" to="signup" spy={true} smooth={true} offset={-100} duration={500}>
-            <div id="nav-register-button">
-              Register
-            </div>
+          <Link to="/#signup">
+            <div id="nav-register-button">Register</div>
           </Link>
         </li>
-      </ul> 
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default NavigationBar
+export default NavigationBar;
