@@ -184,17 +184,17 @@ export const socialMedia = [
 
 export const contacts = [
   {
-    id: "email",
+    id: "contacts-1",
     icon: email,
     link: "groundzero@nes.com",
   },
   {
-    id: "telephone",
+    id: "contacts-2",
     icon: telephone,
     link: "12345678",
   },
   {
-    id: "telegram",
+    id: "contacts-3",
     icon: telegram,
     link: "groundzero@telegram",
   },
