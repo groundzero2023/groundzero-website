@@ -22,7 +22,8 @@ This file contains styling customization for fonts and colors.
 
 * {
   scroll-behavior: smooth;
-  font-family: Poppins, sans-serif;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 600;
 }
 
 .text-gradient {
@@ -92,7 +93,8 @@ This file contains styling customization for fonts and colors.
 }
 
 .heading {
-  font-weight: 800;
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 700;
   color: white;
   font-size: 50px;
   padding-top: 50px;
@@ -243,9 +245,10 @@ This file contains styling customization for fonts and colors.
 }
 
 .faq-item-title {
+  font-family: Lexend Deca, sans-serif;
   color: white;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   justify-content: space-between;
   align-items: center;
