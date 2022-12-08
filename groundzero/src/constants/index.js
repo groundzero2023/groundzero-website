@@ -218,3 +218,34 @@ export const companies = [
     logo: dropbox,
   },
 ];
+
+export const partners = [
+  {
+    id: "organizer-1",
+    logo: nes,
+  },
+  {
+    id: "platinumSponsor-1",
+    logo: airbnb,
+  },
+  {
+    id: "platinumSponsor-2",
+    logo: dropbox,
+  },
+  {
+    id: "ecosystemPartner-1",
+    logo: airbnb,
+  },
+  {
+    id: "ecosystemPartner-2",
+    logo: dropbox,
+  },
+  {
+    id: "workshopPartner-1",
+    logo: airbnb,
+  },
+  {
+    id: "workshopPartner-2",
+    logo: dropbox,
+  },
+]
