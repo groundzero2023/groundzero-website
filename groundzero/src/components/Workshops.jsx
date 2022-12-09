@@ -27,15 +27,6 @@ const Workshops = () => {
                     ${new Date(workshop.date).toLocaleDateString()}`
                   }
                 </h3>
-                {/* <h3>
-                  by {workshop.by}
-                </h3>
-                <h3>
-                  {workshop.company}
-                </h3>
-                <h3>
-                  {new Date(workshop.date).toLocaleDateString()}
-                </h3> */}
               </div>
             </div>
           </div>
