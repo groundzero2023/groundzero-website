@@ -12,7 +12,7 @@ const Workshops = () => {
       </div>
       <div className="grid grid-cols-2 gap-x-6 gap-y-10">
         {workshops.map((workshop) => (
-          <div className="rounded-xl bg-[#2B2853] w-auto h-44 p-4 relative">
+          <div className="cursor-pointer rounded-xl bg-[#2B2853] opacity-60 transition w-auto h-44 p-4 relative hover:scale-105 hover:opacity-100">
             <div className="h-1/2 items-start grid place-items-center text-center underline font-semibold text-xl">
               <p>
                 {workshop.name}
