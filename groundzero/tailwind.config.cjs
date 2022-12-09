@@ -10,6 +10,7 @@ module.exports = {
         foregroundOrange: "#F28F48",
         foregroundBlue: "#69A9CE",
         foregroundViolet: "#A733BB",
+        backgroundComplement: "#2B2853",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
