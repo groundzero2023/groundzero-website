@@ -276,3 +276,42 @@ export const partners = [
     logo: dropbox,
   },
 ];
+
+export const workshops = [
+  {
+    name: "Workshop 1",
+    by: "XXX",
+    company: "Company 1",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    name: "Workshop 2",
+    by: "XXX",
+    company: "Company 1",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    name: "Workshop 3",
+    by: "XXX",
+    company: "Company 2",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    name: "Workshop 4",
+    by: "XXX",
+    company: "Company 2",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    name: "What it means to incubate a Startup with AI technology",
+    by: "XXX",
+    company: "Company 3",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    name: "Digital Marketing for Tech Startups",
+    by: "XXX",
+    company: "Company 4",
+    date: "2023-01-01T12:00:00",
+  },
+]
