@@ -24,7 +24,7 @@ const Workshops = () => {
                   {
                     `by ${workshop.by}
                     ${workshop.company}
-                    ${new Date(workshop.date).toLocaleDateString()}`
+                    ${new Date(workshop.date).toLocaleString("en-US", { dateStyle: "full", timeStyle: "short", })}`
                   }
                 </h3>
               </div>
