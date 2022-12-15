@@ -25,6 +25,10 @@ const ContactUs = () => (
         <ContactUsCard key={card.id} {...card} />
       ))}
     </div>
+
+    <div className="flex flex-wrap sm:justify-start justify-center w-full contactus-container relative z-[1]">
+      <h2 className={styles.heading2}>Send us an email</h2>
+    </div>
   </section>
 );
 
