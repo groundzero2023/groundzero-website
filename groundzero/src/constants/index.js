@@ -190,17 +190,17 @@ export const contacts = [
   {
     id: "contacts-1",
     icon: groundzero,
-    link: "Lorem ipsum dolor sit amet.",
+    link: "groundzero@nes.com",
   },
   {
     id: "contacts-2",
-    icon: groundzero,
-    link: "Lorem ipsum dolor sit amet.",
+    icon: instagram,
+    link: "12345678",
   },
   {
     id: "contacts-3",
-    icon: groundzero,
-    link: "Lorem ipsum dolor sit amet.",
+    icon: instagram,
+    link: "groundzero@telegram",
   },
 ];
 
