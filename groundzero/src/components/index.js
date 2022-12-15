@@ -5,7 +5,7 @@ In the future, please always import and export your components here.
 
 import About from "./About";
 import ContactUs from "./ContactUs";
-import ContactUsCard from "./ContactUsCard";
+import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
 import Footer from "./Footer";
 import NavigationBar from "./NavigationBar";
@@ -21,7 +21,7 @@ import Workshops from "./Workshops";
 export {
     About,
     ContactUs,
-    ContactUsCard,
+    DisplayIcon,
     Faq,
     Footer,
     NavigationBar,
