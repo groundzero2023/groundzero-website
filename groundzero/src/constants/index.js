@@ -4,15 +4,24 @@ In the future, please use this file as the only way to interact with editing tex
 */
 
 import {
-  groundzero,
+  accelerating,
+  airbnb,
+  aws,
+  binance,
+  changeMakers,
+  coinbase,
+  eatLaunchpad,
+  dropbox,
   facebook,
+  groundzero,
   instagram,
   linkedin,
+  nes,
+  nusEnterprise,
+  nyc,
+  sginnovate,
+  startupBuddy,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
 } from "../assets";
 
 export const navLinks = [
@@ -246,34 +255,82 @@ export const questions = [
   }
 ]
 
-export const partners = [
+export const organizer = [
   {
-    id: "organizer-1",
-    logo: binance,
-  },
+    id: "nes",
+    icon: nes,
+  }
+]
+
+export const platinumSponsor = [
   {
     id: "platinumSponsor-1",
-    logo: airbnb,
+    icon: aws,
   },
   {
     id: "platinumSponsor-2",
-    logo: dropbox,
-  },
+    icon: eatLaunchpad,
+  }
+]
+
+export const ecosystemPartner = [
   {
     id: "ecosystemPartner-1",
-    logo: airbnb,
+    icon: nusEnterprise,
   },
   {
     id: "ecosystemPartner-2",
-    logo: dropbox,
+    icon: nyc,
   },
   {
+    id: "ecosystemPartner-3",
+    icon: changeMakers,
+  },
+]
+
+export const deepTechPartner = [
+  {
+    id: "deepTechPartner-1",
+    icon: sginnovate,
+  }
+]
+
+export const workshopPartner = [
+  {
     id: "workshopPartner-1",
-    logo: airbnb,
+    icon: accelerating,
   },
   {
     id: "workshopPartner-2",
-    logo: dropbox,
+    icon: startupBuddy,
+  }
+]
+
+export const partners = [
+  {
+    id: "organizers",
+    title: "Organized By",
+    content: organizer
+  },
+  {
+    id: "platinumSponsors",
+    title: "Platinum Sponsors",
+    content: platinumSponsor
+  },
+  {
+    id: "ecosystemPartners",
+    title: "Ecosystem Partners",
+    content: ecosystemPartner
+  },
+  {
+    id: "deepTechPartners",
+    title: "DeepTech Partners",
+    content: deepTechPartner
+  },
+  {
+    id: "workshopPartners",
+    title: "Workshop Partners",
+    content: workshopPartner
   },
 ];
 
