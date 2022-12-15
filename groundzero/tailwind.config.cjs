@@ -2,9 +2,6 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
   theme: {
     extend: {
       colors: {
@@ -31,4 +28,5 @@ module.exports = {
       xl: "1700px",
     },
   },
+  plugins: [],
 };
