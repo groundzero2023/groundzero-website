@@ -8,6 +8,7 @@ import ContactUs from "./ContactUs";
 import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import Mentors from "./Mentors";
 import NavigationBar from "./NavigationBar";
 import Partners from "./Partners";
 import PastEvents from "./PastEvents";
@@ -24,6 +25,7 @@ export {
     DisplayIcon,
     Faq,
     Footer,
+    Mentors,
     NavigationBar,
     Partners,
     PastEvents,
