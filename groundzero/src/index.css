@@ -85,7 +85,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .bg-purple {
-  background: #1F1B40;
+  background: #1f1b40;
 }
 
 .box-shadow {
@@ -164,7 +164,7 @@ This file contains styling customization for fonts and colors.
 /* NAVIGATION BAR */
 
 .nav {
-  background-color: #1F1B40;
+  background-color: #1f1b40;
   color: white;
   width: 100%;
   min-width: auto;
@@ -203,7 +203,7 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 30px;
 }
 
@@ -228,7 +228,7 @@ This file contains styling customization for fonts and colors.
 
 .faq {
   align-items: center;
-  background-color: #1F1B40;
+  background-color: #1f1b40;
 }
 
 .faq-accordion {
@@ -238,7 +238,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .faq-item {
-  background: #2B2853;
+  background: #2b2853;
   margin-bottom: 15px;
   padding: 20px 25px;
   padding-left: 40px;
@@ -261,12 +261,35 @@ This file contains styling customization for fonts and colors.
   color: white;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.5s cubic-bezier(0,1,0,1);
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .faq-item-content-show {
   color: white;
   height: auto;
   max-height: 9999px;
-  transition: all 0.5s cubic-bezier(1,0,1,0);
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.past-event-container {
+  position: relative;
+  text-align: center;
+}
+
+.past-event-image-title {
+  background-color: #f28f48;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 20%;
+  padding: 12px;
+  border-radius: 30px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.past-event-image {
+  border-radius: 30px;
 }

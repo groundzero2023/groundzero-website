@@ -19,6 +19,10 @@ import {
   nes,
   nusEnterprise,
   nyc,
+  pastEvent1,
+  pastEvent2,
+  pastEvent3,
+  pastEvent4,
   sginnovate,
   startupBuddy,
   twitter,
@@ -234,33 +238,36 @@ export const companies = [
 
 export const questions = [
   {
-      "Question": "Lorem Ipsum",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "Lorem Ipsum",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "Should I pay to join?",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "Should I pay to join?",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "I am a Computer Science student, can I join?",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "I am a Computer Science student, can I join?",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "Qualification Round what?",
-      "Answer": "First follow this: \n something \n someone"
+    Question: "Qualification Round what?",
+    Answer: "First follow this: \n something \n someone",
   },
   {
-      "Question": "Lorem Ipsum",
-      "Answer": "Dolor sit amet"
-  }
-]
+    Question: "Lorem Ipsum",
+    Answer: "Dolor sit amet",
+  },
+];
 
 export const organizer = [
   {
     id: "nes",
     icon: nes,
-  }
-]
+  },
+];
 
 export const platinumSponsor = [
   {
@@ -270,8 +277,8 @@ export const platinumSponsor = [
   {
     id: "platinumSponsor-2",
     icon: eatLaunchpad,
-  }
-]
+  },
+];
 
 export const ecosystemPartner = [
   {
@@ -286,14 +293,14 @@ export const ecosystemPartner = [
     id: "ecosystemPartner-3",
     icon: changeMakers,
   },
-]
+];
 
 export const deepTechPartner = [
   {
     id: "deepTechPartner-1",
     icon: sginnovate,
-  }
-]
+  },
+];
 
 export const workshopPartner = [
   {
@@ -303,34 +310,57 @@ export const workshopPartner = [
   {
     id: "workshopPartner-2",
     icon: startupBuddy,
-  }
-]
+  },
+];
 
 export const partners = [
   {
     id: "organizers",
     title: "Organized By",
-    content: organizer
+    content: organizer,
   },
   {
     id: "platinumSponsors",
     title: "Platinum Sponsors",
-    content: platinumSponsor
+    content: platinumSponsor,
   },
   {
     id: "ecosystemPartners",
     title: "Ecosystem Partners",
-    content: ecosystemPartner
+    content: ecosystemPartner,
   },
   {
     id: "deepTechPartners",
     title: "DeepTech Partners",
-    content: deepTechPartner
+    content: deepTechPartner,
   },
   {
     id: "workshopPartners",
     title: "Workshop Partners",
-    content: workshopPartner
+    content: workshopPartner,
+  },
+];
+
+export const pastEvents = [
+  {
+    id: "pastEvent1",
+    title: "Ground Zero 2021",
+    content: pastEvent1,
+  },
+  {
+    id: "pastEvent2",
+    title: "Ground Zero 2020",
+    content: pastEvent2,
+  },
+  {
+    id: "pastEvent3",
+    title: "Ground Zero 2022",
+    content: pastEvent3,
+  },
+  {
+    id: "pastEvent4",
+    title: "Ground Zero 2019",
+    content: pastEvent4,
   },
 ];
 
@@ -377,4 +407,4 @@ export const workshops = [
     date: "2023-01-01T12:00:00",
     link: "",
   },
-]
+];
