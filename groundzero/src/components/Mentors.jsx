@@ -13,7 +13,7 @@ const Mentors = () => {
       </div>
       <div className="grid grid-cols-4">
         {mentors.map((mentor) => (
-          <div className={`cursor-pointer w-64 h-64 bg-black border border-gray-300 grid place-items-center ${openCard ? 'overflow-y-auto' : 'overflow-y-hidden'}`} 
+          <div className="cursor-pointer w-64 h-64 bg-black border border-gray-300 grid place-items-center" 
           onClick={() => {
             setOpenCard(true);
             setCurrMentor(mentor);
@@ -24,7 +24,8 @@ const Mentors = () => {
         ))}
       </div>
       {
-        openCard && <MentorCard mentor={currMentor} setOpenCard={setOpenCard} setCurrMentor={setCurrMentor}/>
+        openCard && 
+        <MentorCard mentor={currMentor} setOpenCard={setOpenCard} setCurrMentor={setCurrMentor}/>
       }
     </div>
   )
