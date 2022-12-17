@@ -1,4 +1,6 @@
-import React, { useCallback, useEffect } from "react";
+import React from "react";
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { CgClose } from 'react-icons/cg';
 import { mentors } from "../constants";
 
 const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
@@ -28,22 +30,14 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
     }
   };
 
-//   useEffect(() => {
-//     // attach the event listener
-    document.addEventListener('keydown', handleKeyPress);
-
-    // // remove the event listener
-    // return () => {
-    //   document.removeEventListener('keydown', handleKeyPress);
-    // };
-//   }, [handleKeyPress]);
+  document.addEventListener('keydown', handleKeyPress);
 
   return (
     <div className="flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur">
       
-      <div className={`${mentors.indexOf(mentor) == 0 ? 'hidden' : 'block'} absolute left-12 cursor-pointer mr-8 text-2xl px-4 py-2 bg-black rounded-full text-center grid place-items-center`}
+      <div className={`${mentors.indexOf(mentor) == 0 ? 'hidden' : 'block'} absolute left-14 cursor-pointer mr-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
       onClick={() => openPrevCard()}>
-        &lt;
+        <FiChevronLeft/>
       </div>
       
       <div className="static grid w-[80%] h-[90%] bg-black">
@@ -90,13 +84,13 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
         </div>
       </div>
 
-      <div className={`${mentors.indexOf(mentor) == mentors.length - 1 ? 'hidden' : 'block'} absolute right-12 cursor-pointer ml-8 text-2xl px-4 py-2 bg-black rounded-full text-center grid place-items-center`}
+      <div className={`${mentors.indexOf(mentor) == mentors.length - 1 ? 'hidden' : 'block'} absolute right-14 cursor-pointer ml-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
       onClick={() => openNextCard()}>
-        &gt;
+        <FiChevronRight/>
       </div>
       
-      <div className="py-2 px-4 bg-black rounded-full absolute top-4 right-5 cursor-pointer" onClick={() => closeMentorCard()}>
-        X
+      <div className="p-2 text-3xl absolute top-4 right-5 cursor-pointer" onClick={() => closeMentorCard()}>
+        <CgClose/>
       </div>
     </div>
   )
