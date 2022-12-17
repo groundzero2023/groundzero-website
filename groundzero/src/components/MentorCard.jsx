@@ -20,12 +20,12 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
             {/* Desc */}
             <div className="w-[55%] px-3 py-2">
                 {/* Header */}
-                <div className="flex h-[10%] w-full border-b border-white">
-                    <div className="flex w-1/2 justify-start">
+                <div className="flex h-[10%] w-full border-b border-white items-center">
+                    <div className="flex w-1/2 justify-start px-1">
                         LOGO
                     </div>
-                    <div className="flex w-1/2 justify-end">
-                        <a href={mentor.personalLink} target="_blank">
+                    <div className="flex w-1/2 justify-end px-1">
+                        <a href={mentor.personalLink} target="_blank" className="hover:scale-110 transition ease-in-out">
                             LINKEDIN
                         </a>
                     </div>
