@@ -2,6 +2,12 @@ import React from "react";
 import { mentors } from "../constants";
 
 const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
+  const closeMentorCard = () => { 
+    setOpenCard(false);
+
+    // Disables Background Scrolling whilst the Mentor Card is open
+    document.body.style.overflow = 'unset';
+  }
   return (
     <div className="flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur">
       
@@ -59,7 +65,7 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
         &gt;
       </div>
       
-      <div className="py-2 px-4 bg-black rounded-full absolute top-4 right-5 cursor-pointer" onClick={() => setOpenCard(false)}>
+      <div className="py-2 px-4 bg-black rounded-full absolute top-4 right-5 cursor-pointer" onClick={() => closeMentorCard()}>
         X
       </div>
     </div>

@@ -9,11 +9,11 @@ const Mentors = () => {
   const openMentorCard = () => { 
     setOpenCard(true);
 
-    // Disables Background Scrolling whilst the SideDrawer/Modal is open
+    // Disables Background Scrolling whilst the Mentor Card is open
     if (typeof window != 'undefined' && window.document) {
         document.body.style.overflow = 'hidden';
     }
-}
+  }
 
   return (
     <div className="grid place-items-center text-white xs:px-16 lg:px-10">
