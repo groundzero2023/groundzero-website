@@ -7,8 +7,8 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
       <div className="grid w-[80%] h-[90%] bg-black">
         <div className="flex">
             {/* Pic */}
-            <div className="w-[45%] bg-white text-black">
-                
+            <div className="w-[45%] bg-white text-black grid place-items-center object-fit">
+                IMAGE
             </div>
 
             {/* Desc */}
@@ -18,9 +18,11 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
                     <div className="flex w-1/2 justify-start">
                         LOGO
                     </div>
-                    <a href={mentor.personalLink} target="_blank" className="flex w-1/2 justify-end">
-                        LINKEDIN
-                    </a>
+                    <div className="flex w-1/2 justify-end">
+                        <a href={mentor.personalLink} target="_blank">
+                            LINKEDIN
+                        </a>
+                    </div>
                 </div>
 
                 {/* Details */}
