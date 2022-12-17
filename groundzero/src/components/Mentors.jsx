@@ -20,16 +20,34 @@ const Mentors = () => {
       <div className="heading">
         Mentors
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4 gap-1">
         {mentors.map((mentor) => (
-          <div className="cursor-pointer w-64 h-64 bg-black border border-gray-300 grid place-items-center" 
+          <div className="cursor-pointer relative w-64 h-64 bg-black grid place-items-center" 
           onClick={() => {
             openMentorCard();
-            // setOpenCard(true);
             setCurrMentor(mentor);
-          }}
-          >
-            {mentor.title}
+          }}>
+            {/* Speaker Img */}
+            <img 
+            // src={mentor.imgsrc}
+            src="https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg" 
+            className="object-fit">
+            </img>
+
+            {/* Desc */}
+            <div className="w-full h-full opacity-0 hover:opacity-100 z-10 transition ease-in-out">
+              <div className="bg-gradient-to-t w-full from-black absolute text-left bottom-0 left-0 p-4 pt-[10.5rem] object-fit">
+                <h2 className="text-xl font-bold">
+                  {mentor.title}
+                </h2>
+                <h2 className="font-semibold">
+                  {mentor.subtitle}
+                </h2>
+                <h2 className="text-sm font-light">
+                  {mentor.info}
+                </h2>
+              </div>
+            </div>
           </div>
         ))}
       </div>
