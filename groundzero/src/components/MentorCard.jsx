@@ -3,6 +3,7 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
 import { mentors } from "../constants";
 import { useEffect } from "react";
+import { linkedin } from "../assets";
 
 const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
   
@@ -72,7 +73,7 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
                     </div>
                     <div className="flex w-1/2 justify-end px-1">
                         <a href={mentor.personalLink} target="_blank" className="hover:scale-110 transition ease-in-out">
-                            LINKEDIN
+                            <img src={linkedin}/>
                         </a>
                     </div>
                 </div>
