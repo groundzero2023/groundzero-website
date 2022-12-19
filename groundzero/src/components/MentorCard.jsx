@@ -2,6 +2,7 @@ import React from "react";
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
 import { mentors } from "../constants";
+import { useEffect } from "react";
 
 const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
   
@@ -28,9 +29,20 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
     else if (event.key == "ArrowLeft" && mentors.indexOf(mentor) != 0) {
       openPrevCard();
     }
+    else if (event.key == "Escape") {
+      closeMentorCard();
+    }
   };
 
-  document.addEventListener('keydown', handleKeyPress);
+  useEffect(() => {
+    // attach the event listener
+    document.addEventListener('keyup', handleKeyPress);
+
+    // remove the event listener
+    return () => {
+      document.removeEventListener('keyup', handleKeyPress);
+    };
+  }, [handleKeyPress]);
 
   return (
     <div className="flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur">

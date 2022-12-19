@@ -433,4 +433,17 @@ export const mentors = [
         "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
     ]
   },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
 ]
