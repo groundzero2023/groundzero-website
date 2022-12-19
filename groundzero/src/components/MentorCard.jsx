@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { linkedin } from "../assets";
+import { mentors } from "../constants";
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
-import { mentors } from "../constants";
-import { useEffect } from "react";
-import { linkedin } from "../assets";
 
 const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
   
