@@ -18,6 +18,10 @@ import linkedin from "./linkedin.svg";
 import nes from "./nes.png";
 import nusEnterprise from "./nusEnterprise.png";
 import nyc from "./nyc.png";
+import pastEvent1 from "./pastEvent1.jpg";
+import pastEvent2 from "./pastEvent2.jpg";
+import pastEvent3 from "./pastEvent3.jpg";
+import pastEvent4 from "./pastEvent4.jpg";
 import sginnovate from "./sginnovate.png";
 import startupBuddy from "./startupBuddy.png";
 import twitter from "./twitter.svg";
@@ -38,6 +42,10 @@ export {
   nes,
   nusEnterprise,
   nyc,
+  pastEvent1,
+  pastEvent2,
+  pastEvent3,
+  pastEvent4,
   sginnovate,
   startupBuddy,
   twitter,
