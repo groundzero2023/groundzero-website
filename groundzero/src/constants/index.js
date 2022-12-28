@@ -408,3 +408,73 @@ export const workshops = [
     link: "",
   },
 ];
+
+export const mentors = [
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr James Ong",
+    subtitle:"Founder & CEO",
+    info: "Origami",
+    personalLink:"https://www.linkedin.com/in/jamesongkayliang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/James Ong.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/James Ong.jpg",
+    description: ["Dr. James Ong is an entrepreneur and community builder who has incubated, \
+    invested and mentored various technology start-ups and he is actively involved in the AI and tech ecosystem in China and ASEAN. \
+    He is the founder and CEO of Origami that provides strategy, technology and investment advisory services for venturing towards \
+    Autonomous Enterprise where he has more than 35 years of experience on digital transformation in Asia, US and Europe across \
+    multiple industry verticals. James founded Artificial Intelligence International Institute (AIII), a think tank advocating \
+    Sustainable AI for Humanity. He is also adjunct professor at SUTD and serves as mentor at NUS, SUTD and NTU. He started his career \
+    as an AI scientist at leading US MCC research lab on advanced AI Fifth Generation Computer research and received his PhD in Management \
+    Information System specializing on AI for Business Process Automation and MA & BA in Computer Science from the University of Texas at Austin."]
+  },
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+
+];

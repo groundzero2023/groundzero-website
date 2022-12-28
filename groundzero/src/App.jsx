@@ -10,6 +10,7 @@ import {
   Workshops,
   Timeline,
   Partners,
+  Mentors,
   ContactUs,
   Faq,
   Footer,
@@ -36,6 +37,7 @@ const App = () => (
         <Workshops />
         <Timeline />
         <Partners />
+        <Mentors />
         <ContactUs />
         <Faq />
         <Footer />
