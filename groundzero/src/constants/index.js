@@ -4,15 +4,28 @@ In the future, please use this file as the only way to interact with editing tex
 */
 
 import {
-  groundzero,
+  accelerating,
+  airbnb,
+  aws,
+  binance,
+  changeMakers,
+  coinbase,
+  eatLaunchpad,
+  dropbox,
   facebook,
+  groundzero,
   instagram,
   linkedin,
+  nes,
+  nusEnterprise,
+  nyc,
+  pastEvent1,
+  pastEvent2,
+  pastEvent3,
+  pastEvent4,
+  sginnovate,
+  startupBuddy,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
 } from "../assets";
 
 export const navLinks = [
@@ -190,17 +203,17 @@ export const contacts = [
   {
     id: "contacts-1",
     icon: groundzero,
-    link: "groundzero@nes.com",
+    link: "Lorem ipsum dolor sit amet.",
   },
   {
     id: "contacts-2",
-    icon: instagram,
-    link: "12345678",
+    icon: groundzero,
+    link: "Lorem ipsum dolor sit amet.",
   },
   {
     id: "contacts-3",
-    icon: instagram,
-    link: "groundzero@telegram",
+    icon: groundzero,
+    link: "Lorem ipsum dolor sit amet.",
   },
 ];
 
@@ -225,54 +238,243 @@ export const companies = [
 
 export const questions = [
   {
-      "Question": "Lorem Ipsum",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "Lorem Ipsum",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "Should I pay to join?",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "Should I pay to join?",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "I am a Computer Science student, can I join?",
-      "Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Question: "I am a Computer Science student, can I join?",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-      "Question": "Qualification Round what?",
-      "Answer": "First follow this: \n something \n someone"
+    Question: "Qualification Round what?",
+    Answer: "First follow this: \n something \n someone",
   },
   {
-      "Question": "Lorem Ipsum",
-      "Answer": "Dolor sit amet"
-  }
-]
+    Question: "Lorem Ipsum",
+    Answer: "Dolor sit amet",
+  },
+];
 
-export const partners = [
+export const organizer = [
   {
-    id: "organizer-1",
-    logo: binance,
+    id: "nes",
+    icon: nes,
   },
+];
+
+export const platinumSponsor = [
   {
     id: "platinumSponsor-1",
-    logo: airbnb,
+    icon: aws,
   },
   {
     id: "platinumSponsor-2",
-    logo: dropbox,
+    icon: eatLaunchpad,
   },
+];
+
+export const ecosystemPartner = [
   {
     id: "ecosystemPartner-1",
-    logo: airbnb,
+    icon: nusEnterprise,
   },
   {
     id: "ecosystemPartner-2",
-    logo: dropbox,
+    icon: nyc,
   },
   {
+    id: "ecosystemPartner-3",
+    icon: changeMakers,
+  },
+];
+
+export const deepTechPartner = [
+  {
+    id: "deepTechPartner-1",
+    icon: sginnovate,
+  },
+];
+
+export const workshopPartner = [
+  {
     id: "workshopPartner-1",
-    logo: airbnb,
+    icon: accelerating,
   },
   {
     id: "workshopPartner-2",
-    logo: dropbox,
+    icon: startupBuddy,
   },
+];
+
+export const partners = [
+  {
+    id: "organizers",
+    title: "Organized By",
+    content: organizer,
+  },
+  {
+    id: "platinumSponsors",
+    title: "Platinum Sponsors",
+    content: platinumSponsor,
+  },
+  {
+    id: "ecosystemPartners",
+    title: "Ecosystem Partners",
+    content: ecosystemPartner,
+  },
+  {
+    id: "deepTechPartners",
+    title: "DeepTech Partners",
+    content: deepTechPartner,
+  },
+  {
+    id: "workshopPartners",
+    title: "Workshop Partners",
+    content: workshopPartner,
+  },
+];
+
+export const pastEvents = [
+  {
+    id: "pastEvent1",
+    title: "Ground Zero 2021",
+    content: pastEvent1,
+  },
+  {
+    id: "pastEvent2",
+    title: "Ground Zero 2020",
+    content: pastEvent2,
+  },
+  {
+    id: "pastEvent3",
+    title: "Ground Zero 2022",
+    content: pastEvent3,
+  },
+  {
+    id: "pastEvent4",
+    title: "Ground Zero 2019",
+    content: pastEvent4,
+  },
+];
+
+export const workshops = [
+  {
+    name: "Workshop 1",
+    by: "XXX",
+    company: "Company 1",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+  {
+    name: "Workshop 2",
+    by: "XXX",
+    company: "Company 1",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+  {
+    name: "Workshop 3",
+    by: "XXX",
+    company: "Company 2",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+  {
+    name: "Workshop 4",
+    by: "XXX",
+    company: "Company 2",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+  {
+    name: "What it means to incubate a Startup with AI technology",
+    by: "XXX",
+    company: "Company 3",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+  {
+    name: "Digital Marketing for Tech Startups",
+    by: "XXX",
+    company: "Company 4",
+    date: "2023-01-01T12:00:00",
+    link: "",
+  },
+];
+
+export const mentors = [
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr James Ong",
+    subtitle:"Founder & CEO",
+    info: "Origami",
+    personalLink:"https://www.linkedin.com/in/jamesongkayliang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/James Ong.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/James Ong.jpg",
+    description: ["Dr. James Ong is an entrepreneur and community builder who has incubated, \
+    invested and mentored various technology start-ups and he is actively involved in the AI and tech ecosystem in China and ASEAN. \
+    He is the founder and CEO of Origami that provides strategy, technology and investment advisory services for venturing towards \
+    Autonomous Enterprise where he has more than 35 years of experience on digital transformation in Asia, US and Europe across \
+    multiple industry verticals. James founded Artificial Intelligence International Institute (AIII), a think tank advocating \
+    Sustainable AI for Humanity. He is also adjunct professor at SUTD and serves as mentor at NUS, SUTD and NTU. He started his career \
+    as an AI scientist at leading US MCC research lab on advanced AI Fifth Generation Computer research and received his PhD in Management \
+    Information System specializing on AI for Business Process Automation and MA & BA in Computer Science from the University of Texas at Austin."]
+  },
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+
 ];

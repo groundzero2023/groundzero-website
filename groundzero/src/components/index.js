@@ -5,9 +5,10 @@ In the future, please always import and export your components here.
 
 import About from "./About";
 import ContactUs from "./ContactUs";
-import ContactUsCard from "./ContactUsCard";
+import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import Mentors from "./Mentors";
 import NavigationBar from "./NavigationBar";
 import Partners from "./Partners";
 import PastEvents from "./PastEvents";
@@ -22,9 +23,10 @@ import Workshops from "./Workshops";
 export {
     About,
     ContactUs,
-    ContactUsCard,
+    DisplayIcon,
     Faq,
     Footer,
+    Mentors,
     NavigationBar,
     Partners,
     PastEvents,
