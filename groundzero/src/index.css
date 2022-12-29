@@ -271,6 +271,8 @@ This file contains styling customization for fonts and colors.
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
+/* PAST EVENTS */
+
 .past-event-container {
   position: relative;
   text-align: center;
@@ -292,4 +294,49 @@ This file contains styling customization for fonts and colors.
 
 .past-event-image {
   border-radius: 30px;
+}
+
+/* STATEMENT DETAILS */
+
+.statement-top-segment {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 50px;
+}
+
+.statement-lower-segment {
+  margin-top: 3rem; 
+}
+
+.statement-icon {
+  /* grid-column: 1 / 2; */
+}
+
+.statement-text-top {
+  /* grid-column: 2 / 5; */
+  /* padding: 0 20px; */
+}
+
+.statement-button {
+  margin: 4rem 0;
+  background-color: #a733bb;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0rem 5rem;
+  border-radius: 45px;
+}
+
+.statement-button a {
+  color: white;
+  width: inherit;
+  height: 90%;
+  align-items: center;
+  display: inline-flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
 }

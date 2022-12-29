@@ -7,38 +7,50 @@ import styles from "../../style";
 const StatementDetails = () => {
   const [data, setData] = useState({});
 
-  const {id} = useParams();
+  const { id } = useParams();
 
   useEffect(() => {
     var problem = problems.filter(function (problem) {
       return problem.id == id;
-    })
+    });
     if (problem) {
-      setData(problem[0])
+      setData(problem[0]);
     }
   }, []);
 
   if (data) {
     return (
-      <div className="bg-purple">
+      <div className="bg-purple w-full overflow-hidden">
         <NavigationBar />
-        <div>
-          <div className="statement-top-segment">
-            <div className="statement-icon">{/* Image Icon Here */}</div>
-            <div className="statement-text-top">
-              <div className={`${styles.heading2}`}>{data.title}</div>
-              <div className={`${styles.paragraph}`}>{data.description}</div>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <div className="grid place-items-center text-white xs:px-16 lg:px-40">
+            <div className="statement-top-segment">
+              <div className="statement-icon">
+                <img src={data.img}></img>
+              </div>
+              <div className="statement-text-top">
+                <div className={`${styles.heading2}`}>{data.title}</div>
+                <div className={`${styles.paragraph}`}>{data.content}</div>
+              </div>
             </div>
-          </div>
-          <div className="statement-lower-segment">
-            <div className="statement-lower-header">Some Header Text here</div>
-            <div className={`${styles.paragraph}`}>
-            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+            <div className="statement-lower-segment">
+              <div className={`${styles.heading4}`}>
+                {data.subheader1}
+              </div>
+              <div className={`${styles.paragraph} text-justify`}>
+                {data.details1}
+              </div>
             </div>
+            <Link to="/#problems">
+              <div className="statement-button">
+                <div className={`${styles.heading5}`}>
+                  Back To Statements
+                </div>
+              </div>
+            </Link>
           </div>
-          <Link to="/#problems">
-            <div className="statement-button">Back To Statements</div>
-          </Link>
+        </div>
         </div>
       </div>
     );
