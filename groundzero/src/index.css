@@ -296,6 +296,56 @@ This file contains styling customization for fonts and colors.
   border-radius: 30px;
 }
 
+/* PROBLEM STATEMENT */
+
+.problem-statement-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+}
+
+/* PROBLEM STATEMENT CARDS */
+
+.statement-card {
+  background-color: #2B2853;
+  align-items: center;
+  padding: 3rem 2rem;
+  height: 100%;
+  border-radius: 30px;
+  opacity: 60%;
+  transition: transform .2s; /* Animation */
+}
+
+.statement-card:hover {
+  opacity: 100%;
+  transform: scale(1.025)
+}
+
+.statement-card-image {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.statement-card-header {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Lexend Deca, sans-serif;
+  color: white;
+}
+
+.statement-card-description {
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
 /* STATEMENT DETAILS */
 
 .statement-top-segment {
