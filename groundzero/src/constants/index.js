@@ -70,21 +70,21 @@ export const timeline = [
 
 export const problems = [
   {
-    id: "problem-1",
+    id: 1,
     content: "How can we reduce carbonization through tax?",
     category: "Environment",
     title: "Green Money",
     img: groundzero,
   },
   {
-    id: "problem-2",
+    id: 2,
     content: "Something cool that tech cannot do.",
     category: "Education",
     title: "New Education",
     img: groundzero,
   },
   {
-    id: "problem-3",
+    id: 3,
     content: "Elevate the poor using tech. Any idea?",
     category: "Technology",
     title: "Disruptive Income Equality",
