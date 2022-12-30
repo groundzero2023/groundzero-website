@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { groundzero } from "../assets/index";
 import "../index.css";
 
 const NavigationBar = () => {
   return (
     <nav className="nav">
-      <a href="/" className="site-title">
-        [image]
-      </a>
+      <Link to="/">
+        <img src={groundzero} className="h-[40px] object-contain" />
+      </Link>
       <ul>
         <li>
           <Link to="/#about">About</Link>
