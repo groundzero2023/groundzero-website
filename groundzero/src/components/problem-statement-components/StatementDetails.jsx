@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavigationBar } from "../index";
+import { DisplayButton, NavigationBar } from "../index";
 import { Link, useParams } from "react-router-dom";
 import { problems } from "../../constants/index";
 import styles from "../../style";
@@ -42,13 +42,7 @@ const StatementDetails = () => {
                 {data.details1}
               </div>
             </div>
-            <Link to="/#problems">
-              <div className="statement-button">
-                <div className={`${styles.heading5}`}>
-                  Back To Statements
-                </div>
-              </div>
-            </Link>
+            <DisplayButton link="/#problems" text="Back to Statements" />
           </div>
         </div>
         </div>
