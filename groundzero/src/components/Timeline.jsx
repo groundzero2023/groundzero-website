@@ -2,7 +2,11 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div className='timeline' id='timeline'>Timeline</div>
+    <div>  
+      <div className="heading">
+        Timeline
+      </div>
+    </div>
   )
 }
 
