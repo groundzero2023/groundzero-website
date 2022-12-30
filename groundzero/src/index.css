@@ -206,6 +206,11 @@ This file contains styling customization for fonts and colors.
   display: inline-flex;
   padding: 0.5rem 2rem;
   border-radius: 30px;
+  transition: 0.1s;
+}
+
+#nav-register-button:hover {
+  background-color: #d155e7;
 }
 
 #nav-register-button a {
@@ -409,6 +414,11 @@ This file contains styling customization for fonts and colors.
   display: inline-flex;
   padding: 0rem 5rem;
   border-radius: 45px;
+  transition: 0.1s;
+}
+
+.display-button:hover {
+  background-color: #d155e7;
 }
 
 .display-button a {
