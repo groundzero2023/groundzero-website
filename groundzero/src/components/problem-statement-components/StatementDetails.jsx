@@ -42,7 +42,7 @@ const StatementDetails = () => {
                 {data.details1}
               </div>
             </div>
-            <DisplayButton link="/#problems" text="Back to Statements" />
+            <DisplayButton link="/#problems" text="Back to Statements" arrow="left" />
           </div>
         </div>
         </div>

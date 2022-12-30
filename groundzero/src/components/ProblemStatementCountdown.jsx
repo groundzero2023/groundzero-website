@@ -87,7 +87,7 @@ const ProblemStatementCountdown = () => {
             </div>
           </div>
         </div>
-        <DisplayButton link="/" text="View Past Statements" />
+        <DisplayButton link="/" text="View Past Statements" arrow="right" />
       </div>
     </div>
   );

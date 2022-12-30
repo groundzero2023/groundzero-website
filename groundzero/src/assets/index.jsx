@@ -22,6 +22,7 @@ import pastEvent1 from "./pastEvent1.jpg";
 import pastEvent2 from "./pastEvent2.jpg";
 import pastEvent3 from "./pastEvent3.jpg";
 import pastEvent4 from "./pastEvent4.jpg";
+import rightArrow from "./right-arrow.png";
 import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
 import startupBuddy from "./startupBuddy.png";
@@ -47,6 +48,7 @@ export {
   pastEvent2,
   pastEvent3,
   pastEvent4,
+  rightArrow,
   sampleIcon,
   sginnovate,
   startupBuddy,
