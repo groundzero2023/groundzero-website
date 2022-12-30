@@ -7,7 +7,7 @@ const DisplayButton = (props) => {
   return (
     <>
       <Link to={props.link}>
-        <div className="display-button">
+        <div className={"display-button-"+props.arrow}>
           {generateLeftArrow(props.arrow)}
           <div className={`${styles.heading5}`}>{props.text}</div>
           {generateRightArrow(props.arrow)}

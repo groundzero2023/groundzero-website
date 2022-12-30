@@ -406,7 +406,18 @@ This file contains styling customization for fonts and colors.
 
 /* DISPLAY BUTTON */
 
-.display-button {
+.display-button-undefined, .display-button-none {
+  margin: 3.5rem 0;
+  background-color: #a733bb;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0rem 5rem;
+  border-radius: 45px;
+  transition: 0.1s;
+}
+
+.display-button-left, .display-button-right {
   margin: 3.5rem 0;
   background-color: #a733bb;
   align-items: center;
@@ -416,7 +427,6 @@ This file contains styling customization for fonts and colors.
   border-radius: 45px;
   transition: 0.1s;
 }
-
 .display-button:hover {
   background-color: #d155e7;
 }
