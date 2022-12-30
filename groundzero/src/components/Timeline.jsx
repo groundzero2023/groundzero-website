@@ -3,16 +3,16 @@ import { timelineSchedule } from '../constants'
 
 const Timeline = () => {
   return (
-    <div className="grid place-items-center text-white">  
+    <div className="text-white py-16">  
       <div className="heading">
         Timeline
       </div>
-      <div className="">
+      <div className="grid place-items-center md:flex md:justify-center">
         {timelineSchedule.map((event) => (
-          <div className="grid place-items-center">
-            <div className="flex items-center">
-              <div className="absolute -ml-36">
-                <h2 className="text-right">
+          <div className="grid place-items-center md:flex">
+            <div className="flex items-center md:grid md:place-items-center">
+              <div className="absolute -ml-36 md:ml-0">
+                <h2 className="md:-mt-20 md:text-center">
                   {new Date(event.date).toLocaleString("en-US", { dateStyle: "medium" })}
                 </h2>
               </div>
@@ -21,14 +21,14 @@ const Timeline = () => {
                 
               </div>
               
-              <div className="absolute ml-36">
-                <h2 className="text-left">
+              <div className="absolute ml-36 md:ml-0">
+                <h2 className="md:mt-36 md:text-center">
                   {event.title}
                 </h2>
               </div>
             </div>
-            <div className={`${timelineSchedule.indexOf(event) == timelineSchedule.length - 1 ? 'hidden' : 'block' } grid place-items-center w-full`}>
-              <div className="w-1 h-40 bg-white">
+            <div className={`${timelineSchedule.indexOf(event) == timelineSchedule.length - 1 ? 'hidden' : 'block' } grid place-items-center `}>
+              <div className="w-1 h-40 md:w-16 lg:w-20 md:h-1 bg-white">
               
               </div>
             </div>
