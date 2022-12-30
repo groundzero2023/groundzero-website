@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { NavigationBar } from "../index";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { problems } from "../../constants/index";
-import styles from "../../style";
 
 const StatementCard = (props) => {
   const [data, setData] = useState({});

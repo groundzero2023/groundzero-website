@@ -1,7 +1,5 @@
 import React from "react";
-import { organizer, partners } from "../constants";
 import styles from "../style";
-import DisplayIcon from "./DisplayIcon";
 import StatementCard from "./problem-statement-components/StatementCard";
 
 const ProblemStatements = () => {
