@@ -360,17 +360,48 @@ This file contains styling customization for fonts and colors.
   margin-top: 3rem; 
 }
 
-.statement-icon {
-  /* grid-column: 1 / 2; */
+/* STATEMENT COUNTDOWN */
+
+.countdown-timer-box {
+  background-color: #2B2853;
+  width: 700px;
+  align-items: center;
+  padding: 4rem 5rem;
+  text-align: center;
+  border-radius: 30px;
 }
 
-.statement-text-top {
-  /* grid-column: 2 / 5; */
-  /* padding: 0 20px; */
+.countdown-timer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.statement-button {
-  margin: 4rem 0;
+.countdown-timer-number {
+  font-family: Lexend Deca, sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 80%;
+  transition: transform 0.2s;
+}
+
+.countdown-timer-number:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+}
+
+.countdown-timer-subtext {
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-size: 23px;
+  font-weight: 200;
+  opacity: 80%;
+}
+
+/* DISPLAY BUTTON */
+
+.display-button {
+  margin: 3.5rem 0;
   background-color: #a733bb;
   align-items: center;
   justify-content: center;
@@ -379,7 +410,7 @@ This file contains styling customization for fonts and colors.
   border-radius: 45px;
 }
 
-.statement-button a {
+.display-button a {
   color: white;
   width: inherit;
   height: 90%;

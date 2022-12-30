@@ -9,6 +9,7 @@ import {
   Teaser,
   PastEvents,
   ReasonsToJoin,
+  ProblemStatementCountdown,
   ProblemStatements,
   Workshops,
   Timeline,
@@ -52,6 +53,7 @@ const App = () => {
             <PastEvents />
             <ReasonsToJoin />
             <ProblemStatements />
+            <ProblemStatementCountdown />
             <Workshops />
             <Timeline />
             <Partners />

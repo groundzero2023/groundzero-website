@@ -488,3 +488,7 @@ export const mentors = [
   },
 
 ];
+
+// Date for Releasing Problem Statements. Edit here to change
+export const statementReleaseDate = "March 1, 2023 00:00:00"
+
