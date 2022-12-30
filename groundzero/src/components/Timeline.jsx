@@ -7,7 +7,7 @@ const Timeline = () => {
       <div className="heading">
         Timeline
       </div>
-      <div className="grid place-items-center md:flex md:justify-center">
+      <div className="my-12 grid place-items-center md:flex md:justify-center">
         {timelineSchedule.map((event) => (
           <div className="grid place-items-center md:flex">
             <div className="flex items-center md:grid md:place-items-center">
