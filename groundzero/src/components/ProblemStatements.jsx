@@ -4,7 +4,7 @@ import StatementCard from "./problem-statement-components/StatementCard";
 
 const ProblemStatements = () => {
   return (
-    <div className="problem-statements">
+    <div className="problem-statements" id="problems">
       <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
         <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>Problem Statements</h1>

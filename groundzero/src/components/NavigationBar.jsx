@@ -19,7 +19,7 @@ const NavigationBar = () => {
           <Link to="/#problems">Problems</Link>
         </li>
         <li>
-          <Link to="/#contact">Contact</Link>
+          <Link to="/#contacts">Contact</Link>
         </li>
         <li>
           <Link to="/#signup">
