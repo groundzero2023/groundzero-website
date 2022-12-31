@@ -5,6 +5,7 @@ In the future, please always import and export your components here.
 
 import About from "./About";
 import ContactUs from "./ContactUs";
+import DisplayButton from "./DisplayButton";
 import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
 import Footer from "./Footer";
@@ -12,9 +13,11 @@ import Mentors from "./Mentors";
 import NavigationBar from "./NavigationBar";
 import Partners from "./Partners";
 import PastEvents from "./PastEvents";
+import ProblemStatementCountdown from "./ProblemStatementCountdown";
 import ProblemStatements from "./ProblemStatements";
 import ReasonsToJoin from "./ReasonsToJoin";
 import SignUp from "./SignUp";
+import StatementDetails from "./problem-statement-components/StatementDetails"
 import Teaser from "./Teaser";
 import Timeline from "./Timeline";
 import Workshops from "./Workshops";
@@ -22,6 +25,7 @@ import Workshops from "./Workshops";
 export {
     About,
     ContactUs,
+    DisplayButton,
     DisplayIcon,
     Faq,
     Footer,
@@ -29,9 +33,11 @@ export {
     NavigationBar,
     Partners,
     PastEvents,
+    ProblemStatementCountdown,
     ProblemStatements,
     ReasonsToJoin,
     SignUp,
+    StatementDetails,
     Teaser,
     Timeline,
     Workshops,
