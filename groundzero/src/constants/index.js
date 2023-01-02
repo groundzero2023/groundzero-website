@@ -492,3 +492,19 @@ export const mentors = [
 // Date for Releasing Problem Statements. Edit here to change
 export const statementReleaseDate = "March 1, 2023 00:00:00"
 
+// Edit this to change the content of paras in About Page
+export const aboutUs = [
+  {
+    id: "para1",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para2",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para3",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+];
+
