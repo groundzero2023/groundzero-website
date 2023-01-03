@@ -23,6 +23,7 @@ import {
   pastEvent2,
   pastEvent3,
   pastEvent4,
+  sampleIcon,
   sginnovate,
   startupBuddy,
   twitter,
@@ -70,25 +71,34 @@ export const timeline = [
 
 export const problems = [
   {
-    id: "problem-1",
+    id: 1,
     content: "How can we reduce carbonization through tax?",
     category: "Environment",
     title: "Green Money",
-    img: groundzero,
+    description: "Pursuing a net-zero carbon emission through innovative currency methods",
+    img: sampleIcon,
+    subheader1: "The Pursuit of Green Money",
+    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
   },
   {
-    id: "problem-2",
+    id: 2,
     content: "Something cool that tech cannot do.",
     category: "Education",
     title: "New Education",
-    img: groundzero,
+    description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
+    img: sampleIcon,
+    subheader1: "The Pursuit of Better Education",
+    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
   },
   {
-    id: "problem-3",
+    id: 3,
     content: "Elevate the poor using tech. Any idea?",
     category: "Technology",
     title: "Disruptive Income Equality",
-    img: groundzero,
+    description: "Minimising the economic inequality margin",
+    img: sampleIcon,
+    subheader1: "The Challenge of Reducing Income Gap",
+    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
   },
 ];
 
@@ -479,6 +489,7 @@ export const mentors = [
 
 ];
 
+<<<<<<< HEAD
 export const timelineSchedule = [
   {
     title: "Registration Opens",
@@ -509,3 +520,24 @@ export const timelineSchedule = [
     date: "2023-01-01T12:00:00",
   },
 ];
+=======
+// Date for Releasing Problem Statements. Edit here to change
+export const statementReleaseDate = "March 1, 2023 00:00:00"
+
+// Edit this to change the content of paras in About Page
+export const aboutUs = [
+  {
+    id: "para1",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para2",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para3",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+];
+
+>>>>>>> 0cc2b29233f697fea183015b80e9d13e2017dfe5

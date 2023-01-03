@@ -176,6 +176,7 @@ This file contains styling customization for fonts and colors.
   gap: 1rem;
   padding: 0.5rem 3rem;
   position: fixed;
+  z-index: 1020;
   top: 0;
 }
 
@@ -205,6 +206,11 @@ This file contains styling customization for fonts and colors.
   display: inline-flex;
   padding: 0.5rem 2rem;
   border-radius: 30px;
+  transition: 0.1s;
+}
+
+#nav-register-button:hover {
+  background-color: #d155e7;
 }
 
 #nav-register-button a {
@@ -271,6 +277,8 @@ This file contains styling customization for fonts and colors.
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
+/* PAST EVENTS */
+
 .past-event-container {
   position: relative;
   text-align: center;
@@ -292,4 +300,157 @@ This file contains styling customization for fonts and colors.
 
 .past-event-image {
   border-radius: 30px;
+}
+
+/* PROBLEM STATEMENT */
+
+.problem-statement-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+}
+
+/* PROBLEM STATEMENT CARDS */
+
+.statement-card {
+  background-color: #2B2853;
+  align-items: center;
+  padding: 3rem 2rem;
+  height: 100%;
+  border-radius: 30px;
+  opacity: 60%;
+  transition: transform .2s; /* Animation */
+}
+
+.statement-card:hover {
+  opacity: 100%;
+  transform: scale(1.025)
+}
+
+.statement-card-image {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.statement-card-header {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Lexend Deca, sans-serif;
+  color: white;
+}
+
+.statement-card-description {
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+/* STATEMENT DETAILS */
+
+.statement-top-segment {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 50px;
+}
+
+.statement-lower-segment {
+  margin-top: 3rem; 
+}
+
+/* STATEMENT COUNTDOWN */
+
+.countdown-timer-box {
+  background-color: #2B2853;
+  width: 700px;
+  align-items: center;
+  padding: 4rem 5rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.countdown-timer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.countdown-timer-number {
+  font-family: Lexend Deca, sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 80%;
+  transition: transform 0.2s;
+}
+
+.countdown-timer-number:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+}
+
+.countdown-timer-subtext {
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-size: 23px;
+  font-weight: 200;
+  opacity: 80%;
+}
+
+/* DISPLAY BUTTON */
+
+.display-button-undefined, .display-button-none {
+  margin: 3.5rem 0;
+  background-color: #a733bb;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0rem 5rem;
+  border-radius: 45px;
+  transition: 0.1s;
+}
+
+.display-button-left, .display-button-right {
+  margin: 3.5rem 0;
+  background-color: #a733bb;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0rem 4rem;
+  border-radius: 45px;
+  transition: 0.1s;
+}
+.display-button:hover {
+  background-color: #d155e7;
+}
+
+.display-button a {
+  color: white;
+  width: inherit;
+  height: 90%;
+  align-items: center;
+  display: inline-flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.display-button-left-arrow img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height: 30px;
+  margin-right: 30px;
+}
+
+.display-button-right-arrow img {
+  height: 30px;
+  margin-left: 15px;
 }
