@@ -7,53 +7,49 @@ const StatementCard = (props) => {
   const id = props.id + 1;
 
   useEffect(() => {
+    let items = [];
+
     if (props.type == "problem") {
-      var problem = problems.filter(function (problem) {
-        return problem.id == id;
-      });
-      if (problem) {
-        setData(problem[0]);
-      }
+      items = problems;
     } else if (props.type == "reason") {
-      var reason = reasons.filter(function (reason) {
-        return reason.id == id;
-      });
-      if (reason) {
-        setData(reason[0]);
-      }
+      items = reasons;
     }
-    
+
+    let item = items.filter(function (item) {
+      return item.id == id;
+    });
+
+    if (item) {
+      setData(item[0]);
+    }
   }, []);
 
   if (data) {
     const linkUrl = "/problems/" + id;
 
     if (props.type == "problem") {
-    return (
-      <>
-        <Link to={linkUrl}>
-          <div className="statement-card">
-            <div className="statement-card-image">
-              <img src={data.img}></img>
-            </div>
-            <div className="statement-card-header">{data.title}</div>
-            <div className="statement-card-description">{data.description}</div>
-          </div>
-        </Link>
-      </>
-    );
-    } else if (props.type == "reason") {
       return (
-        <div className="statement-card">
-            <div className="statement-card-image">
-              <img src={data.img}></img>
-            </div>
-            <div className="statement-card-header">{data.title}</div>
-            <div className="statement-card-description">{data.description}</div>
-          </div>
+        <Link to={linkUrl}>
+          <Content data={data} />
+        </Link>
       );
+    } else if (props.type == "reason") {
+      return <Content data={data} />;
     }
   }
+};
+
+const Content = (props) => {
+  const data = props.data;
+  return (
+    <div className="statement-card">
+      <div className="statement-card-image">
+        <img src={data.img}></img>
+      </div>
+      <div className="statement-card-header">{data.title}</div>
+      <div className="statement-card-description">{data.description}</div>
+    </div>
+  );
 };
 
 export default StatementCard;
