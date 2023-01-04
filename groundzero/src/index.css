@@ -307,9 +307,9 @@ This file contains styling customization for fonts and colors.
   border-radius: 30px;
 }
 
-/* PROBLEM STATEMENT */
+/* PROBLEM STATEMENT AND REASONS */
 
-.problem-statement-cards {
+.problem-statement-cards, .reason-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;

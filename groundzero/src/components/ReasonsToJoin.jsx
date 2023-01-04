@@ -4,13 +4,13 @@ import StatementCard from "./problem-statement-components/StatementCard";
 
 const ReasonsToJoin = () => {
   return (
-    <div className="problem-statements">
+    <div className="reasons-to-join">
       <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
         <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>Why Should You Join Ground Zero?</h1>
         </div>
         <div className={`${styles.flexCenter} flex-wrap w-full`}>
-          <div className="problem-statement-cards">
+          <div className="reason-cards">
             {generateCards()}
           </div>
         </div>
