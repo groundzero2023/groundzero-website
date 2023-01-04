@@ -18,6 +18,7 @@ import {
   ContactUs,
   Faq,
   Footer,
+  HomePage,
 } from "./components";
 
 /* Main entry point of the web application. */
@@ -42,12 +43,13 @@ const App = () => {
 
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            <About />
+            <HomePage />
           </div>
         </div>
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
+            <About />
             <SignUp />
             <Teaser />
             <PastEvents />

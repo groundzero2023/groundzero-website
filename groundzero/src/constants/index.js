@@ -529,3 +529,33 @@ export const aboutUs = [
   },
 ];
 
+export const timelineSchedule = [
+  {
+    title: "Registration Opens",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 2",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 3",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 4",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 5",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 6",
+    date: "2023-01-01T12:00:00",
+  },
+  {
+    title: "Event 7",
+    date: "2023-01-01T12:00:00",
+  },
+];

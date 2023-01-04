@@ -27,6 +27,7 @@ import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
 import startupBuddy from "./startupBuddy.png";
 import twitter from "./twitter.svg";
+import homebg from "./homebg.png"
 
 export {
   accelerating,
@@ -53,4 +54,5 @@ export {
   sginnovate,
   startupBuddy,
   twitter,
+  homebg
 };
