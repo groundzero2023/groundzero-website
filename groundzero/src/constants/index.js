@@ -489,7 +489,25 @@ export const mentors = [
 
 ];
 
-<<<<<<< HEAD
+// Date for Releasing Problem Statements. Edit here to change
+export const statementReleaseDate = "March 1, 2023 00:00:00"
+
+// Edit this to change the content of paras in About Page
+export const aboutUs = [
+  {
+    id: "para1",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para2",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+  {
+    id: "para3",
+    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
+  },
+];
+
 export const timelineSchedule = [
   {
     title: "Registration Opens",
@@ -520,24 +538,3 @@ export const timelineSchedule = [
     date: "2023-01-01T12:00:00",
   },
 ];
-=======
-// Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "March 1, 2023 00:00:00"
-
-// Edit this to change the content of paras in About Page
-export const aboutUs = [
-  {
-    id: "para1",
-    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
-  },
-  {
-    id: "para2",
-    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
-  },
-  {
-    id: "para3",
-    content: "Lorem ipsum dolor sit amet. Qui nihil nesciunt et minus minus id veniam corporis et explicabo aperiam sed quia dolore aut quod soluta.",
-  },
-];
-
->>>>>>> 0cc2b29233f697fea183015b80e9d13e2017dfe5
