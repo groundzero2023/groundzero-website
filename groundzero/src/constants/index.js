@@ -535,7 +535,7 @@ export const mentors = [
 ];
 
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "March 1, 2023 00:00:00"
+export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [

@@ -54,18 +54,14 @@ const ProblemStatementCountdown = () => {
         className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
       >
         <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-          <h1 className={styles.heading2}>Problem Statements</h1>
-          <div className="font-light text-2xl pb-12 text-center text-white mt-4">
-            NOTE: Change date later in constants/index.js. <br /> Current
-            countdown date is set as {statementReleaseDate} GMT+8.
-          </div>
+          <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div>
         <div className={`${styles.flexCenter} w-full text-white`}>
           <div className="countdown-timer-box">
             <div
               className={`${styles.heading4} xs:leading-[40px] leading-[60px] mb-4 mt-3 opacity-80`}
             >
-              To be Released
+              Ground Zero will be starting in
             </div>
             <div className="countdown-timer">
               <div className="countdown-timer-days">
@@ -87,7 +83,6 @@ const ProblemStatementCountdown = () => {
             </div>
           </div>
         </div>
-        <DisplayButton link="/" text="View Past Statements" arrow="right" />
       </div>
     </div>
   );
