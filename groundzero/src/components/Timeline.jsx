@@ -3,7 +3,7 @@ import { timelineSchedule } from '../constants'
 
 const Timeline = () => {
   return (
-    <div className="text-white py-16">  
+    <div className="text-white py-16" id="timeline">  
       <div className="heading">
         Timeline
       </div>

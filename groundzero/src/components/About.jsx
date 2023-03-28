@@ -7,8 +7,9 @@ import { aboutUs } from '../constants';
 const About = () => {
   return (
     <div
-    className={`${styles.paddingY} flex-col relative`}
-  >
+      className={`${styles.paddingY} flex-col relative`}
+      id="about"
+    >
     <div className="grid place-items-center text-white xs:px-16 lg:px-40">
       <div className="heading">
         About Us
