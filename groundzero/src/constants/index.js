@@ -269,27 +269,51 @@ export const companies = [
 
 export const questions = [
   {
-    Question: "Lorem Ipsum",
+    Question: "How much does it cost to join Ground Zero?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Ground Zero is completely free for all participants! All you have to bring to the table is your innovative ideas.",
   },
   {
-    Question: "Should I pay to join?",
+    Question: "How do I sign up for Ground Zero?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "You can signup for Ground Zero here. (link will be provided later)"
   },
   {
-    Question: "I am a Computer Science student, can I join?",
+    Question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Fret not! You can use this platform to post team vacancies or search for teams with available vacancies.",
   },
   {
-    Question: "Qualification Round what?",
-    Answer: "First follow this: \n something \n someone",
+    Question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
+    Answer: "All ideas presented must be related to one of the industry focus areas here.",
   },
   {
-    Question: "Lorem Ipsum",
-    Answer: "Dolor sit amet",
+    Question: "How many winners will there be?",
+    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams. Find out more about the prizes for the top 3 teams here.",
+  },
+  {
+    Question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
+    Answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
+  },
+  {
+    Question: "Will Ground Zero happen in person or virtually?",
+    Answer: "Ground Zero 2023 will be held as a hybrid event; preliminary pitching rounds will be happening online/remotely, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
+  },
+  {
+    Question: "Who can participate in Ground Zero?",
+    Answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
+  },
+  {
+    Question: "How many people can be on a team?",
+    Answer: "Each team must have at most 4 members.",
+  },
+  {
+    Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
+    Answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
+  },
+  {
+    Question: "What if I need to travel internationally to attend Ground Zero?",
+    Answer: "As Ground Zero has shifted to being a hybrid event, most of the event can be attended online. For the final pitching rounds carried out in-person, we highly encourage all finalists to attend physically. However, if this is not possible, the event will also be streamed online.",
   },
 ];
 
@@ -511,7 +535,7 @@ export const mentors = [
 ];
 
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "March 1, 2023 00:00:00"
+export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [

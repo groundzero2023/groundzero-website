@@ -5,8 +5,6 @@ import { useLocation } from "react-router-dom";
 import {
   NavigationBar,
   About,
-  SignUp,
-  Teaser,
   PastEvents,
   ReasonsToJoin,
   ProblemStatementCountdown,
@@ -50,8 +48,6 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <About />
-            <SignUp />
-            <Teaser />
             <PastEvents />
             <ReasonsToJoin />
             <ProblemStatements />
