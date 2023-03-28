@@ -14,10 +14,10 @@ const NavigationBar = () => {
           <Link to="/#about">About</Link>
         </li>
         <li>
-          <Link to="/#timeline">Timeline</Link>
+          <Link to="/#problems">Problems</Link>
         </li>
         <li>
-          <Link to="/#problems">Problems</Link>
+          <Link to="/#timeline">Timeline</Link>
         </li>
         <li>
           <Link to="/#contacts">Contact</Link>
