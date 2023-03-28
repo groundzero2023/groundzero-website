@@ -531,31 +531,27 @@ export const aboutUs = [
 
 export const timelineSchedule = [
   {
-    title: "Registration Opens",
-    date: "2023-01-01T12:00:00",
+    title: ["Opening Ceremony", "Diamond Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
+    date: "2023-05-08T12:00:00",
   },
   {
-    title: "Event 2",
-    date: "2023-01-01T12:00:00",
+    title: ["Mentorship Sessions", "Pitch Idea Validation"],
+    date: "2023-05-09T12:00:00",
   },
   {
-    title: "Event 3",
-    date: "2023-01-01T12:00:00",
+    title: ["Pitch Preparation"],
+    date: "2023-05-10T12:00:00",
   },
   {
-    title: "Event 4",
-    date: "2023-01-01T12:00:00",
+    title: ["Video Pitch Submission"],
+    date: "2023-05-11T12:00:00",
   },
   {
-    title: "Event 5",
-    date: "2023-01-01T12:00:00",
+    title: ["Announcement of Top 12 Finalists"],
+    date: "2023-05-12T12:00:00",
   },
   {
-    title: "Event 6",
-    date: "2023-01-01T12:00:00",
-  },
-  {
-    title: "Event 7",
-    date: "2023-01-01T12:00:00",
+    title: ["Finals Judging", "Award Ceremony", "Closing Address", "Networking Dinner"],
+    date: "2023-05-13T12:00:00",
   },
 ];
