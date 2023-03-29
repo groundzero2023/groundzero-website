@@ -6,6 +6,7 @@ In the future, please always import and export your components here.
 import About from "./About";
 import HomePage from "./HomePage";
 import ContactUs from "./ContactUs";
+import ContactUsTemp from "./ContactUsTemp"
 import DisplayButton from "./DisplayButton";
 import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
@@ -27,6 +28,7 @@ export {
     About,
     HomePage,
     ContactUs,
+    ContactUsTemp,
     DisplayButton,
     DisplayIcon,
     Faq,

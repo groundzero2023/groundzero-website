@@ -17,6 +17,7 @@ import {
   Faq,
   Footer,
   HomePage,
+  ContactUsTemp,
 } from "./components";
 
 /* Main entry point of the web application. */
@@ -55,7 +56,7 @@ const App = () => {
             <ProblemStatementCountdown />
             <Partners />
             <Mentors />
-            <ContactUs />
+            <ContactUsTemp />
             <Faq />
             <Footer />
           </div>
