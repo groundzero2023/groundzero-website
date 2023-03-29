@@ -16,13 +16,13 @@ const Mentors = () => {
   }
 
   return (
-    <div className="grid place-items-center text-white xs:px-16 lg:px-10">
+    <div className="grid place-items-center text-white xs:px-16 ss:px-12 sm:px-16 lg:px-10">
       <div className="heading">
         Mentors
       </div>
-      <div className="grid grid-cols-4 gap-1">
+      <div className="grid gap-8 ss:grid-cols-2 ss:gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-1">
         {mentors.map((mentor) => (
-          <div className="cursor-pointer relative w-64 h-64 bg-black grid place-items-center" 
+          <div className="cursor-pointer relative w-56 h-56 sm:w-68 sm:h-68 md:w-56 md:h-56 lg:w-64 lg:h-64 bg-black grid place-items-center" 
           onClick={() => {
             openMentorCard();
             setCurrMentor(mentor);
