@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { problems, reasons } from "../../constants/index";
+import Modal from "./Modal";
 
 const StatementCard = (props) => {
   const [data, setData] = useState({});
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const id = props.id + 1;
 
   useEffect(() => {
@@ -29,12 +31,13 @@ const StatementCard = (props) => {
 
     if (props.type == "problem") {
       return (
-        <Link to={linkUrl}>
-          <Content data={data} />
-        </Link>
+        <>
+          <Content data={data} setModalIsOpen={setModalIsOpen} />
+          {modalIsOpen ? <Modal setModalIsOpen={setModalIsOpen} data={data} /> : null}
+        </>
       );
     } else if (props.type == "reason") {
-      return <Content data={data} />;
+      return <Content data={data} setModalIsOpen={setModalIsOpen} />;
     }
   }
 };
@@ -42,12 +45,16 @@ const StatementCard = (props) => {
 const Content = (props) => {
   const data = props.data;
   return (
-    <div className="statement-card">
+    <div className="statement-card" onClick={() => props.setModalIsOpen(true)}>
+      <div className="statement-card-dummy">
+        <div>
       <div className="statement-card-image">
         <img src={data.img}></img>
       </div>
       <div className="statement-card-header">{data.title}</div>
       <div className="statement-card-description">{data.description}</div>
+      </div>
+      </div>
     </div>
   );
 };

@@ -29,6 +29,11 @@ import startupBuddy from "./startupBuddy.png";
 import twitter from "./twitter.svg";
 import homebg from "./homebg.png"
 
+import industryfour from "./industryfour.png";
+import consumercentric from "./consumercentric.png";
+import healthcare from "./healthcare.png";
+import sustainability from "./sustainability.png";
+
 export {
   accelerating,
   airbnb,
@@ -54,5 +59,9 @@ export {
   sginnovate,
   startupBuddy,
   twitter,
-  homebg
+  homebg,
+  industryfour,
+  consumercentric,
+  healthcare,
+  sustainability
 };

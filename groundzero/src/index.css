@@ -308,11 +308,17 @@ This file contains styling customization for fonts and colors.
 }
 
 /* PROBLEM STATEMENT AND REASONS */
-
-.problem-statement-cards, .reason-cards {
+.reason-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  width: 80%;
+}
+
+.problem-statement-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
   width: 80%;
 }
 
@@ -328,6 +334,12 @@ This file contains styling customization for fonts and colors.
   transition: transform .2s; /* Animation */
 }
 
+.statement-card-dummy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .statement-card:hover {
   opacity: 100%;
   transform: scale(1.025)
@@ -338,6 +350,7 @@ This file contains styling customization for fonts and colors.
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  height: 50%;
 }
 
 .statement-card-header {
@@ -458,4 +471,71 @@ This file contains styling customization for fonts and colors.
 .display-button-right-arrow img {
   height: 30px;
   margin-left: 15px;
+}
+
+/* POPUP (MODAL) */
+
+.popup-content {
+  position: relative;
+  background: var(--bg-lighter-purple);
+  border-radius: 25px;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: auto;
+  margin-top: 3em;
+  padding: 4em 4em;
+  animation: drop 0.5s ease forwards;
+  top: -60%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 40px;
+  gap: 1em;
+}
+
+.popup-right {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.popup-heading {
+  font-size: 40px;
+  font-family: Lexend Deca, sans-serif;
+  color: white;
+}
+
+.popup-description {
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 15px;
+}
+
+.popup-close-button {
+  color: rgb(187, 187, 187);
+  font-size: 40px;
+  /* position: fixed; */
+  float: right;
+}
+
+.popup-close-button :hover {
+  cursor: pointer;
+}
+
+@keyframes drop {
+  0% {opacity: 0}
+  100% { transform: translateY(110%); opacity: 1;}
+}
+
+@media (max-width: 500px) {
+  
 }
