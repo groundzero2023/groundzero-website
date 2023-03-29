@@ -27,8 +27,8 @@ import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
 import startupBuddy from "./startupBuddy.png";
 import twitter from "./twitter.svg";
-import homebg from "./homebg.png"
-
+import homebg from "./homebg.png";
+import homepage from "./homepage.png";
 import industryfour from "./industryfour.png";
 import consumercentric from "./consumercentric.png";
 import healthcare from "./healthcare.png";
@@ -63,5 +63,6 @@ export {
   industryfour,
   consumercentric,
   healthcare,
-  sustainability
+  sustainability,
+  homepage
 };
