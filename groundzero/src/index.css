@@ -342,7 +342,8 @@ This file contains styling customization for fonts and colors.
 
 .statement-card:hover {
   opacity: 100%;
-  transform: scale(1.025)
+  transform: scale(1.025);
+  cursor: pointer;
 }
 
 .statement-card-image {
