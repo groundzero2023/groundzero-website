@@ -18,6 +18,7 @@ const Modal = (props) => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        backdropFilter: "blur(5px)",
       }}
     >
       <div onClick={(e) => e.stopPropagation()} className="popup-content">
