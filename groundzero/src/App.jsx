@@ -51,7 +51,6 @@ const App = () => {
             <PastEvents />
             <ReasonsToJoin />            
             <ProblemStatements />
-            <Workshops />
             <Timeline />
             <ProblemStatementCountdown />
             <Partners />
