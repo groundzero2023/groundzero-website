@@ -52,7 +52,7 @@ const App = () => {
             <ReasonsToJoin />
             <ProblemStatements />
             <ProblemStatementCountdown />
-            <Workshops />
+            {/* <Workshops /> */}
             <Timeline />
             <Partners />
             <Mentors />
