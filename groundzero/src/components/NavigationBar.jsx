@@ -23,9 +23,9 @@ const NavigationBar = () => {
           <Link to="/#contacts">Contact</Link>
         </li>
         <li>
-          <Link to="/#signup">
+          <a href="https://nesgroundzero2023.eventbrite.com" target="_blank">
             <div id="nav-register-button">Register</div>
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
