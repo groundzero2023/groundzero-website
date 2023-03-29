@@ -73,20 +73,20 @@ export const reasons = [
   {
     id: 1,
     img: sampleIcon,
-    title: "Reason #1",
-    description: "Lorem ipsum dolor sit amet",
+    title: "Network",
+    description: "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
   },
   {
     id: 2,
     img: sampleIcon,
-    title: "Reason #2",
-    description: "Lorem ipsum dolor sit amet",
+    title: "Seek guidance through mentorship",
+    description: "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
   },
   {
     id: 3,
     img: sampleIcon,
-    title: "Reason #3",
-    description: "Lorem ipsum dolor sit amet",
+    title: "Ideate, Pitch, and Win",
+    description: "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
   }
 ]
 
