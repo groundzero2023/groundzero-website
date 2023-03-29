@@ -6,31 +6,32 @@ import { rightArrow } from "../assets";
 const DisplayButton = (props) => {
   if (props.isExternal) {
     return (
-    <>
-      <a href={props.link}>
-        <div className={"display-button"}>
-          <div className={"display-button-" + props.arrow}>
-            {generateLeftArrow(props.arrow)}
-            <div className={`${styles.heading5}`}>{props.text}</div>
-            {generateRightArrow(props.arrow)}
+      <>
+        <a href={props.link}>
+          <div className={"display-button"}>
+            <div className={"display-button-" + props.arrow}>
+              {generateLeftArrow(props.arrow)}
+              <div className={`${styles.heading5}`}>{props.text}</div>
+              {generateRightArrow(props.arrow)}
+            </div>
           </div>
-        </div>
-      </a>
-    </>)
+        </a>
+      </>
+    );
   } else {
-  return (
-    <>
-      <Link to={props.link}>
-        <div className={"display-button"}>
-          <div className={"display-button-" + props.arrow}>
-            {generateLeftArrow(props.arrow)}
-            <div className={`${styles.heading5}`}>{props.text}</div>
-            {generateRightArrow(props.arrow)}
+    return (
+      <>
+        <Link to={props.link}>
+          <div className={"display-button"}>
+            <div className={"display-button-" + props.arrow}>
+              {generateLeftArrow(props.arrow)}
+              <div className={`${styles.heading5}`}>{props.text}</div>
+              {generateRightArrow(props.arrow)}
+            </div>
           </div>
-        </div>
-      </Link>
-    </>
-  );
+        </Link>
+      </>
+    );
   }
 };
 
