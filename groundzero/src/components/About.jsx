@@ -12,10 +12,12 @@ const About = () => {
     >
     <div className="grid place-items-center text-white xs:px-16 lg:px-40">
       <div className="heading">
-        About Us
-        <br />
+          About Us
+          <div className="pb-10">
+
+        </div>
         {aboutUs.map((aboutUs) => (
-                <div className="font-light text-2xl pb-12 text-justify">
+                <div className="font-light text-2xl pb-9 text-justify">
                   <p>
                     {aboutUs.content}
                   </p>
