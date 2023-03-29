@@ -27,6 +27,10 @@ import {
   sginnovate,
   startupBuddy,
   twitter,
+  healthcare,
+  consumercentric,
+  sustainability,
+  industryfour
 } from "../assets";
 
 export const navLinks = [
@@ -93,35 +97,62 @@ export const reasons = [
 export const problems = [
   {
     id: 1,
-    content: "How can we reduce carbonization through tax?",
-    category: "Environment",
-    title: "Green Money",
-    description: "Pursuing a net-zero carbon emission through innovative currency methods",
-    img: sampleIcon,
-    subheader1: "The Pursuit of Green Money",
-    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    title: "Industry 4.0",
+    details1: "Perfect for those interested in everything tech! From Internet of Things, Cloud Computing, Machine Learning & AI, the opportunities are endless.",
+    img: industryfour,
   },
   {
     id: 2,
-    content: "Something cool that tech cannot do.",
-    category: "Education",
-    title: "New Education",
-    description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
-    img: sampleIcon,
-    subheader1: "The Pursuit of Better Education",
-    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    title: "Sustainability",
+    details1: "In this day and age, ecological, social and economic issues are present everywhere, requiring tangible solutions to deal with them. More than just a buzzword, sustainability is for teams that want to make a real impact on communities!",
+    img: sustainability,
   },
   {
     id: 3,
-    content: "Elevate the poor using tech. Any idea?",
-    category: "Technology",
-    title: "Disruptive Income Equality",
-    description: "Minimising the economic inequality margin",
-    img: sampleIcon,
-    subheader1: "The Challenge of Reducing Income Gap",
-    details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    title: "Healthcare",
+    details1: "MedTech? Hospital information systems? This area of focus is for anyone interested in improving healthcare systems and processes, or even just the health and wellness of people.    ",
+    img: healthcare,
   },
-];
+  {
+    id: 4,
+    title: "Consumer-centric",
+    details1: "Here, the consumer is chief. Solutions can range between anything e-commerce to F&B - as long as it targets the consumer!",
+    img: consumercentric,
+  }
+]
+
+// export const problems = [
+//   {
+//     id: 1,
+//     content: "How can we reduce carbonization through tax?",
+//     category: "Environment",
+//     title: "Green Money",
+//     description: "Pursuing a net-zero carbon emission through innovative currency methods",
+//     img: sampleIcon,
+//     subheader1: "The Pursuit of Green Money",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+//   {
+//     id: 2,
+//     content: "Something cool that tech cannot do.",
+//     category: "Education",
+//     title: "New Education",
+//     description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
+//     img: sampleIcon,
+//     subheader1: "The Pursuit of Better Education",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+//   {
+//     id: 3,
+//     content: "Elevate the poor using tech. Any idea?",
+//     category: "Technology",
+//     title: "Disruptive Income Equality",
+//     description: "Minimising the economic inequality margin",
+//     img: sampleIcon,
+//     subheader1: "The Challenge of Reducing Income Gap",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+// ];
 
 export const stats = [
   {
