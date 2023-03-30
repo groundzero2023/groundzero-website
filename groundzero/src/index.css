@@ -331,7 +331,7 @@ This file contains styling customization for fonts and colors.
   height: 100%;
   border-radius: 30px;
   opacity: 60%;
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
 }
 
 .statement-card-dummy {
@@ -382,7 +382,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .statement-lower-segment {
-  margin-top: 3rem; 
+  margin-top: 3rem;
 }
 
 /* STATEMENT COUNTDOWN */
@@ -432,14 +432,16 @@ This file contains styling customization for fonts and colors.
   transition: 0.1s;
 }
 
-.display-button-undefined, .display-button-none {
+.display-button-undefined,
+.display-button-none {
   align-items: center;
   justify-content: center;
   display: inline-flex;
   padding: 0rem 5rem;
 }
 
-.display-button-left, .display-button-right {
+.display-button-left,
+.display-button-right {
   align-items: center;
   justify-content: center;
   display: inline-flex;
@@ -487,7 +489,7 @@ This file contains styling customization for fonts and colors.
   margin-top: 3em;
   padding: 4em 4em;
   animation: drop 0.5s ease forwards;
-  top: -60%;  
+  top: -60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -498,6 +500,14 @@ This file contains styling customization for fonts and colors.
   margin-bottom: auto;
   display: grid;
   grid-template-columns: 1fr 2fr 40px;
+  gap: 1em;
+}
+
+.popup-content-inner-small {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 1fr 40px; 
   gap: 1em;
 }
 
@@ -554,17 +564,21 @@ This file contains styling customization for fonts and colors.
 .contact-button:hover {
   box-shadow: inset 1200px 0 0 0 var(--button-purple);
   cursor: pointer;
-  transform: scale(1.015)
+  transform: scale(1.015);
 }
 
 .contact-button-icon {
   font-size: 50px;
 }
 
-
 @keyframes drop {
-  0% {opacity: 0}
-  100% { transform: translateY(110%); opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(110%);
+    opacity: 1;
+  }
 }
 
 /* FOOTER */
@@ -638,7 +652,119 @@ This file contains styling customization for fonts and colors.
     cursor: pointer;
   }
 
-  .faq-item-content, .faq-item-content-show {
+  .faq-item-content,
+  .faq-item-content-show {
     font-size: 14px;
+  }
+
+  .statement-card {
+    background-color: var(--bg-lighter-purple);
+    align-items: center;
+    padding: 1.5rem 1rem;
+    height: 100%;
+    /* width: 0%; */
+    border-radius: 30px;
+    opacity: 60%;
+    transition: transform 0.2s; /* Animation */
+  }
+
+  .statement-card-dummy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .statement-card:hover {
+    opacity: 100%;
+    transform: scale(1.025);
+    cursor: pointer;
+  }
+
+  .statement-card-image {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50%;
+  }
+
+  .statement-card-header {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-family: Lexend Deca, sans-serif;
+    color: white;
+  }
+
+  .statement-card-description {
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+
+  .popup-content {
+    position: relative;
+    background: var(--bg-lighter-purple);
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    margin-top: 3em;
+    padding: 2em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-content-inner {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 40px;
+    gap: 1em;
+  }
+
+  .popup-right {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .popup-heading {
+    font-size: 30px;
+    font-family: Lexend Deca, sans-serif;
+    color: white;
+  }
+
+  .popup-description {
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 15px;
+  }
+
+  .popup-close-button {
+    color: rgb(187, 187, 187);
+    font-size: 40px;
+    /* position: fixed; */
+    float: right;
+  }
+
+  .popup-close-button :hover {
+    cursor: pointer;
+  }
+  @keyframes drop {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(110%);
+      opacity: 1;
+    }
   }
 }

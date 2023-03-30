@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { problems, reasons } from "../../constants/index";
 import { IoClose } from "react-icons/io5";
 
+import MediaQuery from "react-responsive";
+
 const Modal = (props) => {
   return (
     <div
@@ -21,6 +23,7 @@ const Modal = (props) => {
         backdropFilter: "blur(5px)",
       }}
     >
+      <MediaQuery minWidth={768}>
       <div onClick={(e) => e.stopPropagation()} className="popup-content">
         <div className="popup-content-inner">
           <div className="popup-image">
@@ -33,6 +36,18 @@ const Modal = (props) => {
           <IoClose className="popup-close-button" onClick={() => props.setModalIsOpen(false)}/>
         </div>
       </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={768}>
+      <div onClick={(e) => e.stopPropagation()} className="popup-content">
+        <div className="popup-content-inner-small">
+          <div className="popup-right">
+            <div className="popup-heading">{props.data.title}</div>
+            <div className="popup-description">{props.data.details1}</div>
+          </div>
+          <IoClose className="popup-close-button" onClick={() => props.setModalIsOpen(false)}/>
+        </div>
+      </div>
+      </MediaQuery>
     </div>
   );
 };
