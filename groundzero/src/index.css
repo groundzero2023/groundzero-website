@@ -660,6 +660,7 @@ This file contains styling customization for fonts and colors.
   justify-content: center;
 }
 
+
 @media (max-width: 768px) {
   .contact-button {
     background-color: var(--bg-lighter-purple);
@@ -894,5 +895,47 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 20%;
+  background-color: var(--bg-lighter-purple);
+  margin-left: -20%;
+  margin-right: -20%;
+  margin-top: 100px;
+}
+
+.footer-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.footer-button {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: Lexend Deca, sans-serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-left: 30px;
+}
+
 
 }
