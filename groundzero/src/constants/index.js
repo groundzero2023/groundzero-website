@@ -14,8 +14,10 @@ import {
   dropbox,
   facebook,
   groundzero,
+  hsbc,
   instagram,
   linkedin,
+  mapletree,
   nes,
   nusEnterprise,
   nyc,
@@ -120,39 +122,6 @@ export const problems = [
     img: consumercentric,
   }
 ]
-
-// export const problems = [
-//   {
-//     id: 1,
-//     content: "How can we reduce carbonization through tax?",
-//     category: "Environment",
-//     title: "Green Money",
-//     description: "Pursuing a net-zero carbon emission through innovative currency methods",
-//     img: sampleIcon,
-//     subheader1: "The Pursuit of Green Money",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-//   {
-//     id: 2,
-//     content: "Something cool that tech cannot do.",
-//     category: "Education",
-//     title: "New Education",
-//     description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
-//     img: sampleIcon,
-//     subheader1: "The Pursuit of Better Education",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-//   {
-//     id: 3,
-//     content: "Elevate the poor using tech. Any idea?",
-//     category: "Technology",
-//     title: "Disruptive Income Equality",
-//     description: "Minimising the economic inequality margin",
-//     img: sampleIcon,
-//     subheader1: "The Challenge of Reducing Income Gap",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-// ];
 
 export const stats = [
   {
@@ -366,6 +335,27 @@ export const platinumSponsor = [
   },
 ];
 
+export const thePatron = [
+  {
+    id: "thePatron-1",
+    icon: mapletree,
+  },
+];
+
+export const diamondSponsor = [
+  {
+    id: "diamondSponsor-1",
+    icon: hsbc,
+  },
+];
+
+export const goldSponsor = [
+  {
+    id: "goldSponsor-1",
+    icon: sginnovate,
+  },
+];
+
 export const ecosystemPartner = [
   {
     id: "ecosystemPartner-1",
@@ -406,24 +396,19 @@ export const partners = [
     content: organizer,
   },
   {
-    id: "platinumSponsors",
-    title: "Platinum Sponsors",
-    content: platinumSponsor,
+    id: "thePatron",
+    title: "The Patron",
+    content: thePatron,
   },
   {
-    id: "ecosystemPartners",
-    title: "Ecosystem Partners",
-    content: ecosystemPartner,
+    id: "diamondSponsor",
+    title: "Diamond Sponsor",
+    content: diamondSponsor,
   },
   {
-    id: "deepTechPartners",
-    title: "DeepTech Partners",
-    content: deepTechPartner,
-  },
-  {
-    id: "workshopPartners",
-    title: "Workshop Partners",
-    content: workshopPartner,
+    id: "goldSponsor",
+    title: "Gold Sponsor",
+    content: goldSponsor,
   },
 ];
 
@@ -608,5 +593,20 @@ export const timelineSchedule = [
   {
     title: ["Finals Judging", "Award Ceremony", "Closing Address", "Networking Dinner"],
     date: "2023-05-13T12:00:00",
+  },
+];
+
+export const pastEventDescription = [
+  {
+    id: "para1",
+    content: "Ground Zero has been one of the largest student led Startathons in Singapore.",
+  },
+  {
+    id: "para2",
+    content: "Despite the covid situation, we still managed to accumulate over 200 participants for GZ 2021. Subsequently, over 381 participants registered for the following year for GZ 2022.",
+  },
+  {
+    id: "para3",
+    content: "Ground Zero is filled with students from all faculties equipped with different skillsets sharing a common entrepreneurial spirit looking to make a difference. For GZ 2022, there were 31.2% from Computing, 24.1% from Business, 21.5% from Engineering and 7% from the Science faculty. Ground Zero has also been one of the NES events that has been able to have the most mentors for participants with over 50 speakers, mentors, and judges to guide our participants in various expertise areas.",
   },
 ];

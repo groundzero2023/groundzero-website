@@ -1,5 +1,5 @@
 import React from "react";
-import { organizer, partners } from "../constants";
+import { partners } from "../constants";
 import styles from "../style";
 import DisplayIcon from "./DisplayIcon";
 
@@ -15,7 +15,7 @@ const Partners = () => (
     {partners.map((partner) => (
       <>
         <h2 className={`${styles.heading4} text-center`}>{partner.title}</h2>
-        <div className="flex flex-wrap place-content-center sm:justify-center w-full contactus-container relative z-[1]">
+        <div className="flex flex-wrap justify-center sm:justify-center w-full contactus-container relative z-[1]">
           {partner.content.map((partner) => (
             <DisplayIcon key={partner.id} {...partner} />
           ))}
