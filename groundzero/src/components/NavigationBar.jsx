@@ -48,7 +48,7 @@ const NavigationBar = () => {
       <MediaQuery minWidth={768}>
         <nav className="nav">
           <Link to="/">
-            <img src={groundzero} className="h-[40px] object-contain" />
+            <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
           </Link>
           <ul>
             <li>
