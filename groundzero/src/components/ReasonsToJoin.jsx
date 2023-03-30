@@ -10,7 +10,7 @@ const ReasonsToJoin = () => {
           <h1 className={styles.heading2}>Why Should You Join Ground Zero?</h1>
         </div>
         <div className={`${styles.flexCenter} flex-wrap w-full`}>
-          <div className="reason-cards">
+          <div className="grid gap-x-6 gap-y-10 lg:grid-cols-3 md:w-[80%] w-[70%]">
             {generateCards()}
           </div>
         </div>

@@ -28,7 +28,7 @@ const PastEvents = () => (
           Past Events
           <div className="pb-10"></div>
           {pastEventDescription.map((pastEvent) => (
-            <div className="font-light text-2xl pb-9 text-justify">
+            <div className="font-light md:text-2xl text-[16px] pb-9 text-justify">
               <p>{pastEvent.content}</p>
             </div>
           ))}
