@@ -17,7 +17,7 @@ const MentorGrid = () => {
     }
 
     return (
-        <div className={`bg-primary ${styles.paddingY} xs:px-16 ss:px-12 sm:px-16 lg:px-12`}>
+        <div className={`bg-primary xs:px-16 ss:px-12 sm:px-16 lg:px-12`}>
             <div className={`${styles.boxWidth}`}>
                 <div className="grid gap-8 ss:grid-cols-2 ss:gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-1">
                 {mentors.map((mentor) => (

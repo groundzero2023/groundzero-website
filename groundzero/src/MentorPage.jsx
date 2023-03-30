@@ -27,9 +27,14 @@ const MentorPage = () => {
       <div className="bg-purple w-full overflow-hidden">
         <NavigationBar />
 
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            <MentorGrid />
+            <div className="heading">
+                Ground Zero Mentors
+            </div>
+            <div className="grid place-items-center">
+              <MentorGrid />
+            </div>
           </div>
         </div>
 
