@@ -13,8 +13,10 @@ import dropbox from "./dropbox.png";
 import eatLaunchpad from "./eatLaunchpad.png";
 import facebook from "./facebook.svg";
 import groundzero from "./groundzero.png";
+import hsbc from "./hsbc.png";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import mapletree from "./mapletree.webp";
 import nes from "./nes.png";
 import nusEnterprise from "./nusEnterprise.png";
 import nyc from "./nyc.png";
@@ -45,8 +47,10 @@ export {
   dropbox,
   facebook,
   groundzero,
+  hsbc,
   instagram,
   linkedin,
+  mapletree,
   nes,
   nusEnterprise,
   nyc,

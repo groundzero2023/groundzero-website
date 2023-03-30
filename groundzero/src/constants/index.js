@@ -14,8 +14,10 @@ import {
   dropbox,
   facebook,
   groundzero,
+  hsbc,
   instagram,
   linkedin,
+  mapletree,
   nes,
   nusEnterprise,
   nyc,
@@ -333,6 +335,27 @@ export const platinumSponsor = [
   },
 ];
 
+export const thePatron = [
+  {
+    id: "thePatron-1",
+    icon: mapletree,
+  },
+];
+
+export const diamondSponsor = [
+  {
+    id: "diamondSponsor-1",
+    icon: hsbc,
+  },
+];
+
+export const goldSponsor = [
+  {
+    id: "goldSponsor-1",
+    icon: sginnovate,
+  },
+];
+
 export const ecosystemPartner = [
   {
     id: "ecosystemPartner-1",
@@ -373,24 +396,19 @@ export const partners = [
     content: organizer,
   },
   {
-    id: "platinumSponsors",
-    title: "Platinum Sponsors",
-    content: platinumSponsor,
+    id: "thePatron",
+    title: "The Patron",
+    content: thePatron,
   },
   {
-    id: "ecosystemPartners",
-    title: "Ecosystem Partners",
-    content: ecosystemPartner,
+    id: "diamondSponsor",
+    title: "Diamond Sponsor",
+    content: diamondSponsor,
   },
   {
-    id: "deepTechPartners",
-    title: "DeepTech Partners",
-    content: deepTechPartner,
-  },
-  {
-    id: "workshopPartners",
-    title: "Workshop Partners",
-    content: workshopPartner,
+    id: "goldSponsor",
+    title: "Gold Sponsor",
+    content: goldSponsor,
   },
 ];
 
