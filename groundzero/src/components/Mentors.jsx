@@ -7,9 +7,14 @@ const Mentors = () => {
       <div className="heading">
         Mentors
       </div>
-      <a href="/mentors">
-        <div id="nav-register-button">Meet the Mentors</div>
-      </a>
+      <div className={`flex flex-col space-y-8 px-16`}>
+        <h1 className="text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at rutrum arcu, vitae fringilla magna. Proin bibendum massa non turpis pellentesque, sed congue enim volutpat. 
+        </h1>
+        <div className="grid place-items-center">
+          <a className="bg-foregroundViolet items-center justify-center inline-flex px-8 py-3 rounded-full text-lg font-bold hover:scale-110 duration-300 transition ease-in-out" href="/mentors">Meet the Mentors</a>
+        </div>
+      </div>
     </div>
   )
 };
