@@ -4,20 +4,7 @@ import { useLocation } from "react-router-dom";
 
 import {
   NavigationBar,
-  About,
-  PastEvents,
-  ReasonsToJoin,
-  ProblemStatementCountdown,
-  ProblemStatements,
-  Workshops,
-  Timeline,
-  Partners,
-  Mentors,
-  ContactUs,
-  Faq,
-  Footer,
-  HomePage,
-  MentorGrid
+  MentorGrid,
 } from "./components";
 
 /* Main entry point of the web application. */
@@ -45,7 +32,7 @@ const MentorPage = () => {
             <MentorGrid />
           </div>
         </div>
-        
+
       </div>
     </>
   );
