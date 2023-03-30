@@ -45,7 +45,7 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
   }, [handleKeyPress]);
 
   return (
-    <div className="flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur"
+    <div className="text-white flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur"
     onClick={() => closeMentorCard()}>
       
       <div className={`${mentors.indexOf(mentor) == 0 ? 'hidden' : 'block'} absolute left-14 cursor-pointer mr-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
