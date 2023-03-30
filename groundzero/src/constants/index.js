@@ -541,7 +541,7 @@ export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 export const aboutUs = [
   {
     id: "para1",
-    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize to kick start their start up ideas.",
+    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize from our $10,000 prize pool to kick start their start up ideas.",
   },
   {
     id: "para2",
