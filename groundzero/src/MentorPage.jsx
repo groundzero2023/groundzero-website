@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import {
   NavigationBar,
   MentorGrid,
+  Footer,
 } from "./components";
 
 /* Main entry point of the web application. */
@@ -29,12 +30,18 @@ const MentorPage = () => {
 
         <div className={`bg-primary ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            <div className="heading">
+            <div className="heading mt-8 ss:mt-0">
                 Ground Zero Mentors
             </div>
             <div className="grid place-items-center">
               <MentorGrid />
             </div>
+          </div>
+        </div>
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>            
+            <Footer />
           </div>
         </div>
 

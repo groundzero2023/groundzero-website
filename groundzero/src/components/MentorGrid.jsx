@@ -17,11 +17,11 @@ const MentorGrid = () => {
     }
 
     return (
-        <div className={`bg-primary xs:px-16 ss:px-12 sm:px-16 lg:px-12`}>
+        <div className={`bg-primary xs:px-16 ss:px-8 sm:px-2 md:px-4 lg:px-8`}>
             <div className={`${styles.boxWidth}`}>
-                <div className="grid gap-8 ss:grid-cols-2 ss:gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-1">
+                <div className="grid gap-8 ss:grid-cols-2 ss:gap-4 sm:gap-8 md:grid-cols-3 lg:grid-cols-4 lg:gap-1">
                 {mentors.map((mentor) => (
-                <div className="cursor-pointer relative w-56 h-56 sm:w-68 sm:h-68 md:w-56 md:h-56 lg:w-64 lg:h-64 bg-black grid place-items-center" 
+                <div className="cursor-pointer relative w-80 h-80 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60 bg-black grid place-items-center" 
                 onClick={() => {
                     openMentorCard();
                     setCurrMentor(mentor);
