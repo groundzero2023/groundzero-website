@@ -38,7 +38,7 @@ const App = () => {
   return (
     <>
       <div className="bg-purple w-full overflow-hidden">
-        <NavigationBar />
+        {/* <NavigationBar /> */}
 
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
