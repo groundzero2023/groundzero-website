@@ -23,9 +23,14 @@ import {
   pastEvent2,
   pastEvent3,
   pastEvent4,
+  sampleIcon,
   sginnovate,
   startupBuddy,
   twitter,
+  healthcare,
+  consumercentric,
+  sustainability,
+  industryfour
 } from "../assets";
 
 export const navLinks = [
@@ -68,29 +73,86 @@ export const timeline = [
   },
 ];
 
+export const reasons = [
+  {
+    id: 1,
+    img: sampleIcon,
+    title: "Network",
+    description: "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
+  },
+  {
+    id: 2,
+    img: sampleIcon,
+    title: "Seek guidance through mentorship",
+    description: "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
+  },
+  {
+    id: 3,
+    img: sampleIcon,
+    title: "Ideate, Pitch, and Win",
+    description: "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
+  }
+]
+
 export const problems = [
   {
-    id: "problem-1",
-    content: "How can we reduce carbonization through tax?",
-    category: "Environment",
-    title: "Green Money",
-    img: groundzero,
+    id: 1,
+    title: "Industry 4.0",
+    details1: "Perfect for those interested in everything tech! From Internet of Things, Cloud Computing, Machine Learning & AI, the opportunities are endless.",
+    img: industryfour,
   },
   {
-    id: "problem-2",
-    content: "Something cool that tech cannot do.",
-    category: "Education",
-    title: "New Education",
-    img: groundzero,
+    id: 2,
+    title: "Sustainability",
+    details1: "In this day and age, ecological, social and economic issues are present everywhere, requiring tangible solutions to deal with them. More than just a buzzword, sustainability is for teams that want to make a real impact on communities!",
+    img: sustainability,
   },
   {
-    id: "problem-3",
-    content: "Elevate the poor using tech. Any idea?",
-    category: "Technology",
-    title: "Disruptive Income Equality",
-    img: groundzero,
+    id: 3,
+    title: "Healthcare",
+    details1: "MedTech? Hospital information systems? This area of focus is for anyone interested in improving healthcare systems and processes, or even just the health and wellness of people.    ",
+    img: healthcare,
   },
-];
+  {
+    id: 4,
+    title: "Consumer-centric",
+    details1: "Here, the consumer is chief. Solutions can range between anything e-commerce to F&B - as long as it targets the consumer!",
+    img: consumercentric,
+  }
+]
+
+// export const problems = [
+//   {
+//     id: 1,
+//     content: "How can we reduce carbonization through tax?",
+//     category: "Environment",
+//     title: "Green Money",
+//     description: "Pursuing a net-zero carbon emission through innovative currency methods",
+//     img: sampleIcon,
+//     subheader1: "The Pursuit of Green Money",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+//   {
+//     id: 2,
+//     content: "Something cool that tech cannot do.",
+//     category: "Education",
+//     title: "New Education",
+//     description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
+//     img: sampleIcon,
+//     subheader1: "The Pursuit of Better Education",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+//   {
+//     id: 3,
+//     content: "Elevate the poor using tech. Any idea?",
+//     category: "Technology",
+//     title: "Disruptive Income Equality",
+//     description: "Minimising the economic inequality margin",
+//     img: sampleIcon,
+//     subheader1: "The Challenge of Reducing Income Gap",
+//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+//   },
+// ];
 
 export const stats = [
   {
@@ -238,27 +300,51 @@ export const companies = [
 
 export const questions = [
   {
-    Question: "Lorem Ipsum",
+    Question: "How much does it cost to join Ground Zero?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Ground Zero is completely free for all participants! All you have to bring to the table is your innovative ideas.",
   },
   {
-    Question: "Should I pay to join?",
+    Question: "How do I sign up for Ground Zero?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "You can signup for Ground Zero here. (link will be provided later)"
   },
   {
-    Question: "I am a Computer Science student, can I join?",
+    Question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     Answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Fret not! You can use this platform to post team vacancies or search for teams with available vacancies.",
   },
   {
-    Question: "Qualification Round what?",
-    Answer: "First follow this: \n something \n someone",
+    Question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
+    Answer: "All ideas presented must be related to one of the industry focus areas here.",
   },
   {
-    Question: "Lorem Ipsum",
-    Answer: "Dolor sit amet",
+    Question: "How many winners will there be?",
+    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams. Find out more about the prizes for the top 3 teams here.",
+  },
+  {
+    Question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
+    Answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
+  },
+  {
+    Question: "Will Ground Zero happen in person or virtually?",
+    Answer: "Ground Zero 2023 will be held as a hybrid event; preliminary pitching rounds will be happening online/remotely, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
+  },
+  {
+    Question: "Who can participate in Ground Zero?",
+    Answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
+  },
+  {
+    Question: "How many people can be on a team?",
+    Answer: "Each team must have at most 4 members.",
+  },
+  {
+    Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
+    Answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
+  },
+  {
+    Question: "What if I need to travel internationally to attend Ground Zero?",
+    Answer: "As Ground Zero has shifted to being a hybrid event, most of the event can be attended online. For the final pitching rounds carried out in-person, we highly encourage all finalists to attend physically. However, if this is not possible, the event will also be streamed online.",
   },
 ];
 
@@ -406,5 +492,121 @@ export const workshops = [
     company: "Company 4",
     date: "2023-01-01T12:00:00",
     link: "",
+  },
+];
+
+export const mentors = [
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr James Ong",
+    subtitle:"Founder & CEO",
+    info: "Origami",
+    personalLink:"https://www.linkedin.com/in/jamesongkayliang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/James Ong.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/James Ong.jpg",
+    description: ["Dr. James Ong is an entrepreneur and community builder who has incubated, \
+    invested and mentored various technology start-ups and he is actively involved in the AI and tech ecosystem in China and ASEAN. \
+    He is the founder and CEO of Origami that provides strategy, technology and investment advisory services for venturing towards \
+    Autonomous Enterprise where he has more than 35 years of experience on digital transformation in Asia, US and Europe across \
+    multiple industry verticals. James founded Artificial Intelligence International Institute (AIII), a think tank advocating \
+    Sustainable AI for Humanity. He is also adjunct professor at SUTD and serves as mentor at NUS, SUTD and NTU. He started his career \
+    as an AI scientist at leading US MCC research lab on advanced AI Fifth Generation Computer research and received his PhD in Management \
+    Information System specializing on AI for Business Process Automation and MA & BA in Computer Science from the University of Texas at Austin."]
+  },
+  {
+    title:"Rachel Lim",
+    subtitle:"Co-Founder",
+    info: "Love, Bonito",
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+
+];
+
+// Date for Releasing Problem Statements. Edit here to change
+export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
+
+// Edit this to change the content of paras in About Page
+export const aboutUs = [
+  {
+    id: "para1",
+    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize to kick start their start up ideas.",
+  },
+  {
+    id: "para2",
+    content: "This year, participants will be supported by a network of over 50 mentors, speakers, and judges - all experts in their respective fields to provide the best guidance possible. We are also excited to announce that we will be inviting angel investors and incubators to come down to our event to scout for talent amongst our highly valued participants.",
+  },
+  {
+    id: "para3",
+    content: "So what are you waiting for? Reach the top, start from Ground Zero.",
+  },
+];
+
+export const timelineSchedule = [
+  {
+    title: ["Opening Ceremony", "Diamond Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
+    date: "2023-05-08T12:00:00",
+  },
+  {
+    title: ["Mentorship Sessions", "Pitch Idea Validation"],
+    date: "2023-05-09T12:00:00",
+  },
+  {
+    title: ["Pitch Preparation"],
+    date: "2023-05-10T12:00:00",
+  },
+  {
+    title: ["Video Pitch Submission"],
+    date: "2023-05-11T12:00:00",
+  },
+  {
+    title: ["Announcement of Top 12 Finalists"],
+    date: "2023-05-12T12:00:00",
+  },
+  {
+    title: ["Finals Judging", "Award Ceremony", "Closing Address", "Networking Dinner"],
+    date: "2023-05-13T12:00:00",
   },
 ];
