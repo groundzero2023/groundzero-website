@@ -14,7 +14,7 @@ const NavigationBar = () => {
           <Link to="/#about">About</Link>
         </li>
         <li>
-          <Link to="/#problems">Problems</Link>
+          <Link to="/#problems">Focus Areas</Link>
         </li>
         <li>
           <Link to="/#timeline">Timeline</Link>

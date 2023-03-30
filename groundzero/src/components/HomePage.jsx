@@ -22,7 +22,7 @@ const HomePage = () => {
                     <div className="font-bold text-4xl pb-12 text-center mt-10">
                         Ground Zero 2023
                         <br /><br />
-                        The Largest Student-led Startathon in the Region
+                        The Largest Student-led Startathon in Singapore
                     </div>
                     <div className="font-light text-3xl text-justify">
                         8 - 13 May 2023
