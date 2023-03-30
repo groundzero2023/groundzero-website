@@ -20,6 +20,9 @@ const NavigationBar = () => {
           <Link to="/#timeline">Timeline</Link>
         </li>
         <li>
+          <Link to="/#mentors">Mentors</Link>
+        </li>
+        <li>
           <Link to="/#contacts">Contact</Link>
         </li>
         <li>
