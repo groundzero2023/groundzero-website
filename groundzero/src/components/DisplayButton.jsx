@@ -4,19 +4,35 @@ import styles from "../style";
 import { rightArrow } from "../assets";
 
 const DisplayButton = (props) => {
-  return (
-    <>
-      <Link to={props.link}>
-        <div className={"display-button"}>
-          <div className={"display-button-" + props.arrow}>
-            {generateLeftArrow(props.arrow)}
-            <div className={`${styles.heading5}`}>{props.text}</div>
-            {generateRightArrow(props.arrow)}
+  if (props.isExternal) {
+    return (
+      <>
+        <a href={props.link}>
+          <div className={"display-button"}>
+            <div className={"display-button-" + props.arrow}>
+              {generateLeftArrow(props.arrow)}
+              <div className={`${styles.heading5}`}>{props.text}</div>
+              {generateRightArrow(props.arrow)}
+            </div>
           </div>
-        </div>
-      </Link>
-    </>
-  );
+        </a>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <Link to={props.link}>
+          <div className={"display-button"}>
+            <div className={"display-button-" + props.arrow}>
+              {generateLeftArrow(props.arrow)}
+              <div className={`${styles.heading5}`}>{props.text}</div>
+              {generateRightArrow(props.arrow)}
+            </div>
+          </div>
+        </Link>
+      </>
+    );
+  }
 };
 
 const generateLeftArrow = (arrow) => {

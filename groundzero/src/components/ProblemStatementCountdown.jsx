@@ -53,9 +53,9 @@ const ProblemStatementCountdown = () => {
       <div
         className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
       >
-        <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+        {/* <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
-        </div>
+        </div> */}
         <div className={`${styles.flexCenter} w-full text-white`}>
           <div className="countdown-timer-box">
             <div

@@ -7,7 +7,7 @@ const ProblemStatements = () => {
     <div className="problem-statements" id="problems">
       <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
         <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-          <h1 className={styles.heading2}>Problem Statements</h1>
+          <h1 className={styles.heading2}>4 Areas of Focus</h1>
         </div>
         <div className={`${styles.flexCenter} flex-wrap w-full`}>
           <div className="problem-statement-cards">
@@ -21,7 +21,7 @@ const ProblemStatements = () => {
 
 const generateCards = () => {
   let content = [];
-  for(let i = 0; i < 3; i++) {
+  for(let i = 0; i < 4; i++) {
     content.push(
       <div>
         <StatementCard id={i} type="problem"/>
