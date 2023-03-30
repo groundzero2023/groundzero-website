@@ -10,6 +10,7 @@ import DisplayButton from "./DisplayButton";
 import DisplayIcon from "./DisplayIcon";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import MentorGrid from "./MentorGrid";
 import Mentors from "./Mentors";
 import NavigationBar from "./NavigationBar";
 import Partners from "./Partners";
@@ -31,6 +32,7 @@ export {
     DisplayIcon,
     Faq,
     Footer,
+    MentorGrid, 
     Mentors,
     NavigationBar,
     Partners,
