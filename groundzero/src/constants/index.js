@@ -14,9 +14,14 @@ import {
   dropbox,
   facebook,
   groundzero,
+  hsbc,
+  ideate,
   instagram,
   linkedin,
+  mapletree,
+  mentorship,
   nes,
+  network,
   nusEnterprise,
   nyc,
   pastEvent1,
@@ -76,19 +81,19 @@ export const timeline = [
 export const reasons = [
   {
     id: 1,
-    img: sampleIcon,
+    img: network,
     title: "Network",
     description: "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
   },
   {
     id: 2,
-    img: sampleIcon,
+    img: mentorship,
     title: "Seek guidance through mentorship",
     description: "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
   },
   {
     id: 3,
-    img: sampleIcon,
+    img: ideate,
     title: "Ideate, Pitch, and Win",
     description: "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
   }
@@ -120,39 +125,6 @@ export const problems = [
     img: consumercentric,
   }
 ]
-
-// export const problems = [
-//   {
-//     id: 1,
-//     content: "How can we reduce carbonization through tax?",
-//     category: "Environment",
-//     title: "Green Money",
-//     description: "Pursuing a net-zero carbon emission through innovative currency methods",
-//     img: sampleIcon,
-//     subheader1: "The Pursuit of Green Money",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-//   {
-//     id: 2,
-//     content: "Something cool that tech cannot do.",
-//     category: "Education",
-//     title: "New Education",
-//     description: "Designing better education in the digital era powered by Industrial Revolution 4.0",
-//     img: sampleIcon,
-//     subheader1: "The Pursuit of Better Education",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-//   {
-//     id: 3,
-//     content: "Elevate the poor using tech. Any idea?",
-//     category: "Technology",
-//     title: "Disruptive Income Equality",
-//     description: "Minimising the economic inequality margin",
-//     img: sampleIcon,
-//     subheader1: "The Challenge of Reducing Income Gap",
-//     details1: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-//   },
-// ];
 
 export const stats = [
   {
@@ -366,6 +338,27 @@ export const platinumSponsor = [
   },
 ];
 
+export const thePatron = [
+  {
+    id: "thePatron-1",
+    icon: mapletree,
+  },
+];
+
+export const diamondSponsor = [
+  {
+    id: "diamondSponsor-1",
+    icon: hsbc,
+  },
+];
+
+export const goldSponsor = [
+  {
+    id: "goldSponsor-1",
+    icon: sginnovate,
+  },
+];
+
 export const ecosystemPartner = [
   {
     id: "ecosystemPartner-1",
@@ -406,24 +399,19 @@ export const partners = [
     content: organizer,
   },
   {
-    id: "platinumSponsors",
-    title: "Platinum Sponsors",
-    content: platinumSponsor,
+    id: "thePatron",
+    title: "The Patron",
+    content: thePatron,
   },
   {
-    id: "ecosystemPartners",
-    title: "Ecosystem Partners",
-    content: ecosystemPartner,
+    id: "diamondSponsor",
+    title: "Diamond Sponsor",
+    content: diamondSponsor,
   },
   {
-    id: "deepTechPartners",
-    title: "DeepTech Partners",
-    content: deepTechPartner,
-  },
-  {
-    id: "workshopPartners",
-    title: "Workshop Partners",
-    content: workshopPartner,
+    id: "goldSponsor",
+    title: "Gold Sponsor",
+    content: goldSponsor,
   },
 ];
 
@@ -572,7 +560,7 @@ export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 export const aboutUs = [
   {
     id: "para1",
-    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize to kick start their start up ideas.",
+    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize from our $10,000 prize pool to kick start their start up ideas.",
   },
   {
     id: "para2",
@@ -608,5 +596,20 @@ export const timelineSchedule = [
   {
     title: ["Finals Judging", "Award Ceremony", "Closing Address", "Networking Dinner"],
     date: "2023-05-13T12:00:00",
+  },
+];
+
+export const pastEventDescription = [
+  {
+    id: "para1",
+    content: "Ground Zero has been one of the largest student led Startathons in Singapore.",
+  },
+  {
+    id: "para2",
+    content: "Despite the covid situation, we still managed to accumulate over 200 participants for GZ 2021. Subsequently, over 381 participants registered for the following year for GZ 2022.",
+  },
+  {
+    id: "para3",
+    content: "Ground Zero is filled with students from all faculties equipped with different skillsets sharing a common entrepreneurial spirit looking to make a difference. For GZ 2022, there were 31.2% from Computing, 24.1% from Business, 21.5% from Engineering and 7% from the Science faculty. Ground Zero has also been one of the NES events that has been able to have the most mentors for participants with over 50 speakers, mentors, and judges to guide our participants in various expertise areas.",
   },
 ];

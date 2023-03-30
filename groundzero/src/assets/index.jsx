@@ -13,9 +13,14 @@ import dropbox from "./dropbox.png";
 import eatLaunchpad from "./eatLaunchpad.png";
 import facebook from "./facebook.svg";
 import groundzero from "./groundzero.png";
+import hsbc from "./hsbc.png";
+import ideate from "./ideate.png";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import mapletree from "./mapletree.webp";
+import mentorship from "./mentorship.png";
 import nes from "./nes.png";
+import network from "./network.png";
 import nusEnterprise from "./nusEnterprise.png";
 import nyc from "./nyc.png";
 import pastEvent1 from "./pastEvent1.jpg";
@@ -27,8 +32,8 @@ import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
 import startupBuddy from "./startupBuddy.png";
 import twitter from "./twitter.svg";
-import homebg from "./homebg.png"
-
+import homebg from "./homebg.png";
+import homepage from "./homepage.png";
 import industryfour from "./industryfour.png";
 import consumercentric from "./consumercentric.png";
 import healthcare from "./healthcare.png";
@@ -45,9 +50,14 @@ export {
   dropbox,
   facebook,
   groundzero,
+  hsbc,
+  ideate,
   instagram,
   linkedin,
+  mapletree,
+  mentorship,
   nes,
+  network,
   nusEnterprise,
   nyc,
   pastEvent1,
@@ -63,5 +73,6 @@ export {
   industryfour,
   consumercentric,
   healthcare,
-  sustainability
+  sustainability,
+  homepage
 };
