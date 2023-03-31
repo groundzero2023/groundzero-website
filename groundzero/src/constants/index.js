@@ -308,7 +308,7 @@ export const questions = [
   },
   {
     Question: "How many people can be on a team?",
-    Answer: "Each team must have at most 4 members.",
+    Answer: "Each team can have 3 to 5 members.",
   },
   {
     Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
