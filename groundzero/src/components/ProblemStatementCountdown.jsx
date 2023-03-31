@@ -57,28 +57,28 @@ const ProblemStatementCountdown = () => {
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div> */}
         <div className={`${styles.flexCenter} w-full text-white`}>
-          <div className="countdown-timer-box">
+          <div className="lg:w-[700px] w-[85%] bg-[#2b2853] lg:py-16 lg:px-20 py-8 px-10 content-center rounded-3xl text-center">
             <div
-              className={`${styles.heading4} xs:leading-[40px] leading-[60px] mb-4 mt-3 opacity-80`}
+              className={`font-lexendDeca font-semibold md:text-[32px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
             >
               Ground Zero will be starting in
             </div>
             <div className="countdown-timer">
               <div className="countdown-timer-days">
-                <div className="countdown-timer-number">{days}</div>
-                <div className="countdown-timer-subtext">Days</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{days}</div>
+                <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Days</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="countdown-timer-number">{hours}</div>
-                <div className="countdown-timer-subtext">Hours</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{hours}</div>
+                <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Hours</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="countdown-timer-number">{minutes}</div>
-                <div className="countdown-timer-subtext">Minutes</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{minutes}</div>
+                <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Minutes</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="countdown-timer-number">{seconds}</div>
-                <div className="countdown-timer-subtext">Seconds</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{seconds}</div>
+                <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Seconds</div>
               </div>
             </div>
           </div>

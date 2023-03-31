@@ -279,20 +279,20 @@ export const questions = [
   {
     Question: "How do I sign up for Ground Zero?",
     Answer:
-    "You can signup for Ground Zero here. (link will be provided later)"
+    "You can signup for Ground Zero through the Register button above!"
   },
   {
     Question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     Answer:
-      "Fret not! You can use this platform to post team vacancies or search for teams with available vacancies.",
+      "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
     Question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    Answer: "All ideas presented must be related to one of the industry focus areas here.",
+    Answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
   },
   {
     Question: "How many winners will there be?",
-    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams. Find out more about the prizes for the top 3 teams here.",
+    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams.\nFirst place: $5,000\nSecond place: $3,000\nThird place: $2,000.\nMystery prizes would also be awarded to teams with the most creative ideas, and other honourable mentions",
   },
   {
     Question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
@@ -300,7 +300,7 @@ export const questions = [
   },
   {
     Question: "Will Ground Zero happen in person or virtually?",
-    Answer: "Ground Zero 2023 will be held as a hybrid event; preliminary pitching rounds will be happening online/remotely, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
+    Answer: "After a few long years, Ground Zero 2023 will be held as a physical event hosted at Mapletree Business City. Preliminary pitching submission will be uploaded online, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
   },
   {
     Question: "Who can participate in Ground Zero?",
@@ -308,7 +308,7 @@ export const questions = [
   },
   {
     Question: "How many people can be on a team?",
-    Answer: "Each team must have at most 4 members.",
+    Answer: "Each team can have 3 to 5 members.",
   },
   {
     Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
