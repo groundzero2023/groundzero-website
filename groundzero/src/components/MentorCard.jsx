@@ -45,73 +45,75 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
   }, [handleKeyPress]);
 
   return (
-    <div className="text-white flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-600/60 backdrop-blur"
+    <div className="pop-up-content">
+        <div className="text-white flex place-items-center items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-blur-[5px] bg-black/50"
     onClick={() => closeMentorCard()}>
       
-      <div className={`${mentors.indexOf(mentor) == 0 ? 'hidden' : 'block'} absolute left-14 cursor-pointer mr-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
-      onClick={(e) => {
-        e.stopPropagation(); 
-        openPrevCard();}}
-      >
-        <FiChevronLeft/>
-      </div>
-      
-      <div className="grid w-[80%] h-[90%] bg-black" onClick={(e) => { e.stopPropagation(); }}>
-        <div className="flex">
-            {/* Pic */}
-            <div className="w-[45%] bg-white text-black grid place-items-center object-fit">
-                IMAGE
-            </div>
-
-            {/* Desc */}
-            <div className="w-[55%] px-3 py-2">
-                {/* Header */}
-                <div className="flex h-[10%] w-full border-b border-white items-center">
-                    <div className="flex w-1/2 justify-start px-1">
-                        LOGO
-                    </div>
-                    <div className="flex w-1/2 justify-end px-1">
-                        <a href={mentor.personalLink} target="_blank" className="hover:scale-110 transition ease-in-out">
-                            <img src={linkedin}/>
-                        </a>
-                    </div>
+          <div className={`${mentors.indexOf(mentor) == 0 ? 'hidden' : 'block'} absolute left-14 cursor-pointer mr-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
+          onClick={(e) => {
+            e.stopPropagation(); 
+            openPrevCard();}}
+          >
+            <FiChevronLeft/>
+          </div>
+          
+          <div className="grid w-[80%] h-[90%] bg-black" onClick={(e) => { e.stopPropagation(); }}>
+            <div className="flex">
+                {/* Pic */}
+                <div className="w-[45%] bg-white text-black grid place-items-center object-fit">
+                    IMAGE
                 </div>
 
-                {/* Details */}
-                <div className="h-[90%] pt-4">
-                    <h2 className="text-4xl">
-                        {mentor.title}
-                    </h2>
-                    <h2 className="text-2xl mt-3">
-                        {mentor.subtitle}
-                    </h2>
-                    <h2 className="text-xl mt-2">
-                        {mentor.info}
-                    </h2>
-                    <h2 className="text-sm mt-1 whitespace-pre-line space-y-2">
-                        {mentor.description.map((desc) => (
-                            <div>
-                                {desc}
-                            </div>
-                        ))}
-                    </h2>
+                {/* Desc */}
+                <div className="w-[55%] px-3 py-2">
+                    {/* Header */}
+                    <div className="flex h-[10%] w-full border-b border-white items-center">
+                        <div className="flex w-1/2 justify-start px-1">
+                            LOGO
+                        </div>
+                        <div className="flex w-1/2 justify-end px-1">
+                            <a href={mentor.personalLink} target="_blank" className="hover:scale-110 transition ease-in-out">
+                                <img src={linkedin}/>
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Details */}
+                    <div className="h-[90%] pt-4">
+                        <h2 className="text-4xl">
+                            {mentor.title}
+                        </h2>
+                        <h2 className="text-2xl mt-3">
+                            {mentor.subtitle}
+                        </h2>
+                        <h2 className="text-xl mt-2">
+                            {mentor.info}
+                        </h2>
+                        <h2 className="text-sm mt-1 whitespace-pre-line space-y-2">
+                            {mentor.description.map((desc) => (
+                                <div>
+                                    {desc}
+                                </div>
+                            ))}
+                        </h2>
+                    </div>
                 </div>
             </div>
+          </div>
+
+          <div className={`${mentors.indexOf(mentor) == mentors.length - 1 ? 'hidden' : 'block'} absolute right-14 cursor-pointer ml-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
+          onClick={(e) => {
+            e.stopPropagation();
+            openNextCard();}}
+          >
+            <FiChevronRight/>
+          </div>
+          
+          <div className="p-2 text-3xl absolute top-4 right-5 cursor-pointer" onClick={() => closeMentorCard()}>
+            <CgClose/>
+          </div>
+
         </div>
-      </div>
-
-      <div className={`${mentors.indexOf(mentor) == mentors.length - 1 ? 'hidden' : 'block'} absolute right-14 cursor-pointer ml-8 text-2xl p-2 bg-black bg-opacity-50 rounded-full text-center grid place-items-center`}
-      onClick={(e) => {
-        e.stopPropagation();
-        openNextCard();}}
-      >
-        <FiChevronRight/>
-      </div>
-      
-      <div className="p-2 text-3xl absolute top-4 right-5 cursor-pointer" onClick={() => closeMentorCard()}>
-        <CgClose/>
-      </div>
-
     </div>
   )
 };
