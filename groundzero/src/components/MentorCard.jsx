@@ -117,7 +117,7 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
       </div>
 
       {/* MOBILE */}
-      <div className="contents sm:hidden overflow-y-scroll">
+      <div className="z-50 contents sm:hidden overflow-y-scroll">
         <div className="flex flex-col w-full h-full bg-black" onClick={(e) => { e.stopPropagation(); }}>
           <div className="h-full">
               {/* Header */}
