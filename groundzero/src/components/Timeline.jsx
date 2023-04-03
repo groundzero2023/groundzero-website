@@ -17,12 +17,12 @@ const Timeline = () => {
                 </h2>
               </div>
 
-              <div className="w-5 h-5 xs:w-20 xs:h-20 rounded-full border-4 border-white">
+              <div className="w-5 h-5 xs:w-[60px] xs:h-[60px] rounded-full border-4 border-white">
                 
               </div>
               
-              <div className="absolute px-10 xs:px-[100px] ss:px-28 md:px-0 w-20 xs:w-44 ss:w-fit md:w-44 inline-block align-top">
-                <div className="md:mt-60 md:text-center md:text-base text-xs xs:text-sm space-y-2 md:space-y-1">
+              <div className="absolute px-10 xs:px-[100px] ss:px-28 md:px-3 w-20 xs:w-44 ss:w-fit md:w-[164px]">
+                <div className="md:mt-56 md:text-center text-xs xs:text-sm space-y-2 md:space-y-1">
                   {event.title.map((title) => (
                       <div>
                         {title}
@@ -32,8 +32,8 @@ const Timeline = () => {
               </div>
             </div>
             <div className={`${timelineSchedule.indexOf(event) == timelineSchedule.length - 1 ? 'hidden' : 'block' } grid place-items-center `}>
-              <div className="w-1 h-40 ss:h-32 md:w-16 lg:w-28 md:h-1 bg-white">
-              
+              <div className="w-1 h-40 ss:h-32 md:w-16 lg:w-24 md:h-1 bg-white">
+                
               </div>
             </div>
           </div>

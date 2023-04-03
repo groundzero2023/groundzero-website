@@ -26,6 +26,9 @@ const NavigationBar = () => {
             <li>
               <Link to="/#timeline" onClick={toggleDropdown}>Timeline</Link>
             </li>
+            {/* <li>
+              <Link to="/#mentors" onClick={toggleDropdown}>Mentors</Link>
+            </li> */}
             <li>
               <Link to="/#contacts" onClick={toggleDropdown}>Contact</Link>
             </li>
@@ -60,6 +63,9 @@ const NavigationBar = () => {
             <li>
               <Link to="/#timeline">Timeline</Link>
             </li>
+            {/* <li>
+              <Link to="/#mentors">Mentors</Link>
+            </li> */}
             <li>
               <Link to="/#contacts">Contact</Link>
             </li>

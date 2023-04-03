@@ -550,6 +550,123 @@ export const mentors = [
         CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
         He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
   },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
+  {
+    title:"Dr Fanglin Wang",
+    subtitle:"Head of R&D Department",
+    info: "ADVANCE.AI",
+    personalLink:"https://www.linkedin.com/in/fanglinwang/",
+    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
+    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
+    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
+        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
+        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
+        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
+        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+  },
 
 ];
 
@@ -573,6 +690,14 @@ export const aboutUs = [
 ];
 
 export const timelineSchedule = [
+  {
+    title: ["Registration opens"],
+    date: "2023-03-31T12:00:00",
+  },
+  {
+    title: ["Registration closes"],
+    date: "2023-05-01T12:00:00",
+  },
   {
     title: ["Opening Ceremony", "Diamond Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
     date: "2023-05-08T12:00:00",
