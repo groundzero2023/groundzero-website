@@ -4,7 +4,6 @@ In the future, please use this file as the only way to interact with editing tex
 */
 
 import {
-  sam_ho,
   accelerating,
   airbnb,
   aws,
@@ -496,190 +495,432 @@ export const mentors = [
         "-",
     ]
   },
-  // {
-  //   title:"Steven Chua",
-  //   subtitle:["Co-Founder", "Mentor"],
-  //   info: ["Inner Circle Network", "IES INCA"],
-  //   personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-  //   imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
-  //   imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
-  //   description: [
-  //       "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-  //       "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
-  //   ]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr James Ong",
-  //   subtitle:"Founder & CEO",
-  //   info: "Origami",
-  //   personalLink:"https://www.linkedin.com/in/jamesongkayliang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/James Ong.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/James Ong.jpg",
-  //   description: ["Dr. James Ong is an entrepreneur and community builder who has incubated, \
-  //   invested and mentored various technology start-ups and he is actively involved in the AI and tech ecosystem in China and ASEAN. \
-  //   He is the founder and CEO of Origami that provides strategy, technology and investment advisory services for venturing towards \
-  //   Autonomous Enterprise where he has more than 35 years of experience on digital transformation in Asia, US and Europe across \
-  //   multiple industry verticals. James founded Artificial Intelligence International Institute (AIII), a think tank advocating \
-  //   Sustainable AI for Humanity. He is also adjunct professor at SUTD and serves as mentor at NUS, SUTD and NTU. He started his career \
-  //   as an AI scientist at leading US MCC research lab on advanced AI Fifth Generation Computer research and received his PhD in Management \
-  //   Information System specializing on AI for Business Process Automation and MA & BA in Computer Science from the University of Texas at Austin."]
-  // },
-  // {
-  //   title:"Rachel Lim",
-  //   subtitle:"Co-Founder",
-  //   info: "Love, Bonito",
-  //   personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
-  //   description: [
-  //       "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-  //       "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
-  //   ]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-  // {
-  //   title:"Dr Fanglin Wang",
-  //   subtitle:"Head of R&D Department",
-  //   info: "ADVANCE.AI",
-  //   personalLink:"https://www.linkedin.com/in/fanglinwang/",
-  //   imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-  //   imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-  //   description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-  //       He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-  //       Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-  //       CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-  //       He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  // },
-
+  {
+    title:"Steven Chua",
+    subtitle:["Co-Founder", "Mentor"],
+    info: ["Inner Circle Network", "IES INCA"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Andrew Soh",
+    subtitle:["Founder & CEO", "Mentor"],
+    info: ["Fundigo", "EB Impact"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Richard Ruddy",
+    subtitle:["President & Co-Founder"],
+    info: ["Nuguru"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Ye Sheng Tan",
+    subtitle:["Startup Mentor", "AWS Startup Scout"],
+    info: ["500 Global", "AWS"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Chet Yong",
+    subtitle:["BDM Healthcare", "Expert Mentor"],
+    info: ["AWS", "Innovators Commersialisation Program"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Mohan Belani",
+    subtitle:["Co-Founder & CEO"],
+    info: ["e27"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Douglas Peris",
+    subtitle:["Program Coach & Mentor", "Partner"],
+    info: ["Hyper Accelerator", "Orvel Ventures"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Evan Chow",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Quest"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Chandra Tjan",
+    subtitle:["Co-Founder & General Partner"],
+    info: ["Alpha JWC Ventures"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Donna Daritan",
+    subtitle:["Startup Mentor", "International Partner"],
+    info: ["Asia Insitute of Mentoring & Startupbootcamp FinTech", "World Business Angles Investment Forum"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Dennis Poh",
+    subtitle:["Founder & CEO"],
+    info: ["Legatcy"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Patrick Ng",
+    subtitle:["Founder", "Director of Innovation Hub"],
+    info: ["Spark Launchpad", "HARTING"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Arin Alois Loy",
+    subtitle:["Startup and Industry Mentor"],
+    info: ["NTU"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Melvin Ho",
+    subtitle:["CEO"],
+    info: ["Bizsquare Group"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Viveka Kalidasan",
+    subtitle:["Co-Founder/CEO/Director"],
+    info: ["Edify"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Kenneth Lou",
+    subtitle:["Co-Founder", "Co-Founder"],
+    info: ["Seedly", "Stealth Startup"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Jeremy Loh",
+    subtitle:["Co-Founder & Partner"],
+    info: ["Genesis Alternative Ventures"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Max Gimmario",
+    subtitle:["CEO"],
+    info: ["MetaPals"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Francis Lee",
+    subtitle:["Co-Founder"],
+    info: ["Lalia"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Ajinkya Bhat",
+    subtitle:["Co-Founder & CEO", "\"001\""],
+    info: ["Seamless XR", "The 100 Club"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Suwira Teo",
+    subtitle:["Co-Founder"],
+    info: ["Aleph Technologies"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Lucas Yeo",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Docuf.AI"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Daryl Lim",
+    subtitle:["Business Operations"],
+    info: ["Paladium"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Wei Zhuang (Lenard)",
+    subtitle:["Founder & CEO"],
+    info: ["Ailytics"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Phang Wei Jun",
+    subtitle:["Co-Founder"],
+    info: ["Lalia"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Elena Chow",
+    subtitle:["Founder", "Co-Founder"],
+    info: ["ConnectOne", "Talent-Web3"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Wei Liang Lim",
+    subtitle:["Entrepreneurship Programme Manager", "Deputy CEO"],
+    info: ["Golden Equator Group", "Social Impact Catalyst"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Palash Jain",
+    subtitle:["Founder & CEO", "Founder in Residence"],
+    info: ["Think Design Make", "Entrepreneur First"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Dhawal Shah",
+    subtitle:["Limited Partner & Mentor", "CEO"],
+    info: ["Accelerating Asia", "CG Ventures Pte. Ltd."],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Arjun Arora",
+    subtitle:["Co-Founder & CEO", "Founder in Residence"],
+    info: ["Betafi", "Entrepreneur First"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Jeffrey Chua",
+    subtitle:["Co-Founder & Ex-CEO"],
+    info: ["Millennium Enterprise"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Darrell Zhang",
+    subtitle:["Co-Founder", "Startup Mentor"],
+    info: ["NextBlock", "Entrepreneur First"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Don Tsai",
+    subtitle:["Chairman/Founder", "Startup Mentor"],
+    info: ["First Wave", "Enterprise Singapore"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Freddie Luchterhand-Dare",
+    subtitle:["Vice President"],
+    info: ["Openspace Ventures"],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Eric Lam",
+    subtitle:[""],
+    info: [""],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
+  {
+    title:"Jonas Chen",
+    subtitle:[""],
+    info: [""],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/mentor_pics/Sam Ho.JPG",
+    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Alvin Ng",
+    subtitle:[""],
+    info: [""],
+    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
+    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    description: [
+        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
+        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+    ]
+  },
 ];
 
 // Date for Releasing Problem Statements. Edit here to change
