@@ -35,16 +35,20 @@ const MentorGrid = () => {
 
                     {/* Desc */}
                     <div className="w-full h-full opacity-0 hover:opacity-100 z-10 transition ease-in-out text-white">
-                        <div className="bg-gradient-to-t w-full from-black absolute text-left bottom-0 left-0 p-4 pt-[10.5rem] object-fit">
-                            <h2 className="text-xl font-bold">
-                                {mentor.title}
-                            </h2>
-                            <h2 className="font-semibold inline">
-                                {mentor.subtitle.join(", ")}
-                            </h2>
-                            <h2 className="text-sm font-light">
-                                {mentor.info.join(", ")}
-                            </h2>
+                        <div className="bg-gradient-to-t w-full h-full from-black absolute text-left bottom-0 left-0">
+                            <div className="absolute bottom-0 left-0 p-4 align-text-bottom">
+                                <h2 className="text-xl font-bold">
+                                    {mentor.title}
+                                </h2>
+                                <h2 className="text-[15px] font-semibold">
+                                    {mentor.subtitle[0]}
+                                    {/* .join(", ") */}
+                                </h2>
+                                <h2 className="text-sm font-light">
+                                    {mentor.info[0]}
+                                    {/* .join(", ") */}
+                                </h2>
+                            </div>
                         </div>
                     </div>
                 </div>
