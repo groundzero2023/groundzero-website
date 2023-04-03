@@ -503,8 +503,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -526,8 +525,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -549,8 +547,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -572,8 +569,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -595,8 +591,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -618,8 +613,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -641,8 +635,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -664,8 +657,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -687,8 +679,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -710,8 +701,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -733,8 +723,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -756,8 +745,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -779,8 +767,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -802,8 +789,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -825,8 +811,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -848,8 +833,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -871,8 +855,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -894,8 +877,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
@@ -917,8 +899,7 @@ export const mentors = [
     imgsrc:"../assets/images/mentor_pics/Steven Chua.JPG",
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
 ];
