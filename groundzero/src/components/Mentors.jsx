@@ -1,60 +1,20 @@
-import React, { useState } from 'react';
-import MentorCard from './MentorCard';
-import { mentors } from '../constants';
+import React from 'react';
+import styles from '../style';
 
 const Mentors = () => {
-  const [currMentor, setCurrMentor] = useState({});
-  const [openCard, setOpenCard] = useState(false);
-
-  const openMentorCard = () => { 
-    setOpenCard(true);
-
-    // Disables Background Scrolling whilst the Mentor Card is open
-    if (typeof window != 'undefined' && window.document) {
-        document.body.style.overflow = 'hidden';
-    }
-  }
-
   return (
-    <div className="grid place-items-center text-white xs:px-16 lg:px-10">
+    <div className={`grid ${styles.paddingY} place-items-center text-white px-5 ss:px-10 sm:px-16 lg:px-10`} id="mentors">
       <div className="heading">
         Mentors
       </div>
-      <div className="grid grid-cols-4 gap-1">
-        {mentors.map((mentor) => (
-          <div className="cursor-pointer relative w-64 h-64 bg-black grid place-items-center" 
-          onClick={() => {
-            openMentorCard();
-            setCurrMentor(mentor);
-          }}>
-            {/* Speaker Img */}
-            <img 
-            // src={mentor.imgsrc}
-            src="https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg" 
-            className="object-fit">
-            </img>
-
-            {/* Desc */}
-            <div className="w-full h-full opacity-0 hover:opacity-100 z-10 transition ease-in-out">
-              <div className="bg-gradient-to-t w-full from-black absolute text-left bottom-0 left-0 p-4 pt-[10.5rem] object-fit">
-                <h2 className="text-xl font-bold">
-                  {mentor.title}
-                </h2>
-                <h2 className="font-semibold">
-                  {mentor.subtitle}
-                </h2>
-                <h2 className="text-sm font-light">
-                  {mentor.info}
-                </h2>
-              </div>
-            </div>
-          </div>
-        ))}
+      <div className={`flex flex-col space-y-8 sm:px-16`}>
+        <h1 className="text-xl sm:text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at rutrum arcu, vitae fringilla magna. Proin bibendum massa non turpis pellentesque, sed congue enim volutpat. 
+        </h1>
+        <div className="grid place-items-center">
+          <a className="bg-foregroundViolet items-center justify-center inline-flex px-8 py-3 rounded-full text-lg font-bold hover:scale-110 duration-300 transition ease-in-out" href="/mentors">Meet the Mentors</a>
+        </div>
       </div>
-      {
-        openCard && 
-        <MentorCard mentor={currMentor} setOpenCard={setOpenCard} setCurrMentor={setCurrMentor}/>
-      }
     </div>
   )
 };

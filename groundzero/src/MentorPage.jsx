@@ -4,24 +4,12 @@ import { useLocation } from "react-router-dom";
 
 import {
   NavigationBar,
-  About,
-  PastEvents,
-  ReasonsToJoin,
-  ProblemStatementCountdown,
-  ProblemStatements,
-  Workshops,
-  Timeline,
-  Partners,
-  Mentors,
-  ContactUs,
-  Faq,
+  MentorGrid,
   Footer,
-  HomePage,
-  ContactUsTemp,
 } from "./components";
 
 /* Main entry point of the web application. */
-const App = () => {
+const MentorPage = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -40,30 +28,26 @@ const App = () => {
       <div className="bg-purple w-full overflow-hidden">
         <NavigationBar />
 
-        <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            <HomePage />
+            <div className="heading mt-8 ss:mt-0">
+                Ground Zero Mentors
+            </div>
+            <div className="grid place-items-center">
+              <MentorGrid />
+            </div>
           </div>
         </div>
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>            
-            <About />
-            <PastEvents />
-            <ReasonsToJoin />            
-            <ProblemStatements />
-            <Timeline />
-            <ProblemStatementCountdown />
-            {/* <Partners /> */}
-            {/* <Mentors /> */}
-            <ContactUsTemp />
-            <Faq />
             <Footer />
           </div>
         </div>
+
       </div>
     </>
   );
 };
 
-export default App;
+export default MentorPage;
