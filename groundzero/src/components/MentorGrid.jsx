@@ -39,11 +39,11 @@ const MentorGrid = () => {
                             <h2 className="text-xl font-bold">
                                 {mentor.title}
                             </h2>
-                            <h2 className="font-semibold">
-                                {mentor.subtitle}
+                            <h2 className="font-semibold inline">
+                                {mentor.subtitle.join(", ")}
                             </h2>
                             <h2 className="text-sm font-light">
-                                {mentor.info}
+                                {mentor.info.join(", ")}
                             </h2>
                         </div>
                     </div>
