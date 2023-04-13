@@ -38,12 +38,12 @@ const MentorGrid = () => {
                                     {mentor.title}
                                 </h2>
                                 <h2 className="text-[15px] font-semibold">
-                                    {mentor.subtitle[0]}
-                                    {/* .join(", ") */}
+                                    {/* {mentor.subtitle[0]} */}
+                                    {mentor.subtitle.join(", ")}
                                 </h2>
                                 <h2 className="text-sm font-light">
-                                    {mentor.info[0]}
-                                    {/* .join(", ") */}
+                                    {/* {mentor.info[0]} */}
+                                    {mentor.info.join(", ")}
                                 </h2>
                             </div>
                             <a href={mentor.personalLink} target="_blank" className="absolute p-4 top-0 right-0 hover:scale-110 transition ease-in-out delay-75">
