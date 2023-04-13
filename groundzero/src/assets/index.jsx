@@ -3,6 +3,42 @@ This file handles the importing and exporting of all images to make importing im
 In the future, please always import and export your images here.
 */
 
+import ajinkya_bhat from "./mentor_pics/AjinkyaBhat.jpg";
+import andrew_soh from "./mentor_pics/AndrewSoh.jpg";
+import arin_alois_loy from "./mentor_pics/ArinAloisLoy.jpg";
+import arjun_arora from "./mentor_pics/ArjunArora.jpg";
+import chandra_tjan from "./mentor_pics/ChandraTjan.jpg";
+import chet_yong from "./mentor_pics/ChetYong.jpg";
+import darrell_zhang from "./mentor_pics/DarrellZhang.jpg";
+import daryl_lim from "./mentor_pics/DarylLim.jpg";
+import dennis_poh from "./mentor_pics/DennisPoh.jpg";
+import dhawal_shah from "./mentor_pics/DhawalShah.jpg";
+import donna_daritan from "./mentor_pics/DonnaDaritan.jpg";
+import don_tsai from "./mentor_pics/DonTsai.jpg";
+import douglas_peris from "./mentor_pics/DouglasPeris.jpg";
+import elena_chow from "./mentor_pics/ElenaChow.jpg";
+import evan_chow from "./mentor_pics/EvanChow.jpg";
+import francis_lee from "./mentor_pics/FrancisLee.jpg";
+import freddie_luchterhand_dare from "./mentor_pics/FreddieLuchterhand-Dare.jpg";
+import jeffrey_chua from "./mentor_pics/JeffreyChua.jpg";
+import jeremy_loh from "./mentor_pics/JeremyLoh.jpg";
+import kenneth_lou from "./mentor_pics/KennethLou.jpg";
+import lucas_yeo from "./mentor_pics/LucasYeo.jpg";
+import max_gimmario from "./mentor_pics/MaxGimmario.jpg";
+import melvin_ho from "./mentor_pics/MelvinHo.jpg";
+import mohan_belani from "./mentor_pics/MohanBelani.jpg";
+import palash_jain from "./mentor_pics/PalashJain.jpg";
+import patrick_ng from "./mentor_pics/PatrickNg.jpg";
+import phang_wei_jun from "./mentor_pics/PhangWeiJun.jpg";
+import richard_ruddy from "./mentor_pics/RichardRuddy.jpg";
+import sam_ho from "./mentor_pics/SamHo.jpg";
+import steven_chua from "./mentor_pics/StevenChua.jpg";
+import suwira_teo from "./mentor_pics/SuwiraTeo.jpg";
+import viveka_kalidasan from "./mentor_pics/VivekaKalidasan.jpg";
+import wei_liang_lim from "./mentor_pics/WeiLiangLim.jpg";
+import wei_zhuang from "./mentor_pics/WeiZhuang(Lenard).jpg";
+import ye_sheng_tan from "./mentor_pics/YeShengTan.jpg";
+
 import accelerating from "./accelerating.png";
 import airbnb from "./airbnb.png";
 import aws from "./aws.png";
@@ -40,6 +76,41 @@ import healthcare from "./healthcare.png";
 import sustainability from "./sustainability.png";
 
 export {
+  ajinkya_bhat,
+  andrew_soh,
+  arin_alois_loy,
+  arjun_arora,
+  chandra_tjan,
+  chet_yong,
+  darrell_zhang,
+  daryl_lim,
+  dennis_poh,
+  dhawal_shah,
+  donna_daritan,
+  don_tsai,
+  douglas_peris,
+  elena_chow,
+  evan_chow,
+  francis_lee,
+  freddie_luchterhand_dare,
+  jeffrey_chua,
+  jeremy_loh,
+  kenneth_lou,
+  lucas_yeo,
+  max_gimmario,
+  melvin_ho,
+  mohan_belani,
+  palash_jain,
+  patrick_ng,
+  phang_wei_jun,
+  richard_ruddy,
+  sam_ho, 
+  steven_chua,
+  suwira_teo,
+  viveka_kalidasan,
+  wei_liang_lim,
+  wei_zhuang,
+  ye_sheng_tan, 
   accelerating,
   airbnb,
   aws,

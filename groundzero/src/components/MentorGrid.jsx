@@ -25,9 +25,9 @@ const MentorGrid = () => {
                 <div className="relative w-80 h-80 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60 bg-black grid place-items-center">
                     {/* Speaker Img */}
                     <img 
-                    // src={mentor.imgsrc}
-                    src="https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg" 
-                    className="object-fit">
+                    src={mentor.imgsrc}
+                    // src="https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg" 
+                    className="object-fit w-60 h-60">
                     </img>
 
                     {/* Desc */}
