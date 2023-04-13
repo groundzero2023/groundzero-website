@@ -1,31 +1,28 @@
 import styles from "../style";
+import { linkedin } from "../assets";
 import React, { useState } from 'react';
 import MentorCard from './MentorCard';
 import { mentors } from '../constants';
 
 const MentorGrid = () => {
-    const [currMentor, setCurrMentor] = useState({});
-    const [openCard, setOpenCard] = useState(false);
+    // const [currMentor, setCurrMentor] = useState({});
+    // const [openCard, setOpenCard] = useState(false);
 
-    const openMentorCard = () => { 
-        setOpenCard(true);
+    // const openMentorCard = () => { 
+    //     setOpenCard(true);
 
-        // Disables Background Scrolling whilst the Mentor Card is open
-        if (typeof window != 'undefined' && window.document) {
-            document.body.style.overflow = 'hidden';
-        }
-    }
+    //     // Disables Background Scrolling whilst the Mentor Card is open
+    //     if (typeof window != 'undefined' && window.document) {
+    //         document.body.style.overflow = 'hidden';
+    //     }
+    // }
 
     return (
         <div className={`bg-primary xs:px-16 ss:px-8 sm:px-2 md:px-4 lg:px-8`}>
             <div className={`${styles.boxWidth}`}>
                 <div className="grid gap-8 ss:grid-cols-2 ss:gap-4 sm:gap-8 md:grid-cols-3 lg:grid-cols-4 lg:gap-1">
                 {mentors.map((mentor) => (
-                <div className="cursor-pointer relative w-80 h-80 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60 bg-black grid place-items-center" 
-                onClick={() => {
-                    openMentorCard();
-                    setCurrMentor(mentor);
-                }}>
+                <div className="relative w-80 h-80 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60 bg-black grid place-items-center">
                     {/* Speaker Img */}
                     <img 
                     // src={mentor.imgsrc}
@@ -49,15 +46,18 @@ const MentorGrid = () => {
                                     {/* .join(", ") */}
                                 </h2>
                             </div>
+                            <a href={mentor.personalLink} target="_blank" className="absolute p-4 top-0 right-0 hover:scale-110 transition ease-in-out delay-75">
+                                <img src={linkedin} className="h-[25px]"/>
+                            </a>
                         </div>
                     </div>
                 </div>
                 ))}
             </div>
-            {
+            {/* {
                 openCard && 
                 <MentorCard mentor={currMentor} setOpenCard={setOpenCard} setCurrMentor={setCurrMentor}/>
-            }
+            } */}
             </div>
         </div>
     );
