@@ -54,7 +54,7 @@ const App = () => {
             <ProblemStatements />
             <Timeline />
             <ProblemStatementCountdown />
-            {/* <Partners /> */}
+            <Partners />
             {/* <Mentors /> */}
             <ContactUsTemp />
             <Faq />
