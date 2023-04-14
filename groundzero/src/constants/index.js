@@ -19,7 +19,6 @@ import {
   instagram,
   linkedin,
   mapletree,
-  mapletreelogo,
   mentorship,
   nes,
   network,
@@ -342,7 +341,7 @@ export const platinumSponsor = [
 export const thePatron = [
   {
     id: "thePatron-1",
-    icon: mapletreelogo,
+    icon: mapletree,
   },
 ];
 
