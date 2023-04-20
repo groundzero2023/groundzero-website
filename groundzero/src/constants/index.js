@@ -35,7 +35,8 @@ import {
   healthcare,
   consumercentric,
   sustainability,
-  industryfour
+  industryfour,
+  mapletree_new
 } from "../assets";
 
 export const navLinks = [
@@ -341,7 +342,7 @@ export const platinumSponsor = [
 export const thePatron = [
   {
     id: "thePatron-1",
-    icon: mapletree,
+    icon: mapletree_new,
   },
 ];
 

@@ -38,6 +38,7 @@ import industryfour from "./industryfour.png";
 import consumercentric from "./consumercentric.png";
 import healthcare from "./healthcare.png";
 import sustainability from "./sustainability.png";
+import mapletree_new from "./mapletree.png";
 
 export {
   accelerating,
@@ -74,5 +75,6 @@ export {
   consumercentric,
   healthcare,
   sustainability,
-  homepage
+  homepage,
+  mapletree_new
 };
