@@ -17,7 +17,7 @@ import hsbc from "./hsbc.png";
 import ideate from "./ideate.png";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
-import mapletree from "./mapletree.webp";
+import mapletree from "./mapletree.png";
 import mentorship from "./mentorship.png";
 import nes from "./nes.png";
 import network from "./network.png";
