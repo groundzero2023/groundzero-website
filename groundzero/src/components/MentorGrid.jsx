@@ -31,7 +31,7 @@ const MentorGrid = () => {
                     </img>
 
                     {/* Desc */}
-                    <div className="w-full h-full opacity-0 hover:opacity-100 z-10 transition ease-in-out text-white">
+                    <div className="w-full h-full md:opacity-0 md:hover:opacity-100 z-10 transition ease-in-out text-white">
                         <div className="bg-gradient-to-t w-full h-full from-black absolute text-left bottom-0 left-0">
                             <div className="absolute bottom-0 left-0 p-4 align-text-bottom">
                                 <h2 className="text-xl font-bold">

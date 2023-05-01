@@ -18,14 +18,17 @@ import {
   don_tsai,
   douglas_peris,
   elena_chow,
+  eric_lam,
   evan_chow,
   francis_lee,
   freddie_luchterhand_dare,
+  james_conde,
   jeffrey_chua,
   jeremy_loh,
+  jonas_chen,
   kenneth_lou,
   lucas_yeo,
-  max_gimmario,
+  max_giammario,
   melvin_ho,
   mohan_belani,
   palash_jain,
@@ -718,11 +721,11 @@ export const mentors = [
     ]
   },
   {
-    title:"Max Gimmario",
+    title:"Max Giammario",
     subtitle:["CEO"],
     info: ["MetaPals"],
     personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc: max_gimmario,
+    imgsrc: max_giammario,
     imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
@@ -909,7 +912,7 @@ export const mentors = [
     subtitle:["Venture Principal"],
     info: ["Recast Ventures"],
     personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc: "",
+    imgsrc: eric_lam,
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
@@ -920,7 +923,7 @@ export const mentors = [
     subtitle:["Co-Founder"],
     info: ["Metacamp"],
     personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc: "",
+    imgsrc: jonas_chen,
     imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
@@ -942,7 +945,7 @@ export const mentors = [
     subtitle:["Senior Associate, Investor Relations and Portfolio"],
     info: ["Plug and Play Tech Center"],
     personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc: "",
+    imgsrc: james_conde,
     imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"

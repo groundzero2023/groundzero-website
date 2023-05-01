@@ -17,14 +17,17 @@ import donna_daritan from "./mentor_pics/DonnaDaritan.jpg";
 import don_tsai from "./mentor_pics/DonTsai.jpg";
 import douglas_peris from "./mentor_pics/DouglasPeris.jpg";
 import elena_chow from "./mentor_pics/ElenaChow.jpg";
+import eric_lam from "./mentor_pics/EricLam.jpg";
 import evan_chow from "./mentor_pics/EvanChow.jpg";
 import francis_lee from "./mentor_pics/FrancisLee.jpg";
 import freddie_luchterhand_dare from "./mentor_pics/FreddieLuchterhand-Dare.jpg";
+import james_conde from "./mentor_pics/JamesConde.jpg"
 import jeffrey_chua from "./mentor_pics/JeffreyChua.jpg";
 import jeremy_loh from "./mentor_pics/JeremyLoh.jpg";
+import jonas_chen from "./mentor_pics/JonasChen.jpg";
 import kenneth_lou from "./mentor_pics/KennethLou.jpg";
 import lucas_yeo from "./mentor_pics/LucasYeo.jpg";
-import max_gimmario from "./mentor_pics/MaxGimmario.jpg";
+import max_giammario from "./mentor_pics/MaxGimmario.jpg";
 import melvin_ho from "./mentor_pics/MelvinHo.jpg";
 import mohan_belani from "./mentor_pics/MohanBelani.jpg";
 import palash_jain from "./mentor_pics/PalashJain.jpg";
@@ -90,14 +93,17 @@ export {
   don_tsai,
   douglas_peris,
   elena_chow,
+  eric_lam,
   evan_chow,
   francis_lee,
   freddie_luchterhand_dare,
+  james_conde,
   jeffrey_chua,
   jeremy_loh,
+  jonas_chen,
   kenneth_lou,
   lucas_yeo,
-  max_gimmario,
+  max_giammario,
   melvin_ho,
   mohan_belani,
   palash_jain,
