@@ -4,6 +4,7 @@ In the future, please always import and export your images here.
 */
 
 import ajinkya_bhat from "./mentor_pics/AjinkyaBhat.jpg";
+import alvin_ng from "./mentor_pics/AlvinNg.png"
 import andrew_soh from "./mentor_pics/AndrewSoh.jpg";
 import arin_alois_loy from "./mentor_pics/ArinAloisLoy.jpg";
 import arjun_arora from "./mentor_pics/ArjunArora.jpg";
@@ -80,6 +81,7 @@ import sustainability from "./sustainability.png";
 
 export {
   ajinkya_bhat,
+  alvin_ng,
   andrew_soh,
   arin_alois_loy,
   arjun_arora,

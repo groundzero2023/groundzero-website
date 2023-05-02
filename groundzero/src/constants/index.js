@@ -5,6 +5,7 @@ In the future, please use this file as the only way to interact with editing tex
 
 import {
   ajinkya_bhat,
+  alvin_ng,
   andrew_soh,
   arin_alois_loy,
   arjun_arora,
@@ -526,9 +527,8 @@ export const mentors = [
     title:"Sam Ho",
     subtitle:["Founder"],
     info: ["We CARE"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/ssam-ho/",
     imgsrc: sam_ho,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -537,9 +537,8 @@ export const mentors = [
     title:"Steven Chua",
     subtitle:["Co-Founder"],
     info: ["Inner Circle Network"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/stevenchuajc/",
     imgsrc: steven_chua,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -548,9 +547,8 @@ export const mentors = [
     title:"Andrew Soh",
     subtitle:["Founder & CEO"],
     info: ["Fundigo"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/andrew-soh-b81a2b206/",
     imgsrc: andrew_soh,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -559,9 +557,8 @@ export const mentors = [
     title:"Richard Ruddy",
     subtitle:["President & Co-Founder"],
     info: ["Nuguru"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/richard-ruddy-b79a5122/",
     imgsrc: richard_ruddy,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -570,9 +567,8 @@ export const mentors = [
     title:"Ye Sheng Tan",
     subtitle:["Startup Mentor"],
     info: ["500 Global"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/tanyesheng/",
     imgsrc: ye_sheng_tan,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -581,9 +577,8 @@ export const mentors = [
     title:"Chet Yong",
     subtitle:["Expert Mentor"],
     info: ["Innovators Commersialisation Program"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/chetyong/",
     imgsrc: chet_yong,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -592,9 +587,8 @@ export const mentors = [
     title:"Mohan Belani",
     subtitle:["Co-Founder & CEO"],
     info: ["e27"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/mohanbelani",
     imgsrc: mohan_belani,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -603,9 +597,8 @@ export const mentors = [
     title:"Douglas Peris",
     subtitle:["Program Coach & Mentor"],
     info: ["Hyper Accelerator"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/douglasperis",
     imgsrc: douglas_peris,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -614,9 +607,8 @@ export const mentors = [
     title:"Evan Chow",
     subtitle:["Co-Founder & CEO"],
     info: ["Quest"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/evan-chow/",
     imgsrc: evan_chow,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -625,9 +617,8 @@ export const mentors = [
     title:"Chandra Tjan",
     subtitle:["Co-Founder & General Partner"],
     info: ["Alpha JWC Ventures"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://linkedin.com/in/chandratjan",
     imgsrc: chandra_tjan,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -636,9 +627,8 @@ export const mentors = [
     title:"Donna Daritan",
     subtitle:["Startup Mentor"],
     info: ["Asia Insitute of Mentoring & Startupbootcamp FinTech"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://linkedin.com/in/donnadaritan",
     imgsrc: donna_daritan,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -647,9 +637,8 @@ export const mentors = [
     title:"Dennis Poh",
     subtitle:["Founder & CEO"],
     info: ["Legatcy"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/dennis-poh-csa-cert-9693652a/",
     imgsrc: dennis_poh,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -658,9 +647,8 @@ export const mentors = [
     title:"Patrick Ng",
     subtitle:["Founder"],
     info: ["Spark Launchpad"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/peisin/?originalSubdomain=sg",
     imgsrc: patrick_ng,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -669,9 +657,8 @@ export const mentors = [
     title:"Arin Alois Loy",
     subtitle:["Startup and Industry Mentor"],
     info: ["NTU"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/arinalois/",
     imgsrc: arin_alois_loy,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -680,9 +667,8 @@ export const mentors = [
     title:"Melvin Ho",
     subtitle:["CEO"],
     info: ["Bizsquare Group"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/melvin-ho-45055554/?originalSubdomain=sg",
     imgsrc: melvin_ho,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -691,9 +677,8 @@ export const mentors = [
     title:"Viveka Kalidasan",
     subtitle:["Co-Founder/CEO/Director"],
     info: ["Edify"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/vivekakalidasan/",
     imgsrc: viveka_kalidasan,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -702,9 +687,8 @@ export const mentors = [
     title:"Kenneth Lou",
     subtitle:["Co-Founder"],
     info: ["Seedly"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/kenneth-lou/",
     imgsrc: kenneth_lou,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -713,9 +697,8 @@ export const mentors = [
     title:"Jeremy Loh",
     subtitle:["Co-Founder & Partner"],
     info: ["Genesis Alternative Ventures"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/drmmhloh",
     imgsrc: jeremy_loh,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -724,9 +707,8 @@ export const mentors = [
     title:"Max Giammario",
     subtitle:["CEO"],
     info: ["MetaPals"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/maxgiammario/",
     imgsrc: max_giammario,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -735,9 +717,8 @@ export const mentors = [
     title:"Francis Lee",
     subtitle:["Co-Founder"],
     info: ["Lalia"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/fustilio/",
     imgsrc: francis_lee,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -746,9 +727,8 @@ export const mentors = [
     title:"Ajinkya Bhat",
     subtitle:["Co-Founder & CEO"],
     info: ["Seamless XR"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/ajinkya-bhat23/",
     imgsrc: ajinkya_bhat,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -757,9 +737,8 @@ export const mentors = [
     title:"Suwira Teo",
     subtitle:["Co-Founder"],
     info: ["Aleph Technologies"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/suwirateo/",
     imgsrc: suwira_teo,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -768,9 +747,8 @@ export const mentors = [
     title:"Lucas Yeo",
     subtitle:["Co-Founder & CEO"],
     info: ["Docuf.AI"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/lucasyeo/",
     imgsrc: lucas_yeo,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -779,9 +757,8 @@ export const mentors = [
     title:"Daryl Lim",
     subtitle:["Business Operations"],
     info: ["Paladium"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/daryllim95/",
     imgsrc: daryl_lim,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -790,9 +767,8 @@ export const mentors = [
     title:"Wei Zhuang (Lenard)",
     subtitle:["Founder & CEO"],
     info: ["Ailytics"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/wei-zhuang-tan/",
     imgsrc: wei_zhuang,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -801,9 +777,8 @@ export const mentors = [
     title:"Phang Wei Jun",
     subtitle:["Co-Founder"],
     info: ["Lalia"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/phang-wei-jun/",
     imgsrc: phang_wei_jun,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -812,9 +787,8 @@ export const mentors = [
     title:"Elena Chow",
     subtitle:["Founder"],
     info: ["ConnectOne"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"http://linkedin.com/in/elenachow",
     imgsrc: elena_chow,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -823,9 +797,8 @@ export const mentors = [
     title:"Wei Liang Lim",
     subtitle:["Deputy CEO"],
     info: ["Social Impact Catalyst"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/weilianglim/",
     imgsrc: wei_liang_lim,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -834,9 +807,8 @@ export const mentors = [
     title:"Palash Jain",
     subtitle:["Founder & CEO"],
     info: ["Think Design Make"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/palashjain96/?originalSubdomain=sg",
     imgsrc: palash_jain,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -845,9 +817,8 @@ export const mentors = [
     title:"Dhawal Shah",
     subtitle:["Limited Partner & Mentor"],
     info: ["Accelerating Asia"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/dhawaljshah",
     imgsrc: dhawal_shah,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -856,9 +827,8 @@ export const mentors = [
     title:"Arjun Arora",
     subtitle:["Co-Founder & CEO"],
     info: ["Betafi"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/arjunarora108/",
     imgsrc: arjun_arora,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -867,9 +837,8 @@ export const mentors = [
     title:"Jeffrey Chua",
     subtitle:["Co-Founder & Ex-CEO"],
     info: ["Millennium Enterprise"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/jeffreychuapl/",
     imgsrc: jeffrey_chua,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -878,9 +847,8 @@ export const mentors = [
     title:"Darrell Zhang",
     subtitle:["Co-Founder"],
     info: ["NextBlock"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/darrellzhang",
     imgsrc: darrell_zhang,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -889,9 +857,8 @@ export const mentors = [
     title:"Don Tsai",
     subtitle:["Chairman/Founder"],
     info: ["First Wave"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/dontsai",
     imgsrc: don_tsai,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -900,9 +867,8 @@ export const mentors = [
     title:"Freddie Luchterhand-Dare",
     subtitle:["Vice President"],
     info: ["Openspace Ventures"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/frederickluchterhand/",
     imgsrc: freddie_luchterhand_dare,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -911,9 +877,8 @@ export const mentors = [
     title:"Eric Lam",
     subtitle:["Venture Principal"],
     info: ["Recast Ventures"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/lam-eric/",
     imgsrc: eric_lam,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
@@ -922,9 +887,8 @@ export const mentors = [
     title:"Jonas Chen",
     subtitle:["Co-Founder"],
     info: ["Metacamp"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/jonas-chen/",
     imgsrc: jonas_chen,
-    imgFull:"../assets/mentor_pics/Sam Ho.JPG",
     description: [
         "-",
     ]
@@ -933,9 +897,8 @@ export const mentors = [
     title:"Alvin Ng",
     subtitle:["Venture Creation, Investment, and Acceleration"],
     info: ["Farquhar Capital"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc: "",
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
+    personalLink:"https://www.linkedin.com/in/alvinjmng/",
+    imgsrc: alvin_ng,
     description: [
         "-"
     ]
@@ -944,9 +907,8 @@ export const mentors = [
     title:"James Conde",
     subtitle:["Senior Associate, Investor Relations and Portfolio"],
     info: ["Plug and Play Tech Center"],
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
+    personalLink:"https://www.linkedin.com/in/james-conde/",
     imgsrc: james_conde,
-    imgFull:"../assets/images/mentor_pics/Steven Chua.JPG",
     description: [
         "-"
     ]
