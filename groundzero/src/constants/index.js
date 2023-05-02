@@ -4,6 +4,45 @@ In the future, please use this file as the only way to interact with editing tex
 */
 
 import {
+  ajinkya_bhat,
+  alvin_ng,
+  andrew_soh,
+  arin_alois_loy,
+  arjun_arora,
+  chandra_tjan,
+  chet_yong,
+  darrell_zhang,
+  daryl_lim,
+  dennis_poh,
+  dhawal_shah,
+  donna_daritan,
+  don_tsai,
+  douglas_peris,
+  elena_chow,
+  eric_lam,
+  evan_chow,
+  francis_lee,
+  freddie_luchterhand_dare,
+  james_conde,
+  jeffrey_chua,
+  jeremy_loh,
+  jonas_chen,
+  kenneth_lou,
+  lucas_yeo,
+  max_giammario,
+  melvin_ho,
+  mohan_belani,
+  palash_jain,
+  patrick_ng,
+  phang_wei_jun,
+  richard_ruddy,
+  sam_ho, 
+  steven_chua,
+  suwira_teo,
+  viveka_kalidasan,
+  wei_liang_lim,
+  wei_zhuang,
+  ye_sheng_tan, 
   accelerating,
   airbnb,
   aws,
@@ -486,189 +525,395 @@ export const workshops = [
 
 export const mentors = [
   {
-    title:"Rachel Lim",
-    subtitle:"Co-Founder",
-    info: "Love, Bonito",
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    title:"Sam Ho",
+    subtitle:["Founder"],
+    info: ["We CARE"],
+    personalLink:"https://www.linkedin.com/in/ssam-ho/",
+    imgsrc: sam_ho,
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-",
     ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
-  },
-  {
-    title:"Dr James Ong",
-    subtitle:"Founder & CEO",
-    info: "Origami",
-    personalLink:"https://www.linkedin.com/in/jamesongkayliang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/James Ong.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/James Ong.jpg",
-    description: ["Dr. James Ong is an entrepreneur and community builder who has incubated, \
-    invested and mentored various technology start-ups and he is actively involved in the AI and tech ecosystem in China and ASEAN. \
-    He is the founder and CEO of Origami that provides strategy, technology and investment advisory services for venturing towards \
-    Autonomous Enterprise where he has more than 35 years of experience on digital transformation in Asia, US and Europe across \
-    multiple industry verticals. James founded Artificial Intelligence International Institute (AIII), a think tank advocating \
-    Sustainable AI for Humanity. He is also adjunct professor at SUTD and serves as mentor at NUS, SUTD and NTU. He started his career \
-    as an AI scientist at leading US MCC research lab on advanced AI Fifth Generation Computer research and received his PhD in Management \
-    Information System specializing on AI for Business Process Automation and MA & BA in Computer Science from the University of Texas at Austin."]
-  },
-  {
-    title:"Rachel Lim",
-    subtitle:"Co-Founder",
-    info: "Love, Bonito",
-    personalLink:"https://www.linkedin.com/in/rachel-lim-25b3b262/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/ignite/LB Rachel Lim Profile Image.jpg",
+    title:"Steven Chua",
+    subtitle:["Co-Founder"],
+    info: ["Inner Circle Network"],
+    personalLink:"https://www.linkedin.com/in/stevenchuajc/",
+    imgsrc: steven_chua,
     description: [
-        "Rachel Lim co-founded what was to be Love, Bonito at a tender age of 19. She started her own online fashion business when e-commerce was at its infancy and grew the blogshop into a multi-million dollar global brand in just over a decade.",
-        "Her desire to empower women through thoughtful creations and memorable experiences has propelled her to set up international brick-and-mortar stores, expanded the brand into international waters, making it the largest omnichannel women’s fashion label in Southeast Asia."
+        "-"
     ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Andrew Soh",
+    subtitle:["Founder & CEO"],
+    info: ["Fundigo"],
+    personalLink:"https://www.linkedin.com/in/andrew-soh-b81a2b206/",
+    imgsrc: andrew_soh,
+    description: [
+        "-",
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Richard Ruddy",
+    subtitle:["President & Co-Founder"],
+    info: ["Nuguru"],
+    personalLink:"https://www.linkedin.com/in/richard-ruddy-b79a5122/",
+    imgsrc: richard_ruddy,
+    description: [
+        "-"
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Ye Sheng Tan",
+    subtitle:["Startup Mentor"],
+    info: ["500 Global"],
+    personalLink:"https://www.linkedin.com/in/tanyesheng/",
+    imgsrc: ye_sheng_tan,
+    description: [
+        "-",
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Chet Yong",
+    subtitle:["Expert Mentor"],
+    info: ["Innovators Commersialisation Program"],
+    personalLink:"https://www.linkedin.com/in/chetyong/",
+    imgsrc: chet_yong,
+    description: [
+        "-"
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Mohan Belani",
+    subtitle:["Co-Founder & CEO"],
+    info: ["e27"],
+    personalLink:"https://www.linkedin.com/in/mohanbelani",
+    imgsrc: mohan_belani,
+    description: [
+        "-",
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Douglas Peris",
+    subtitle:["Program Coach & Mentor"],
+    info: ["Hyper Accelerator"],
+    personalLink:"https://www.linkedin.com/in/douglasperis",
+    imgsrc: douglas_peris,
+    description: [
+        "-"
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Evan Chow",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Quest"],
+    personalLink:"https://www.linkedin.com/in/evan-chow/",
+    imgsrc: evan_chow,
+    description: [
+        "-",
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Chandra Tjan",
+    subtitle:["Co-Founder & General Partner"],
+    info: ["Alpha JWC Ventures"],
+    personalLink:"https://linkedin.com/in/chandratjan",
+    imgsrc: chandra_tjan,
+    description: [
+        "-"
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Donna Daritan",
+    subtitle:["Startup Mentor"],
+    info: ["Asia Insitute of Mentoring & Startupbootcamp FinTech"],
+    personalLink:"https://linkedin.com/in/donnadaritan",
+    imgsrc: donna_daritan,
+    description: [
+        "-",
+    ]
   },
   {
-    title:"Dr Fanglin Wang",
-    subtitle:"Head of R&D Department",
-    info: "ADVANCE.AI",
-    personalLink:"https://www.linkedin.com/in/fanglinwang/",
-    imgsrc:"/assets/images/speakers/2022/1_1 Formatted/Fanglin Wang.jpg",
-    imgFull:"/assets/images/speakers/2022/innovation/Fanglin Wang.jpg",
-    description: ["Dr. WANG Fanglin is currently the Head of Research and Development at ADVANCE.AI.\
-        He has over 15 years of experience developing AI techniques to tackle academic and industrial problems. \
-        Prior to ADVANCE.AI, he used to be the associate director of Video Analytics and Machine Learning at NCS Group, \
-        CTO at KAI Square, Research Fellow at NUS, and research scientist at Autodesk and another 2 international companies. \
-        He received his Ph.D. from Shanghai Jiao Tong University and master and bachelor degrees both from Harbin Institute of Technology."]
+    title:"Dennis Poh",
+    subtitle:["Founder & CEO"],
+    info: ["Legatcy"],
+    personalLink:"https://www.linkedin.com/in/dennis-poh-csa-cert-9693652a/",
+    imgsrc: dennis_poh,
+    description: [
+        "-"
+    ]
   },
-
+  {
+    title:"Patrick Ng",
+    subtitle:["Founder"],
+    info: ["Spark Launchpad"],
+    personalLink:"https://www.linkedin.com/in/peisin/?originalSubdomain=sg",
+    imgsrc: patrick_ng,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Arin Alois Loy",
+    subtitle:["Startup and Industry Mentor"],
+    info: ["NTU"],
+    personalLink:"https://www.linkedin.com/in/arinalois/",
+    imgsrc: arin_alois_loy,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Melvin Ho",
+    subtitle:["CEO"],
+    info: ["Bizsquare Group"],
+    personalLink:"https://www.linkedin.com/in/melvin-ho-45055554/?originalSubdomain=sg",
+    imgsrc: melvin_ho,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Viveka Kalidasan",
+    subtitle:["Co-Founder/CEO/Director"],
+    info: ["Edify"],
+    personalLink:"https://www.linkedin.com/in/vivekakalidasan/",
+    imgsrc: viveka_kalidasan,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Kenneth Lou",
+    subtitle:["Co-Founder"],
+    info: ["Seedly"],
+    personalLink:"https://www.linkedin.com/in/kenneth-lou/",
+    imgsrc: kenneth_lou,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Jeremy Loh",
+    subtitle:["Co-Founder & Partner"],
+    info: ["Genesis Alternative Ventures"],
+    personalLink:"https://www.linkedin.com/in/drmmhloh",
+    imgsrc: jeremy_loh,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Max Giammario",
+    subtitle:["CEO"],
+    info: ["MetaPals"],
+    personalLink:"https://www.linkedin.com/in/maxgiammario/",
+    imgsrc: max_giammario,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Francis Lee",
+    subtitle:["Co-Founder"],
+    info: ["Lalia"],
+    personalLink:"https://www.linkedin.com/in/fustilio/",
+    imgsrc: francis_lee,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Ajinkya Bhat",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Seamless XR"],
+    personalLink:"https://www.linkedin.com/in/ajinkya-bhat23/",
+    imgsrc: ajinkya_bhat,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Suwira Teo",
+    subtitle:["Co-Founder"],
+    info: ["Aleph Technologies"],
+    personalLink:"https://www.linkedin.com/in/suwirateo/",
+    imgsrc: suwira_teo,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Lucas Yeo",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Docuf.AI"],
+    personalLink:"https://www.linkedin.com/in/lucasyeo/",
+    imgsrc: lucas_yeo,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Daryl Lim",
+    subtitle:["Business Operations"],
+    info: ["Paladium"],
+    personalLink:"https://www.linkedin.com/in/daryllim95/",
+    imgsrc: daryl_lim,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Wei Zhuang (Lenard)",
+    subtitle:["Founder & CEO"],
+    info: ["Ailytics"],
+    personalLink:"https://www.linkedin.com/in/wei-zhuang-tan/",
+    imgsrc: wei_zhuang,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Phang Wei Jun",
+    subtitle:["Co-Founder"],
+    info: ["Lalia"],
+    personalLink:"https://www.linkedin.com/in/phang-wei-jun/",
+    imgsrc: phang_wei_jun,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Elena Chow",
+    subtitle:["Founder"],
+    info: ["ConnectOne"],
+    personalLink:"http://linkedin.com/in/elenachow",
+    imgsrc: elena_chow,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Wei Liang Lim",
+    subtitle:["Deputy CEO"],
+    info: ["Social Impact Catalyst"],
+    personalLink:"https://www.linkedin.com/in/weilianglim/",
+    imgsrc: wei_liang_lim,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Palash Jain",
+    subtitle:["Founder & CEO"],
+    info: ["Think Design Make"],
+    personalLink:"https://www.linkedin.com/in/palashjain96/?originalSubdomain=sg",
+    imgsrc: palash_jain,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Dhawal Shah",
+    subtitle:["Limited Partner & Mentor"],
+    info: ["Accelerating Asia"],
+    personalLink:"https://www.linkedin.com/in/dhawaljshah",
+    imgsrc: dhawal_shah,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Arjun Arora",
+    subtitle:["Co-Founder & CEO"],
+    info: ["Betafi"],
+    personalLink:"https://www.linkedin.com/in/arjunarora108/",
+    imgsrc: arjun_arora,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Jeffrey Chua",
+    subtitle:["Co-Founder & Ex-CEO"],
+    info: ["Millennium Enterprise"],
+    personalLink:"https://www.linkedin.com/in/jeffreychuapl/",
+    imgsrc: jeffrey_chua,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Darrell Zhang",
+    subtitle:["Co-Founder"],
+    info: ["NextBlock"],
+    personalLink:"https://www.linkedin.com/in/darrellzhang",
+    imgsrc: darrell_zhang,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Don Tsai",
+    subtitle:["Chairman/Founder"],
+    info: ["First Wave"],
+    personalLink:"https://www.linkedin.com/in/dontsai",
+    imgsrc: don_tsai,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Freddie Luchterhand-Dare",
+    subtitle:["Vice President"],
+    info: ["Openspace Ventures"],
+    personalLink:"https://www.linkedin.com/in/frederickluchterhand/",
+    imgsrc: freddie_luchterhand_dare,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Eric Lam",
+    subtitle:["Venture Principal"],
+    info: ["Recast Ventures"],
+    personalLink:"https://www.linkedin.com/in/lam-eric/",
+    imgsrc: eric_lam,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"Jonas Chen",
+    subtitle:["Co-Founder"],
+    info: ["Metacamp"],
+    personalLink:"https://www.linkedin.com/in/jonas-chen/",
+    imgsrc: jonas_chen,
+    description: [
+        "-",
+    ]
+  },
+  {
+    title:"Alvin Ng",
+    subtitle:["Venture Creation, Investment, and Acceleration"],
+    info: ["Farquhar Capital"],
+    personalLink:"https://www.linkedin.com/in/alvinjmng/",
+    imgsrc: alvin_ng,
+    description: [
+        "-"
+    ]
+  },
+  {
+    title:"James Conde",
+    subtitle:["Senior Associate, Investor Relations and Portfolio"],
+    info: ["Plug and Play Tech Center"],
+    personalLink:"https://www.linkedin.com/in/james-conde/",
+    imgsrc: james_conde,
+    description: [
+        "-"
+    ]
+  },
 ];
 
 // Date for Releasing Problem Statements. Edit here to change

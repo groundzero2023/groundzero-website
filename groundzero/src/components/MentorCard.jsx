@@ -86,10 +86,11 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
                           {mentor.title}
                       </h2>
                       <h2 className="text-xl lg:text-2xl mt-2 lg:mt-3">
-                          {mentor.subtitle}
-                      </h2>
-                      <h2 className="text-lg lg:text-xl mt-1 lg:mt-2">
-                          {mentor.info}
+                          {mentor.subtitle.map((role) => (
+                            <div>
+                              {role} of {mentor.info[mentor.subtitle.indexOf(role)]}
+                            </div>
+                          ))}
                       </h2>
                       <h2 className="text-sm mt-1 whitespace-pre-line space-y-2">
                           {mentor.description.map((desc) => (
@@ -156,7 +157,11 @@ const MentorCard = ({mentor, setOpenCard, setCurrMentor}) => {
                           {mentor.title}
                       </h2>
                       <h2 className="text-lg">
-                          {mentor.subtitle} of {mentor.info}
+                          {mentor.subtitle.map((role) => (
+                            <div>
+                              {role} of {mentor.info[mentor.subtitle.indexOf(role)]}
+                            </div>
+                          ))}
                       </h2>
                       {/* <h2 className="lg:text-xl mt-1 lg:mt-2">
                           {mentor.info}
