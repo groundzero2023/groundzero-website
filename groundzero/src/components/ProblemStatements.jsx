@@ -10,7 +10,7 @@ const ProblemStatements = () => {
           <h1 className={styles.heading2}>4 Areas of Focus</h1>
         </div>
         <div className={`${styles.flexCenter} flex-wrap w-full`}>
-          <div className="problem-statement-cards">
+          <div className="grid md:grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 md:w-[80%] w-[70%]">
             {generateCards()}
           </div>
         </div>
