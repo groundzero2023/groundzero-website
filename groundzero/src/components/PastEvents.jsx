@@ -39,7 +39,7 @@ const PastEvents = () => (
       // install Swiper modules
       modules={[Navigation, Pagination, A11y, Autoplay, EffectCoverflow]}
       effect={"coverflow"}
-      spaceBetween={50}
+      spaceBetween={0}
       slidesPerView={3}
       loop
       autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -60,7 +60,7 @@ const PastEvents = () => (
         <SwiperSlide key={pastEvent.id} className="mb-10">
           <div class="past-event-container">
             <img src={pastEvent.content} className="past-event-image" />
-            <div class="past-event-image-title">{pastEvent.title}</div>
+            {/* <div class="past-event-image-title">{pastEvent.title}</div> */}
           </div>
         </SwiperSlide>
       ))}
