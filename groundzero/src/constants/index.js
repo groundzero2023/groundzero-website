@@ -945,7 +945,7 @@ export const timelineSchedule = [
     date: "2023-05-01T12:00:00",
   },
   {
-    title: ["Opening Ceremony", "Diamond Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
+    title: ["Opening Ceremony", "Patron Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
     date: "2023-05-08T12:00:00",
   },
   {
