@@ -440,7 +440,7 @@ export const partners = [
   },
   {
     id: "thePatron",
-    title: "The Patron",
+    title: "Patron Sponsor",
     content: thePatron,
   },
   {
