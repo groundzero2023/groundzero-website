@@ -18,19 +18,25 @@ const NavigationBar = () => {
         >
           <ul>
             <li>
-              <Link to="/#about" onClick={toggleDropdown}>About</Link>
+              <Link to="/about" onClick={toggleDropdown}>About</Link>
             </li>
             <li>
-              <Link to="/#problems" onClick={toggleDropdown}>Focus Areas</Link>
+              <Link to="/#problems" onClick={toggleDropdown}>Timeline</Link>
             </li>
             <li>
-              <Link to="/#timeline" onClick={toggleDropdown}>Timeline</Link>
+              <Link to="/#problems" onClick={toggleDropdown}>Prizes</Link>
             </li>
             <li>
-              <Link to="/mentors" onClick={toggleDropdown}>Mentors</Link>
+              <Link to="/#problems" onClick={toggleDropdown}>Eligibility</Link>
             </li>
             <li>
-              <Link to="/#contacts" onClick={toggleDropdown}>Contact</Link>
+              <Link to="/schedule" onClick={toggleDropdown}>Event Schedule</Link>
+            </li>
+            <li>
+              <Link to="/benefits" onClick={toggleDropdown}>Benefits</Link>
+            </li>
+            <li>
+              <Link to="/faq" onClick={toggleDropdown}>FAQ</Link>
             </li>
             <li>
               <a
@@ -55,19 +61,25 @@ const NavigationBar = () => {
           </Link>
           <ul>
             <li>
-              <Link to="/#about">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/#problems">Focus Areas</Link>
+              <Link to="/#problems">Timeline</Link>
             </li>
             <li>
-              <Link to="/#timeline">Timeline</Link>
+              <Link to="/#problems">Prizes</Link>
             </li>
             <li>
-              <Link to="/mentors">Mentors</Link>
+              <Link to="/#problems">Eligibility</Link>
             </li>
             <li>
-              <Link to="/#contacts">Contact</Link>
+              <Link to="/schedule">Event Schedule</Link>
+            </li>
+            <li>
+              <Link to="/benefits">Benefits</Link>
+            </li>
+            <li>
+              <Link to="/faq">FAQ</Link>
             </li>
             <li>
               <a

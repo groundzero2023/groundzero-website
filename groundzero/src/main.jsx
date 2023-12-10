@@ -24,6 +24,22 @@ const router = createBrowserRouter([
     path: "/mentors",
     element: <MentorPage />,
   },
+  {
+    path: "/about",
+    element: <MentorPage />,
+  },
+  {
+    path: "/benefits",
+    element: <MentorPage />,
+  },
+  {
+    path: "/schedule",
+    element: <MentorPage />,
+  },
+  {
+    path: "/faq",
+    element: <MentorPage />,
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
