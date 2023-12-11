@@ -61,19 +61,19 @@ const NavigationBar = () => {
           </Link>
           <ul>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/aboutus">About Us</Link>
             </li>
             <li>
-              <Link to="/#problems">Timeline</Link>
+              <Link to="/timeline">Timeline</Link>
             </li>
             <li>
-              <Link to="/#problems">Prizes</Link>
+              <Link to="/prizes">Prizes</Link>
             </li>
             <li>
-              <Link to="/#problems">Eligibility</Link>
+              <Link to="/eligibility">Eligibility</Link>
             </li>
             <li>
-              <Link to="/schedule">Event Schedule</Link>
+              <Link to="/eventschedule">Event Schedule</Link>
             </li>
             <li>
               <Link to="/benefits">Benefits</Link>
