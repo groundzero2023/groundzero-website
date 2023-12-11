@@ -169,7 +169,7 @@ This file contains styling customization for fonts and colors.
 /* NAVIGATION BAR */
 
 .nav {
-  background-color: var(--bg-dark-purple);
+  background-color: black;
   color: white;
   width: 100%;
   min-width: auto;
@@ -204,7 +204,8 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button {
-  background-color: var(--button-purple);
+  background-color: black;
+  border: 2px solid white;
   height: 70%;
   align-items: center;
   justify-content: center;

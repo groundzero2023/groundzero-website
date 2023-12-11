@@ -71,7 +71,6 @@ const router = createBrowserRouter([
     element: <ContactUs/>
   }
 
-
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
