@@ -16,13 +16,14 @@ module.exports = {
         darkBlue: "00132A",
         lightBlue: "64F66F",
         lightGrey: "D2DB8D",
-        white: "FFFFFF",
-        black: "000000"
+        white: "#FFFFFF",
+        black: "#000000"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         lexendDeca: ["Lexend Deca", "Plus Jakarta Sans"],
         inter: ["Inter", "sans-serif"],
+        spartan: ["League Spartan", "Inter"]
       },
     },
     screens: {

@@ -9,10 +9,8 @@ const DisplayButton = (props) => {
       <>
         <a href={props.link}>
           <div className={"display-button"}>
-            <div className={"display-button-" + props.arrow}>
-              {generateLeftArrow(props.arrow)}
+            <div className={"display-button-"}>
               <div className={`${styles.heading5}`}>{props.text}</div>
-              {generateRightArrow(props.arrow)}
             </div>
           </div>
         </a>
@@ -23,10 +21,8 @@ const DisplayButton = (props) => {
       <>
         <Link to={props.link}>
           <div className={"display-button"}>
-            <div className={"display-button-" + props.arrow}>
-              {generateLeftArrow(props.arrow)}
+            <div className={"display-button-"}>
               <div className={`${styles.heading5}`}>{props.text}</div>
-              {generateRightArrow(props.arrow)}
             </div>
           </div>
         </Link>
