@@ -23,6 +23,8 @@ This file contains styling customization for fonts and colors.
   --button-purple: #a733bb;
   --button-purple-highlight: #d155e7;
   --past-event-orange: #f28f48;
+  --background: #00132A;
+
 }
 
 * {
@@ -90,7 +92,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .bg-purple {
-  background: var(--bg-dark-purple);
+  background: #00132A;
 }
 
 .box-shadow {
@@ -169,7 +171,7 @@ This file contains styling customization for fonts and colors.
 /* NAVIGATION BAR */
 
 .nav {
-  background-color: black;
+  background-color: #00132A;
   color: white;
   width: 100%;
   min-width: auto;
@@ -191,7 +193,7 @@ This file contains styling customization for fonts and colors.
   list-style: none;
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   cursor: pointer;
 }
 
@@ -204,7 +206,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button {
-  background-color: black;
+  background-color: #00132A;
   border: 2px solid white;
   height: 70%;
   align-items: center;
@@ -324,6 +326,54 @@ This file contains styling customization for fonts and colors.
   width: 80%;
 }
 
+/* DOWN BUTTON */
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  position: relative;
+  left: 50%;
+  bottom: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 70%;
+    opacity: 0;
+  }
+}
+
+
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
@@ -429,9 +479,11 @@ This file contains styling customization for fonts and colors.
 
 .display-button {
   margin: 3.5rem 0;
-  background-color: var(--button-purple);
+  background-color: #00132A;
   border-radius: 45px;
   transition: 0.1s;
+  width: 260px;
+  border: 2px solid white;
 }
 
 .display-button-undefined,
@@ -439,7 +491,7 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  padding: 0rem 5rem;
+  padding: 10rem 20rem;
 }
 
 .display-button-left,
@@ -447,11 +499,11 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  padding: 0rem 4rem;
+  padding: 0rem 6rem;
 }
 
 .display-button:hover {
-  background-color: var(--button-purple-highlight);
+  background-color: #01234D
 }
 
 .display-button a {
@@ -460,9 +512,9 @@ This file contains styling customization for fonts and colors.
   height: 90%;
   align-items: center;
   display: inline-flex;
-  padding-left: 1.5rem;
+  padding-left: 5rem;
   padding-right: 1.5rem;
-  border-radius: 30px;
+  border-radius: 50px;
   font-weight: 600;
 }
 
