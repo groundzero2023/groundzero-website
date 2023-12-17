@@ -22,8 +22,8 @@ import ReasonsToJoin from "./ReasonsToJoin";
 import SignUp from "./SignUp";
 import StatementDetails from "./problem-statement-components/StatementDetails"
 import Teaser from "./Teaser";
-import Timeline from "./Timeline";
 import Workshops from "./Workshops";
+import Eligibility from "./Eligibility";
 
 export {
     About,
@@ -45,6 +45,6 @@ export {
     SignUp,
     StatementDetails,
     Teaser,
-    Timeline,
     Workshops,
+    Eligibility,
 };

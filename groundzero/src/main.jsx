@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import MentorPage from './MentorPage'
 import About from './components/About'
-import Timeline from './components/Timeline'
+import Timeline from './Timeline'
 import Prizes from './components/Prizes'
 import Eligibility from './components/Eligibility'
 import EventSchedule from './components/EventSchedule'
@@ -49,10 +49,6 @@ const router = createBrowserRouter([
   {
     path:"/prizes",
     element: <Prizes/>
-  },
-  {
-    path:"/eligibility",
-    element: <Eligibility/>
   },
   {
     path:"/eventschedule",
