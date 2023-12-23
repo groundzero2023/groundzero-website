@@ -27,7 +27,7 @@ const NavigationBar = () => {
               <Link to="/#problems" onClick={toggleDropdown}>Prizes</Link>
             </li>
             <li>
-              <Link to="/#problems" onClick={toggleDropdown}>Eligibility</Link>
+              <Link to="/#eligibility" onClick={toggleDropdown}>Eligibility</Link>
             </li>
             <li>
               <Link to="/schedule" onClick={toggleDropdown}>Event Schedule</Link>
@@ -55,7 +55,7 @@ const NavigationBar = () => {
   return (
     <div>
       <MediaQuery minWidth={768}>
-        <nav className="nav">
+        <nav className="nav" style={{ backgroundColor: 'black' }}>
           <Link to="/">
             <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
           </Link>
@@ -70,7 +70,7 @@ const NavigationBar = () => {
               <Link to="/prizes">Prizes</Link>
             </li>
             <li>
-              <Link to="/eligibility">Eligibility</Link>
+              <Link to="/#eligibility">Eligibility</Link>
             </li>
             <li>
               <Link to="/eventschedule">Event Schedule</Link>

@@ -862,7 +862,7 @@ This file contains styling customization for fonts and colors.
   /* NAVIGATION BAR */
 
 .nav {
-  background-color: var(--bg-dark-purple);
+  background-color: black;
   color: white;
   width: 100%;
   min-width: auto;
@@ -990,6 +990,5 @@ This file contains styling customization for fonts and colors.
   color: rgba(255, 255, 255, 0.9);
   margin-left: 30px;
 }
-
 
 }

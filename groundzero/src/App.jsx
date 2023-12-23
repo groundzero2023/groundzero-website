@@ -10,7 +10,7 @@ import {
   ProblemStatementCountdown,
   ProblemStatements,
   Workshops,
-  Timeline,
+  Eligibility,
   Partners,
   Mentors,
   ContactUs,
@@ -50,9 +50,9 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>            
             <About />
             <PastEvents />
-            <ReasonsToJoin />            
+            <ReasonsToJoin />
+            <Eligibility />
             <ProblemStatements />
-            <Timeline />
             <ProblemStatementCountdown />
             <Partners />
             <ContactUsTemp />
