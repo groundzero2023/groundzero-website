@@ -19,6 +19,7 @@ import {
   HomePage,
   ContactUsTemp,
 } from "./components";
+import PrizeComponent from "./components/Prizes";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
             <PastEvents />
             <ReasonsToJoin />
             <Eligibility />
+            <PrizeComponent />
             <ProblemStatements />
             <ProblemStatementCountdown />
             <Partners />
