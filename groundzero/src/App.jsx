@@ -53,7 +53,6 @@ const App = () => {
             <ReasonsToJoin />
             <Eligibility />
             <ProblemStatements />
-            <ProblemStatementCountdown />
             <Partners />
             <ContactUsTemp />
             <Faq />

@@ -20,7 +20,7 @@ const StatementDetails = () => {
 
   if (data) {
     return (
-      <div className="bg-purple w-full overflow-hidden">
+      <div className="bg-white w-full overflow-hidden">
         <NavigationBar />
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
