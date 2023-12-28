@@ -10,7 +10,7 @@ const Modal = (props) => {
       onClick={() => props.setModalIsOpen(false)}
       style={{
         position: "fixed",
-        background: "rgba(0,0,0,0.6)",
+        background: "rgba(0,0,0,0.8)",
         top: 0,
         left: 0,
         right: 0,
