@@ -75,7 +75,8 @@ import {
   consumercentric,
   sustainability,
   industryfour,
-  mapletree_new
+  mapletree_new,
+  finance
 } from "../assets";
 
 export const navLinks = [
@@ -142,27 +143,27 @@ export const reasons = [
 export const problems = [
   {
     id: 1,
-    title: "Industry 4.0",
-    details1: "Perfect for those interested in everything tech! From Internet of Things, Cloud Computing, Machine Learning & AI, the opportunities are endless.",
-    img: industryfour,
-  },
-  {
-    id: 2,
-    title: "Sustainability",
-    details1: "In this day and age, ecological, social and economic issues are present everywhere, requiring tangible solutions to deal with them. More than just a buzzword, sustainability is for teams that want to make a real impact on communities!",
-    img: sustainability,
-  },
-  {
-    id: 3,
-    title: "Healthcare",
-    details1: "MedTech? Hospital information systems? This area of focus is for anyone interested in improving healthcare systems and processes, or even just the health and wellness of people.    ",
+    title: "Health and Wellness",
+    details1: "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
   },
   {
-    id: 4,
-    title: "Consumer-centric",
-    details1: "Here, the consumer is chief. Solutions can range between anything e-commerce to F&B - as long as it targets the consumer!",
+    id: 2,
+    title: "Finance",
+    details1: "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
+    img: finance,
+  },
+  {
+    id: 3,
+    title: "E-Commerce",
+    details1: "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
     img: consumercentric,
+  },
+  {
+    id: 4,
+    title: "Sustainability",
+    details1: "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
+    img: sustainability,
   }
 ]
 

@@ -218,7 +218,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button:hover {
-  background-color: var(--button-purple-highlight);
+ background-color: #01234D;
 }
 
 #nav-register-button a {
@@ -377,7 +377,7 @@ This file contains styling customization for fonts and colors.
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
-  background-color: var(--bg-lighter-purple);
+  background-color: #F3F3F3;
   align-items: center;
   padding: 3rem 2rem;
   height: 100%;
@@ -412,14 +412,14 @@ This file contains styling customization for fonts and colors.
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
   font-family: Lexend Deca, sans-serif;
-  color: white;
+  color: #00132A;
 }
 
 .statement-card-description {
   text-align: center;
   font-size: 16px;
   font-family: Poppins, sans-serif;
-  color: white;
+  color: #00132A;
   font-weight: 400;
 }
 
@@ -534,7 +534,7 @@ This file contains styling customization for fonts and colors.
 
 .popup-content {
   position: relative;
-  background: var(--bg-lighter-purple);
+  background: #E3E0E0;
   border-radius: 25px;
   width: auto;
   margin-left: 20%;
@@ -573,15 +573,15 @@ This file contains styling customization for fonts and colors.
 
 .popup-heading {
   font-size: 40px;
-  font-family: Lexend Deca, sans-serif;
-  color: white;
+  font-family: Poppins, sans-serif;
+  color: #00132A;
 }
 
 .popup-description {
   font-size: 20px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  color: white;
+  color: #00132A;
   margin-top: 15px;
 }
 
@@ -785,14 +785,14 @@ This file contains styling customization for fonts and colors.
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-family: Lexend Deca, sans-serif;
-    color: white;
+    color: #00132A;
   }
 
   .statement-card-description {
     text-align: center;
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    color: white;
+    color: #00132A;
     font-weight: 400;
   }
 

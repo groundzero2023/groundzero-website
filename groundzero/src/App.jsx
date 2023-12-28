@@ -55,7 +55,6 @@ const App = () => {
             <Eligibility />
             <PrizeComponent />
             <ProblemStatements />
-            <ProblemStatementCountdown />
             <Partners />
             <ContactUsTemp />
             <Faq />

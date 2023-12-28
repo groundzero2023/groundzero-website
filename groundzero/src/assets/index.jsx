@@ -80,6 +80,7 @@ import healthcare from "./healthcare.png";
 import sustainability from "./sustainability.png";
 import mapletree_new from "./mapletree.png";
 import groundzeroHome from "./groundzeroHome.png"
+import finance from "./finance.png";
 
 export {
   ajinkya_bhat,
@@ -157,5 +158,6 @@ export {
   sustainability,
   homepage,
   mapletree_new,
-  groundzeroHome
+  groundzeroHome,
+  finance
 };
