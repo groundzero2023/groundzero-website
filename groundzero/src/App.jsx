@@ -50,14 +50,10 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>            
             <About />
-            <PastEvents />
-            <ReasonsToJoin />
             <Eligibility />
             <PrizeComponent />
             <ProblemStatements />
             <Partners />
-            <ContactUsTemp />
-            <Faq />
             <Footer />
           </div>
         </div>

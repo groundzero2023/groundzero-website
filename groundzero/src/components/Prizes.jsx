@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationBar from "./NavigationBar";
 import styles from "../style";
+import { ring } from "../assets"; 
 
 const PrizeBox = ({ place, amount, height }) => {
   // You might want to ensure that the height value is set correctly, for example, `h-32`
@@ -58,7 +59,8 @@ const PrizeBox = ({ place, amount, height }) => {
 
 const PrizeComponent = () => {
   return (
-    <div className="bg-purple w-full overflow-hidden">
+    <div id= "prizes"
+    className="bg-purple w-full overflow-hidden">
       <NavigationBar />
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
