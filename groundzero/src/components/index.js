@@ -24,6 +24,7 @@ import StatementDetails from "./problem-statement-components/StatementDetails"
 import Teaser from "./Teaser";
 import Workshops from "./Workshops";
 import Eligibility from "./Eligibility";
+import Phases from "./Phases";
 
 export {
     About,
@@ -38,6 +39,7 @@ export {
     Mentors,
     NavigationBar,
     Partners,
+    Phases,
     PastEvents,
     ProblemStatementCountdown,
     ProblemStatements,

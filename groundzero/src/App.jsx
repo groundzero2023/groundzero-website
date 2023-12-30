@@ -12,6 +12,7 @@ import {
   Workshops,
   Eligibility,
   Partners,
+  Phases,
   Mentors,
   ContactUs,
   Faq,
@@ -52,6 +53,7 @@ const App = () => {
             <PastEvents />
             <ReasonsToJoin />
             <Eligibility />
+            <Phases />
             <ProblemStatements />
             <ProblemStatementCountdown />
             <Partners />
