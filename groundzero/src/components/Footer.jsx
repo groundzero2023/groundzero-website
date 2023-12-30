@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-import { groundzero } from "../assets";
+import { gzwhite, nes } from "../assets";
 import { MdEmail } from "react-icons/md";
 import MediaQuery from "react-responsive";
 
@@ -11,12 +11,18 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-left">
             <img
-              src={groundzero}
+              src={gzwhite}
+              alt="NES Ground Zero 2023"
+              width="150"
+              height="150"
+              style={{marginRight: '25px'}}
+            />
+              <img
+              src={nes}
               alt="NES Ground Zero 2023"
               width="80"
-              height="80"
+              height="70"
             />
-            <div className="footer-text">NES Ground Zero 2023</div>
           </div>
           <div className="footer-buttons">
             <a href="https://linkedin.com/company/nesgroundzero">
@@ -36,13 +42,19 @@ const Footer = () => {
           <div className="footer-content">
             <div className="footer-left">
               <img
-                src={groundzero}
+                src={gzwhite}
                 alt="NES Ground Zero 2023"
-                width="80"
-                height="80"
+                width="150"
+                height="150"
+                style={{marginRight: '25px'}}
               />
+               <img
+              src={nes}
+              alt="NES Ground Zero 2023"
+              width="80"
+              height="70"
+            />
             </div>
-            <div className="footer-text">NES Ground Zero 2023</div>
           </div>
           <div className="grid grid-cols-3 w-[50%] mt-7 place-items-center">
             <a href="https://linkedin.com/company/nesgroundzero">

@@ -143,7 +143,7 @@ export const reasons = [
 export const problems = [
   {
     id: 1,
-    title: "Health and Wellness",
+    title: "Health & Wellness",
     details1: "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
   },
@@ -368,16 +368,16 @@ export const organizer = [
   },
 ];
 
-export const platinumSponsor = [
-  {
-    id: "platinumSponsor-1",
-    icon: aws,
-  },
-  {
-    id: "platinumSponsor-2",
-    icon: eatLaunchpad,
-  },
-];
+// export const platinumSponsor = [
+//   {
+//     id: "platinumSponsor-1",
+//     icon: aws,
+//   },
+//   {
+//     id: "platinumSponsor-2",
+//     icon: eatLaunchpad,
+//   },
+// ];
 
 export const thePatron = [
   {
@@ -444,16 +444,16 @@ export const partners = [
     title: "Patron Sponsor",
     content: thePatron,
   },
-  {
-    id: "diamondSponsor",
-    title: "Diamond Sponsor",
-    content: diamondSponsor,
-  },
-  {
-    id: "goldSponsor",
-    title: "Gold Sponsor",
-    content: goldSponsor,
-  },
+  // {
+  //   id: "diamondSponsor",
+  //   title: "Diamond Sponsor",
+  //   content: diamondSponsor,
+  // },
+  // {
+  //   id: "goldSponsor",
+  //   title: "Gold Sponsor",
+  //   content: goldSponsor,
+  // },
 ];
 
 export const pastEvents = [
@@ -924,17 +924,33 @@ export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 export const aboutUs = [
   {
     id: "para1",
-    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize from our $10,000 prize pool to kick start their start up ideas.",
+    content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
   },
   {
     id: "para2",
-    content: "This year, participants will be supported by a network of over 50 mentors, speakers, and judges - all experts in their respective fields to provide the best guidance possible. We are also excited to announce that we will be inviting angel investors and incubators to come down to our event to scout for talent amongst our highly valued participants.",
+    content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
   },
   {
     id: "para3",
-    content: "So what are you waiting for? Reach the top, start from Ground Zero.",
+    content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
   },
 ];
+
+// export const phases = [
+//   {
+//     id: "para1",
+//     content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
+//   },
+//   {
+//     id: "para2",
+//     content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
+//   },
+//   {
+//     id: "para3",
+//     content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
+//   },
+// ];
+
 
 export const timelineSchedule = [
   {

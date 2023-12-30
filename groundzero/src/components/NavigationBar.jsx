@@ -67,7 +67,7 @@ const NavigationBar = () => {
               <Link to="/timeline">Timeline</Link>
             </li>
             <li>
-              <Link to="/prizes">Prizes</Link>
+              <Link to="/#prizes">Prizes</Link>
             </li>
             <li>
               <Link to="/#eligibility">Eligibility</Link>

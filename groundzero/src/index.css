@@ -100,8 +100,8 @@ This file contains styling customization for fonts and colors.
 }
 
 .heading {
-  font-family: Lexend Deca, sans-serif;
-  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
   color: white;
   font-size: 44px;
   padding-top: 50px;
@@ -377,10 +377,14 @@ This file contains styling customization for fonts and colors.
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
+  width: 80%;
+  height: 300px;
   background-color: #F3F3F3;
   align-items: center;
   padding: 3rem 2rem;
-  height: 100%;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  height: 95%;
   border-radius: 30px;
   opacity: 60%;
   transition: transform 0.2s; /* Animation */
@@ -411,7 +415,8 @@ This file contains styling customization for fonts and colors.
   font-size: 24px;
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
-  font-family: Lexend Deca, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
   color: #00132A;
 }
 
@@ -642,7 +647,7 @@ This file contains styling customization for fonts and colors.
   justify-content: center;
   align-items: center;
   padding: 3em 20%;
-  background-color: var(--bg-lighter-purple);
+  background-image: linear-gradient(to right, #0A1CFE, #00527D, #DB4200);
   margin-left: -20%;
   margin-right: -20%;
   margin-top: 100px;
@@ -685,7 +690,7 @@ This file contains styling customization for fonts and colors.
   top: 60px;
   height: 0;
   width: 300px;
-  background: var(--bg-lighter-purple);
+  background: #00132A;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
