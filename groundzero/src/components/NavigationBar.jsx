@@ -55,7 +55,7 @@ const NavigationBar = () => {
   return (
     <div>
       <MediaQuery minWidth={768}>
-        <nav className="nav" style={{ backgroundColor: 'black' }}>
+        <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-70px"  }}>
           <Link to="/">
             <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
           </Link>
@@ -67,7 +67,7 @@ const NavigationBar = () => {
               <Link to="/timeline">Timeline</Link>
             </li>
             <li>
-              <Link to="/prizes">Prizes</Link>
+              <Link to="/#prizes">Prizes</Link>
             </li>
             <li>
               <Link to="/#eligibility">Eligibility</Link>
@@ -94,9 +94,9 @@ const NavigationBar = () => {
       </MediaQuery>
 
       <MediaQuery maxWidth={768}>
-        <nav className="nav">
+        <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-70px" }}>
           <Link to="/">
-            <img src={groundzero} className="h-[30px] object-contain" />
+            <img src={groundzero} className="h-[30px] w-[40px] object-contain" />
           </Link>
           <button>
             {!isOpenDropdown ? (

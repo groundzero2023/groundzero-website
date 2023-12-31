@@ -20,6 +20,7 @@ import {
   HomePage,
   ContactUsTemp,
 } from "./components";
+import PrizeComponent from "./components/Prizes";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -50,15 +51,11 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>            
             <About />
-            <PastEvents />
-            <ReasonsToJoin />
             <Eligibility />
             <Phases />
+            <PrizeComponent />
             <ProblemStatements />
-            <ProblemStatementCountdown />
             <Partners />
-            <ContactUsTemp />
-            <Faq />
             <Footer />
           </div>
         </div>

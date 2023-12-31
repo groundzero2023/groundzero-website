@@ -53,6 +53,7 @@ import dropbox from "./dropbox.png";
 import eatLaunchpad from "./eatLaunchpad.png";
 import facebook from "./facebook.svg";
 import groundzero from "./groundzero.png";
+import gzwhite from "./gzwhite.png";
 import hsbc from "./hsbc.png";
 import ideate from "./ideate.png";
 import instagram from "./instagram.svg";
@@ -80,6 +81,9 @@ import healthcare from "./healthcare.png";
 import sustainability from "./sustainability.png";
 import mapletree_new from "./mapletree.png";
 import groundzeroHome from "./groundzeroHome.png"
+import finance from "./finance.png";
+import blob from "./blob.png";
+import ring from "./ring.png";
 
 export {
   ajinkya_bhat,
@@ -157,5 +161,9 @@ export {
   sustainability,
   homepage,
   mapletree_new,
-  groundzeroHome
+  groundzeroHome,
+  finance,
+  gzwhite,
+  blob,
+  ring
 };
