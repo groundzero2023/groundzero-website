@@ -12,6 +12,7 @@ import {
   Workshops,
   Eligibility,
   Partners,
+  Phases,
   Mentors,
   ContactUs,
   Faq,
@@ -51,6 +52,7 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>            
             <About />
             <Eligibility />
+            <Phases />
             <PrizeComponent />
             <ProblemStatements />
             <Partners />
