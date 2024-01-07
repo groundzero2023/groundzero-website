@@ -313,51 +313,43 @@ export const companies = [
 
 export const questions = [
   {
-    Question: "How much does it cost to join Ground Zero?",
-    Answer:
-      "Ground Zero is completely free for all participants! All you have to bring to the table is your innovative ideas.",
+    question: "How much does it cost to join Ground Zero?",
+    answer:
+      "Ground Zero 2024 costs $15 per person.",
   },
   {
-    Question: "How do I sign up for Ground Zero?",
-    Answer:
+    question: "How do I sign up for Ground Zero?",
+    answer:
     "You can signup for Ground Zero through the Register button above!"
   },
   {
-    Question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
-    Answer:
+    question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+    answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
-    Question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    Answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
+    question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
+    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
   },
   {
-    Question: "How many winners will there be?",
-    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams.\nFirst place: $5,000\nSecond place: $3,000\nThird place: $2,000.\nMystery prizes would also be awarded to teams with the most creative ideas, and other honourable mentions",
+    question: "How many winners will there be?",
+    answer: "First place: $4,000 Second place: $3,000 Third place: $2,000. \n To recognise the efforts of other participating teams, we would also present awards for special categories with sponsored products and merchandise. \n Hot favourite: $300 Best pitch: $300 Impacters: $300 ",
   },
   {
-    Question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
-    Answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
+    question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
+    answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
   },
   {
-    Question: "Will Ground Zero happen in person or virtually?",
-    Answer: "After a few long years, Ground Zero 2023 will be held as a physical event hosted at Mapletree Business City. Preliminary pitching submission will be uploaded online, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
+    question: "Who can participate in Ground Zero?",
+    answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
   },
   {
-    Question: "Who can participate in Ground Zero?",
-    Answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
+    question: "How many people can be on a team?",
+    answer: "Each team can have 3 to 5 members.",
   },
   {
-    Question: "How many people can be on a team?",
-    Answer: "Each team can have 3 to 5 members.",
-  },
-  {
-    Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
-    Answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
-  },
-  {
-    Question: "What if I need to travel internationally to attend Ground Zero?",
-    Answer: "As Ground Zero has shifted to being a hybrid event, most of the event can be attended online. For the final pitching rounds carried out in-person, we highly encourage all finalists to attend physically. However, if this is not possible, the event will also be streamed online.",
+    question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
+    answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
   },
 ];
 

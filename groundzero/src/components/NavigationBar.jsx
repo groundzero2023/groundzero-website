@@ -18,10 +18,10 @@ const NavigationBar = () => {
         >
           <ul>
             <li>
-              <Link to="/about" onClick={toggleDropdown}>About</Link>
+              <Link to="/#about" onClick={toggleDropdown}>About</Link>
             </li>
             <li>
-              <Link to="/#problems" onClick={toggleDropdown}>Timeline</Link>
+              <Link to="/#timeline" onClick={toggleDropdown}>Timeline</Link>
             </li>
             <li>
               <Link to="/#problems" onClick={toggleDropdown}>Prizes</Link>
@@ -36,7 +36,7 @@ const NavigationBar = () => {
               <Link to="/benefits" onClick={toggleDropdown}>Benefits</Link>
             </li>
             <li>
-              <Link to="/faq" onClick={toggleDropdown}>FAQ</Link>
+              <Link to="/#faq" onClick={toggleDropdown}>FAQ</Link>
             </li>
             <li>
               <a
@@ -61,10 +61,10 @@ const NavigationBar = () => {
           </Link>
           <ul>
             <li>
-              <Link to="/aboutus">About Us</Link>
+              <Link to="/#about">About Us</Link>
             </li>
             <li>
-              <Link to="/timeline">Timeline</Link>
+              <Link to="/#timeline">Timeline</Link>
             </li>
             <li>
               <Link to="/#prizes">Prizes</Link>
@@ -79,7 +79,7 @@ const NavigationBar = () => {
               <Link to="/benefits">Benefits</Link>
             </li>
             <li>
-              <Link to="/faq">FAQ</Link>
+              <Link to="/#faq">FAQ</Link>
             </li>
             <li>
               <a
@@ -94,9 +94,9 @@ const NavigationBar = () => {
       </MediaQuery>
 
       <MediaQuery maxWidth={768}>
-        <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-70px" }}>
+        <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-50px" }}>
           <Link to="/">
-            <img src={groundzero} className="h-[30px] w-[40px] object-contain" />
+            <img src={groundzero} className="h-[40px] w-[100px] object-contain" />
           </Link>
           <button>
             {!isOpenDropdown ? (

@@ -21,6 +21,7 @@ import {
   ContactUsTemp,
 } from "./components";
 import PrizeComponent from "./components/Prizes";
+import Timeline from "./Timeline";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -51,11 +52,12 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>            
             <About />
-            <Eligibility />
             <Phases />
+            <Timeline/>
+            <Eligibility />
             <PrizeComponent />
             <ProblemStatements />
-            <Partners />
+            <Faq/>
             <Footer />
           </div>
         </div>

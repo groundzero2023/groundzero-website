@@ -4,11 +4,12 @@ import styles from "../style";
 import { nes } from "../assets";
 import { aboutUs } from "../constants";
 import NavigationBar from "./NavigationBar";
-<NavigationBar />;
+
 
 const About = () => {
   return (
-    <div className="bg-purple w-full overflow-hidden">
+    <div id= "about"
+    className="bg-purple w-full overflow-hidden">
       <NavigationBar />
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>

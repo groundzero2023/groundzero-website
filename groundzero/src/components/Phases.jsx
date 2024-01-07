@@ -30,7 +30,7 @@ const Phase = ({ image, description }) => {
   
     return (
         <div className="text-center py-12">
-          <h2 className="text-white text-6xl mb-4">Phases</h2>
+          <h2 className="text-white text-5xl mb-4 z-10 font-poppins font-thin">PHASES</h2>
           <div className="flex flex-wrap justify-center">
             {phaseInfo.map((phase, index) => (
               <Phase key={index} image={phase.image} description={phase.description} />
