@@ -1,7 +1,9 @@
 import React from "react";
 import NavigationBar from "./NavigationBar";
 import styles from "../style";
-import { ring } from "../assets"; 
+import { prizes } from "../assets"; 
+import MediaQuery from "react-responsive";
+
 
 const PrizeBox = ({ place, amount, height }) => {
   // You might want to ensure that the height value is set correctly, for example, `h-32`
@@ -59,10 +61,12 @@ const PrizeBox = ({ place, amount, height }) => {
 
 const PrizeComponent = () => {
   return (
+    <div>
+    <MediaQuery minWidth={768}>
     <div id= "prizes"
-    className="bg-purple w-full overflow-hidden">
+    className="bg-purple w-full overflow-hidden mt-20">
       <NavigationBar />
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.paddingY} flex-col relative`} id="about">
             <div className="grid place-items-center text-white xs:px-16 lg:px-40">
@@ -82,6 +86,21 @@ const PrizeComponent = () => {
           </div>
         </div>
       </div>
+    </div>
+    </MediaQuery>
+
+
+    <MediaQuery maxWidth={768}>
+      <div className="flex flex-col items-center justify-center  bg-dark-blue text-white relative font-poppins font-thin font-light">
+    <h2 className="font-poppins relative text-white font-thin justify-center text-5xl mb-10 z-10 ">PRIZES</h2>
+      <img src = {prizes} style = {{marginBottom: 40}}></img>
+</div>
+<br>
+</br>
+<br>
+</br>
+    </MediaQuery>
+
     </div>
   );
 };

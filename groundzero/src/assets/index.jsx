@@ -84,6 +84,10 @@ import groundzeroHome from "./groundzeroHome.png"
 import finance from "./finance.png";
 import blob from "./blob.png";
 import ring from "./ring.png";
+import prizes from "./prizes.png";
+import circle from "./circle.gif";
+import bck from "./bck.png";
+
 
 export {
   ajinkya_bhat,
@@ -165,5 +169,8 @@ export {
   finance,
   gzwhite,
   blob,
-  ring
+  ring,
+  prizes,
+  circle,
+  bck
 };
