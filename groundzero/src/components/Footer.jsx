@@ -12,14 +12,14 @@ const Footer = () => {
           <div className="footer-left">
             <img
               src={gzwhite}
-              alt="NES Ground Zero 2023"
+              alt="NES Ground Zero 2024"
               width="150"
               height="150"
               style={{marginRight: '25px'}}
             />
               <img
               src={nes}
-              alt="NES Ground Zero 2023"
+              alt="NES Ground Zero 2024"
               width="80"
               height="70"
             />
@@ -43,14 +43,14 @@ const Footer = () => {
             <div className="footer-left">
               <img
                 src={gzwhite}
-                alt="NES Ground Zero 2023"
+                alt="NES Ground Zero 2024"
                 width="150"
                 height="150"
                 style={{marginRight: '25px'}}
               />
                <img
               src={nes}
-              alt="NES Ground Zero 2023"
+              alt="NES Ground Zero 2024"
               width="80"
               height="70"
             />
