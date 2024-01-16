@@ -21,7 +21,7 @@ const NavigationBar = () => {
               <Link to="/#about" onClick={toggleDropdown}>About</Link>
             </li>
             <li>
-              <Link to="/#timeline" onClick={toggleDropdown}>Timeline</Link>
+              <Link to="/timeline" onClick={toggleDropdown}>Timeline</Link>
             </li>
             <li>
               <Link to="/#problems" onClick={toggleDropdown}>Prizes</Link>
@@ -30,7 +30,7 @@ const NavigationBar = () => {
               <Link to="/#eligibility" onClick={toggleDropdown}>Eligibility</Link>
             </li>
             <li>
-              <Link to="/schedule" onClick={toggleDropdown}>Event Schedule</Link>
+              <Link to="/eventschedule" onClick={toggleDropdown}>Event Schedule</Link>
             </li>
             <li>
               <Link to="/benefits" onClick={toggleDropdown}>Benefits</Link>
