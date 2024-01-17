@@ -61,7 +61,7 @@ const Eligibility = () => {
       >
         <h2 className="text-4xl mb-20 z-10 relative">ELIGIBILITY CRITERIA</h2>
         <div className="before:absolute w-3/4 border-b-2 border-white transform -rotate-[135deg] translate-y-20 sm:translate-y-35"></div>
-        <div className={"flex flex-col items-center justify-center mt-2 z-10 relative text-orange  translate-y-45 translate-x-32 sm:translate-y-35"}
+        <div className={"flex flex-col items-center justify-center mt-2 z-10 relative text-orange  translate-y-45 translate-x-20 sm:translate-y-35"}
         onMouseEnter={handleTeamsHover}
         onMouseLeave={handleTeamsHover}
         >
@@ -72,7 +72,7 @@ const Eligibility = () => {
           {teamsHovered ? "" : "3-5"}
             </p>
         </div>
-        <div className="flex flex-col items-center justify-center mt-8 z-10 relative text-purple translate-y-50 -translate-x-32 sm:translate-y-70">
+        <div className="flex flex-col items-center justify-center mt-8 z-10 relative text-purple translate-y-50 -translate-x-20 sm:translate-y-70">
           <p className="text-2xl font-poppins font-thin">TERTIARY</p>
           <p className="text-2xl font-poppins font-thin">STUDENTS*</p>
         </div>

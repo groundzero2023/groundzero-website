@@ -31,7 +31,8 @@ const Phase = ({ image, description }) => {
     return (
         <div className="text-center py-12">
           <h2 className="text-white text-5xl mb-4 z-10 font-poppins font-thin">PHASES</h2>
-          <div className="flex flex-wrap justify-center">
+          <h2 className="text-white text-1xl mb-4 z-10 font-poppins font-thin">This year we are expanding our trajectory beyond the conventional Starthaton, as we introduce the extension to the current Ground Zero; <br></br>Phase Zero and Beyond Zero. </h2>
+                <div className="flex flex-wrap justify-center">
             {phaseInfo.map((phase, index) => (
               <Phase key={index} image={phase.image} description={phase.description} />
             ))}

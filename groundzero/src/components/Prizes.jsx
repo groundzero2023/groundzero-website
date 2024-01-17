@@ -63,24 +63,21 @@ const PrizeComponent = () => {
   return (
     <div>
     <MediaQuery minWidth={768}>
-    <div id= "prizes"
-    className="bg-purple w-full overflow-hidden mt-20">
+    <div id="prizes" className="bg-purple w-full overflow-hidden mt-20">
       <NavigationBar />
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <div className={`${styles.paddingY} flex-col relative`} id="about">
-            <div className="grid place-items-center text-white xs:px-16 lg:px-40">
-              <div className="text-center text-white">
+      <div className={`bg-primary ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth} ${styles.paddingY} flex-col relative`} id="about">
+          <div className="grid place-items-center text-white xs:px-16 lg:px-40">
+            <div className="text-center text-white">
               <h2 className="text-5xl mb-4 z-10 relative font-light">PRIZES</h2>
-                <p className="text-3xl my-14">worth </p>
-                <p className="text-5xl my-14"> $10,000</p>
-                <div className="flex justify-center items-end mt-14">
-                  <PrizeBox place="2nd" amount="$3,000" height="h-32" />
-                  <div className="relative">
-                    <PrizeBox place="1st" amount="$4,000" height="h-40" />
-                  </div>
-                  <PrizeBox place="3rd" amount="$2,000" height="h-32" />
+              <p className="text-2xl my-14">prove your winning idea and compete for a prize pool of</p>
+              <p className="text-5xl my-14"> $10,000</p>
+              <div className="flex justify-center items-end mt-14">
+                <PrizeBox place="2nd" amount="$3,000" height="h-32" />
+                <div className="relative">
+                  <PrizeBox place="1st" amount="$4,000" height="h-40" />
                 </div>
+                <PrizeBox place="3rd" amount="$2,000" height="h-32" />
               </div>
             </div>
           </div>
@@ -91,7 +88,8 @@ const PrizeComponent = () => {
 
 
     <MediaQuery maxWidth={768}>
-      <div className="flex flex-col items-center justify-center  bg-dark-blue text-white relative font-poppins font-thin font-light">
+      <div id = "prizes" 
+      className="flex flex-col items-center justify-center  bg-dark-blue text-white relative font-poppins font-thin font-light">
     <h2 className="font-poppins relative text-white font-thin justify-center text-5xl mb-10 z-10 ">PRIZES</h2>
       <img src = {prizes} style = {{marginBottom: 40}}></img>
 </div>

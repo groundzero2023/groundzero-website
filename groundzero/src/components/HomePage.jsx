@@ -39,7 +39,7 @@ const HomePage = () => {
             </div></div>
 </MediaQuery>
 
-<MediaQuery maxWidth={768}>
+<MediaQuery maxWidth={768} minWidth={361}>
 <div
             className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
         >x  
@@ -60,6 +60,39 @@ const HomePage = () => {
                     <img src={groundzeroHome} className="w-[380px] h-[120px] mt-10"></img>
                     <DisplayButton isExternal={true} link="https://nesgroundzero2023.eventbrite.com" text="Sign Up Now" arrow="right" />
                     <div className=" text-white font-bold text-4xl text-center">
+                    loading the future, 
+                    <br />
+                    from the ground up.
+                    <br />
+                    <br/>
+                    <div class="scroll-down"></div>
+            </div>
+            </div>
+            </div></div>
+
+</MediaQuery>
+
+<MediaQuery maxWidth={360}>
+<div
+            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+        >x  
+            <div style={{
+                backgroundImage: `url(${homepage})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                width: '100vw',
+                height: '100vh'
+            }} >
+                <div className="grid place-items-center text-white">
+                    <br /><br />
+                    <br /><br />
+                    <div className="font-light text-3xl text-justify">
+                    May 12-18th 2024
+                    </div>
+                    <img src={groundzeroHome} className="w-[310px] h-[110px] mt-10"></img>
+                    <DisplayButton isExternal={true} link="https://nesgroundzero2023.eventbrite.com" text="Sign Up Now" arrow="right" />
+                    <div className=" text-white font-bold text-2xl text-center">
                     loading the future, 
                     <br />
                     from the ground up.

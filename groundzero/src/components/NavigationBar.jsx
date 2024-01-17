@@ -21,7 +21,7 @@ const NavigationBar = () => {
               <Link to="/#about" onClick={toggleDropdown}>About</Link>
             </li>
             <li>
-              <Link to="/timeline" onClick={toggleDropdown}>Timeline</Link>
+              <Link to="/#timeline" onClick={toggleDropdown}>Timeline</Link>
             </li>
             <li>
               <Link to="/#problems" onClick={toggleDropdown}>Prizes</Link>
@@ -54,7 +54,7 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <MediaQuery minWidth={768}>
+      <MediaQuery minWidth={768} >
         <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-70px"  }}>
           <Link to="/">
             <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
@@ -96,7 +96,7 @@ const NavigationBar = () => {
       <MediaQuery maxWidth={768}>
         <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-50px" }}>
           <Link to="/">
-            <img src={groundzero} className="h-[40px] w-[100px] object-contain" />
+            { <img src={groundzero} className="h-[40px] w-[100px] object-contain" /> }
           </Link>
           <button>
             {!isOpenDropdown ? (
