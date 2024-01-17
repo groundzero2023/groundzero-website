@@ -25,7 +25,7 @@ const Footer = () => {
             />
           </div>
           <div className="footer-buttons">
-            <a href="https://linkedin.com/company/nesgroundzero">
+            <a href="https://www.linkedin.com/company/nes-groundzero-2024/">
               <AiFillLinkedin className="footer-button" />
             </a>
             <a href="https://instagram.com/nesgroundzero">
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="grid grid-cols-3 w-[50%] mt-7 place-items-center">
-            <a href="https://linkedin.com/company/nesgroundzero">
+            <a href="https://www.linkedin.com/company/nes-groundzero-2024/">
               <AiFillLinkedin className="footer-button" />
             </a>
             <a href="https://instagram.com/nesgroundzero">
