@@ -323,16 +323,16 @@ export const questions = [
     "You can signup for Ground Zero through the Register button above!"
   },
   {
-    question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+    question: "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
     question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
+    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
   },
   {
-    question: "How many winners will there be?",
+    question: "What is included in the prize pool?",
     answer: "First place: $4,000 Second place: $3,000 Third place: $2,000. \n To recognise the efforts of other participating teams, we would also present awards for special categories with sponsored products and merchandise. \n Hot favourite: $300 Best pitch: $300 Impacters: $300 ",
   },
   {
