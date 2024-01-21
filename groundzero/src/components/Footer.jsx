@@ -17,12 +17,14 @@ const Footer = () => {
               height="150"
               style={{marginRight: '25px'}}
             />
+    <a href="https://www.instagram.com/nusentresoc?igsh=MXZ3dmlsZWt5ZWsxdg==">
               <img
-              src={nes}
-              alt="NES Ground Zero 2024"
-              width="80"
-              height="70"
-            />
+                src={nes}
+                alt="NES Ground Zero 2024"
+                width="80"
+                height="70"
+              />
+            </a>
           </div>
           <div className="footer-buttons">
             <a href="https://www.linkedin.com/company/nes-groundzero-2024/">
@@ -48,12 +50,14 @@ const Footer = () => {
                 height="150"
                 style={{marginRight: '25px'}}
               />
-               <img
-              src={nes}
-              alt="NES Ground Zero 2024"
-              width="80"
-              height="70"
-            />
+    <a href="https://www.instagram.com/nusentresoc?igsh=MXZ3dmlsZWt5ZWsxdg==">
+              <img
+                src={nes}
+                alt="NES Ground Zero 2024"
+                width="80"
+                height="70"
+              />
+            </a>
             </div>
           </div>
           <div className="grid grid-cols-3 w-[50%] mt-7 place-items-center">

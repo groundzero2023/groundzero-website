@@ -87,7 +87,7 @@ import ring from "./ring.png";
 import prizes from "./prizes.png";
 import circle from "./circle.gif";
 import bck from "./bck.png";
-
+import teams from "./team.jpeg";
 
 export {
   ajinkya_bhat,
@@ -172,5 +172,6 @@ export {
   ring,
   prizes,
   circle,
-  bck
+  bck,
+  teams
 };

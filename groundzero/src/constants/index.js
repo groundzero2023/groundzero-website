@@ -348,9 +348,21 @@ export const questions = [
     answer: "Each team can have 3 to 5 members.",
   },
   {
-    question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
-    answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
+    question: "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
+    answer: "Yes! We’re open to students from any institution overseas.",
   },
+
+  {
+    question : "Must I attend all days of the event?",
+    answer: "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
+    
+  },
+
+  {
+    question : "Can I join Virtually? ",
+    answer: "No, Ground Zero is a physical event.",
+  },
+
 ];
 
 export const organizer = [

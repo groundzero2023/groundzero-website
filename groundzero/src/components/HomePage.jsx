@@ -7,7 +7,7 @@ import MediaQuery from "react-responsive";
 const HomePage = () => {
     return (
         <div>
-            <MediaQuery minWidth={768}>
+            <MediaQuery minWidth={769}>
         <div
             className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
         >x  

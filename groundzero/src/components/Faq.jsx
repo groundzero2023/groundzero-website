@@ -7,7 +7,7 @@ import MediaQuery from "react-responsive";
 const Faq = () => {
   return (
     <div>
-       <MediaQuery minWidth={768}>
+       <MediaQuery minWidth={769}>
     <div 
     id= "faq">
       <div

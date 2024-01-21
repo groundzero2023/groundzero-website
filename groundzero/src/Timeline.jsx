@@ -99,10 +99,10 @@ const Timeline = () => {
         </div>
         </MediaQuery>
             
-        <MediaQuery maxWidth={768}>
+        <MediaQuery maxWidth={767}>
       <div className="bg-darkBlue w-full overflow-hidden min-h-screen">
         <NavigationBar />
-        <div className="pt-20 pb-10 px-4"
+        <div className="pt-20 pb-4 px-4"
         id = "timeline">
           <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light">
             TIMELINE

@@ -114,6 +114,13 @@ This file contains styling customization for fonts and colors.
   text-fill-color: transparent;
 }
 
+.active {
+  border-bottom: 2px solid #64F6FF; /* Underline color */
+  color: #64F6FF; /* Text color */
+  display: inline-block; /* Ensures the border applies to the text length */
+}
+
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -234,6 +241,12 @@ This file contains styling customization for fonts and colors.
 }
 
 /* NAVIGATION BAR */
+
+/* index.css */
+.navbar-special-margin {
+  margin-left: 0px !important;
+}
+
 
 .nav {
   background-color: #00132A;
@@ -1193,5 +1206,38 @@ This file contains styling customization for fonts and colors.
     align-items: center;
   }
 }
+
+@media (max-width: 1024px) {
+  #prizes
+  {
+  scroll-margin-top: 140px; /* Use the height of your fixed header */
+}
+} 
+
+.prizes-image-container {
+  width: 100%; /* Use a percentage of the parent container */
+  max-width: 500px; /* Maximum size of the container */
+  margin: auto; /* Center the container */
+}
+
+.prizes-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Make sure the whole image is visible */
+}
+
+/* Media query for iPad Air specific adjustments */
+@media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .prizes-image-container {
+    /* Adjust the size of the container specifically for iPad Air */
+    max-width: 400px; /* Example: you might need to reduce the size */
+  }
+}
+
+
 
 }
