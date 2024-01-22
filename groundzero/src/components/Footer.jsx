@@ -39,6 +39,8 @@ const Footer = () => {
           </div>
         </div>
       </MediaQuery>
+
+      
       <MediaQuery maxWidth={768}>
         <div className="grid px-10 place-items-center">
           <div className="footer-content">
@@ -54,8 +56,8 @@ const Footer = () => {
               <img
                 src={nes}
                 alt="NES Ground Zero 2024"
-                width="80"
-                height="70"
+                width="120"
+                height="120"
               />
             </a>
             </div>

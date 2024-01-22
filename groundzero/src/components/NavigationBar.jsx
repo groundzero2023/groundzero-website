@@ -53,11 +53,11 @@ const NavigationBar = ({ className }) => {
               <Link to="/benefits"  onClick={toggleDropdown}>Benefits</Link>
             </li>
             <li>
-              <Link to="/#faq"  onClick={toggleDropdown}>FAQ</Link>
+              <Link to="/#faq" onClick={toggleDropdown}>FAQ</Link>
             </li>
             <li>
               <a
-                href="https://nesgroundzero2023.eventbrite.com"
+                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
                 target="_blank"
               >
                 <div id="nav-register-button" onClick={toggleDropdown}>Register</div>

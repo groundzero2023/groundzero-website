@@ -20,7 +20,7 @@ const Phase = ({ image, description }) => {
       },
       {
         image: groundZeroImage,
-        description: "Pitch your ideas for a share of the $10,000 prize pool. Forge valuable relationships and stand a chance to gain personal mentorships from experienced players in the field!",
+        description: "Pitch your ideas for a share of the $10,000 prize pool. Forge valuable relationships and gain personal mentorships from experienced players in the field!",
       },
       {
         image: beyondZeroImage,

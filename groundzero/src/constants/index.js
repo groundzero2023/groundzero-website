@@ -333,7 +333,7 @@ export const questions = [
   },
   {
     question: "What is included in the prize pool?",
-    answer: "First place: $4,000 Second place: $3,000 Third place: $2,000. \n To recognise the efforts of other participating teams, we would also present awards for special categories with sponsored products and merchandise. \n Hot favourite: $300 Best pitch: $300 Impacters: $300 ",
+    answer: "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
     question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
