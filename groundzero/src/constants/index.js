@@ -315,7 +315,7 @@ export const questions = [
   {
     question: "How much does it cost to join Ground Zero?",
     answer:
-      "Ground Zero 2024 costs $15 per person.",
+      "Early Bird prices are $10 per person. (normal pricing $20) Follow our social media accounts for more promotions!",
   },
   {
     question: "How do I sign up for Ground Zero?",
