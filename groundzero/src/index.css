@@ -23,6 +23,73 @@ This file contains styling customization for fonts and colors.
   --button-purple: #a733bb;
   --button-purple-highlight: #d155e7;
   --past-event-orange: #f28f48;
+  --background: #00132A;
+
+  --gh-pattern-1: #fff4f9;
+  --gh-pattern-2: #ffebf1;
+  --gh-pattern-3: #ffe3d7;
+  --gh-pattern-4: #ffe2b1;
+  --gh-pattern-5: #ffea8b;
+
+  --gh-green-0: #22ae73;
+  --gh-green-1: #b9f3cd;
+  --gh-green-2: #96ed85;
+  --gh-green-3: #73e79c;
+  --gh-green-4: #51e183;
+  --gh-green-5: #2edc6b;
+  --gh-green-6: #21c058;
+  --gh-green-7: #1b9d48;
+  --gh-green-8: #157a38;
+  --gh-green-9: #0f5728;
+  --gh-green-10: #062310;
+
+  --gh-blue-0: #e3f1f7;
+  --gh-blue-1: #e6ebff;
+  --gh-blue-2: #a2ddf6;
+  --gh-blue-3: #7dcff2;
+  --gh-blue-4: #58c1ee;
+  --gh-blue-5: #33b4eb;
+  --gh-blue-6: #16a3df;
+  --gh-blue-7: #1287ba;
+  --gh-blue-8: #0f6c95;
+  --gh-blue-9: #0a41fa;
+  --gh-blue-10: #101068;
+
+  --gh-grey-1: #cccccc;
+  --gh-grey-2: #adadad;
+  --gh-grey-3: #999999;
+  --gh-grey-4: #757575;
+  --gh-grey-5: #666666;
+
+  --gh-pink-1: #fff0f7;
+  --gh-pink-2: #efa9ca;
+  --gh-pink-3: #e986b4;
+  --gh-pink-4: #e3649f;
+  --gh-pink-5: #da3582;
+
+  --gh-red-1: #e22452;
+  --gh-red-2: #ce2727;
+  --gh-red-3: #bc2424;
+
+  --gh-yellow-1: #ffedc2;
+  --gh-yellow-2: #f6e4be;
+  --gh-yellow-3: #ffd470;
+  --gh-yellow-4: #ffc847;
+
+  --gh-orange-1: #ffbc1f;
+  --gh-orange-2: #f5ab00;
+  --gh-orange-3: #f9aa81;
+
+  --gh-brown-1: #a37200;
+  --gh-brown-2: #7a5600;
+  --gh-brown-3: #523900;
+  --gh-brown-4: #823d40;
+
+  --transition: all 0.3s linear;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+
 }
 
 * {
@@ -46,6 +113,13 @@ This file contains styling customization for fonts and colors.
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.active {
+  border-bottom: 2px solid #64F6FF; /* Underline color */
+  color: #64F6FF; /* Text color */
+  display: inline-block; /* Ensures the border applies to the text length */
+}
+
 
 .bg-blue-gradient {
   background: linear-gradient(
@@ -90,7 +164,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .bg-purple {
-  background: var(--bg-dark-purple);
+  background: #00132A;
 }
 
 .box-shadow {
@@ -98,8 +172,8 @@ This file contains styling customization for fonts and colors.
 }
 
 .heading {
-  font-family: Lexend Deca, sans-serif;
-  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
   color: white;
   font-size: 44px;
   padding-top: 50px;
@@ -168,8 +242,14 @@ This file contains styling customization for fonts and colors.
 
 /* NAVIGATION BAR */
 
+/* index.css */
+.navbar-special-margin {
+  margin-left: 0px !important;
+}
+
+
 .nav {
-  background-color: var(--bg-dark-purple);
+  background-color: #00132A;
   color: white;
   width: 100%;
   min-width: auto;
@@ -191,7 +271,7 @@ This file contains styling customization for fonts and colors.
   list-style: none;
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   cursor: pointer;
 }
 
@@ -204,7 +284,8 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button {
-  background-color: var(--button-purple);
+  background-color: #00132A;
+  border: 2px solid white;
   height: 70%;
   align-items: center;
   justify-content: center;
@@ -215,7 +296,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button:hover {
-  background-color: var(--button-purple-highlight);
+ background-color: #01234D;
 }
 
 #nav-register-button a {
@@ -228,6 +309,105 @@ This file contains styling customization for fonts and colors.
   padding-right: 1.5rem;
   border-radius: 30px;
   font-weight: 600;
+}
+
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  width: 80%;
+  height: 190px;
+  background-color: var(--gh-blue-3);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header-text-1,
+.header-text-2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.expendable-button {
+  background-color: transparent;
+  color: var(--gh-blue-5);
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  width: 2px;
+  margin-right: 10px;
+}
+
+.main-title {
+  margin: 20px 0 10px 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.main-title-underline {
+  width: 320px;
+  text-align: left;
+  height: 0.15rem;
+  background: var(--gh-blue-10);
+  margin-bottom: 40px;
+}
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-end;
+  width: 100%;
+  font: Poppins;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 15px;
+  color:white;
+  
+}
+
+.underline {
+  width: 100%;
+  height: 0.15rem;
+  background: var(--gh-blue-2);
+  margin: 20px auto;
+}
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.column-container:hover {
+  background-color: #01234D;
+  width: 100%;
+  
+}
+.column-text {
+  color: white
+}
+
+.text-container {
+  text-align: left;
+  max-height: 350px;
+  opacity: 1;
+  animation-name: textanimate;
+  animation-duration: 1s;
+  color:#29B1ED;
+}
+
+@keyframes textanimate {
+  0% {
+    opacity: 0;
+    max-height: 15px;
+  }
+  100% {
+    opacity: 1;
+    max-height: 350px;
+  }
 }
 
 
@@ -323,13 +503,85 @@ This file contains styling customization for fonts and colors.
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+  .problem-statement-cards {
+    grid-template-columns: 1fr; 
+    width: 100%; 
+    justify-items: center;
+  }
+
+  .problem-statements h2 {
+    font-size: 3xl; /* Adjust font size for the heading on smaller screens */
+    margin-bottom: 40px; /* Add margin bottom for spacing */
+  }
+
+  .problem-statements .grid-cols-1 {
+    grid-template-columns: 1fr; /* Set to a single column for smaller screens */
+    gap: 40px; 
+    margin-right: 20px;
+    margin-left: -20px;
+  }
+}
+
+/* DOWN BUTTON */
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  position: relative;
+  left: 50%;
+  bottom: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 70%;
+    opacity: 0;
+  }
+}
+
+
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
-  background-color: var(--bg-lighter-purple);
+  width: 80%;
+  height: 300px;
+  background-color: #F3F3F3;
   align-items: center;
   padding: 3rem 2rem;
-  height: 100%;
+  margin-left: 50px;
+  margin-bottom: 8px;
+  height: 95%;
   border-radius: 30px;
   opacity: 60%;
   transition: transform 0.2s; /* Animation */
@@ -360,15 +612,16 @@ This file contains styling customization for fonts and colors.
   font-size: 24px;
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
-  font-family: Lexend Deca, sans-serif;
-  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
+  color: #00132A;
 }
 
 .statement-card-description {
   text-align: center;
   font-size: 16px;
   font-family: Poppins, sans-serif;
-  color: white;
+  color: #00132A;
   font-weight: 400;
 }
 
@@ -428,9 +681,11 @@ This file contains styling customization for fonts and colors.
 
 .display-button {
   margin: 3.5rem 0;
-  background-color: var(--button-purple);
+  background-color: #00132A;
   border-radius: 45px;
   transition: 0.1s;
+  width: 260px;
+  border: 2px solid white;
 }
 
 .display-button-undefined,
@@ -438,7 +693,7 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  padding: 0rem 5rem;
+  padding: 10rem 20rem;
 }
 
 .display-button-left,
@@ -446,11 +701,11 @@ This file contains styling customization for fonts and colors.
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  padding: 0rem 4rem;
+  padding: 0rem 6rem;
 }
 
 .display-button:hover {
-  background-color: var(--button-purple-highlight);
+  background-color: #01234D
 }
 
 .display-button a {
@@ -459,9 +714,9 @@ This file contains styling customization for fonts and colors.
   height: 90%;
   align-items: center;
   display: inline-flex;
-  padding-left: 1.5rem;
+  padding-left: 5rem;
   padding-right: 1.5rem;
-  border-radius: 30px;
+  border-radius: 50px;
   font-weight: 600;
 }
 
@@ -481,7 +736,7 @@ This file contains styling customization for fonts and colors.
 
 .popup-content {
   position: relative;
-  background: var(--bg-lighter-purple);
+  background: #E3E0E0;
   border-radius: 25px;
   width: auto;
   margin-left: 20%;
@@ -490,10 +745,12 @@ This file contains styling customization for fonts and colors.
   margin-top: 3em;
   padding: 4em 4em;
   animation: drop 0.5s ease forwards;
-  top: -60%;
+  top: -70%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
 }
 
 .popup-content-inner {
@@ -520,15 +777,15 @@ This file contains styling customization for fonts and colors.
 
 .popup-heading {
   font-size: 40px;
-  font-family: Lexend Deca, sans-serif;
-  color: white;
+  font-family: Poppins, sans-serif;
+  color: #00132A;
 }
 
 .popup-description {
   font-size: 20px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  color: white;
+  color: #00132A;
   margin-top: 15px;
 }
 
@@ -589,7 +846,7 @@ This file contains styling customization for fonts and colors.
   justify-content: center;
   align-items: center;
   padding: 3em 20%;
-  background-color: var(--bg-lighter-purple);
+  background-image: linear-gradient(to right, #0A1CFE, #00527D, #DB4200);
   margin-left: -20%;
   margin-right: -20%;
   margin-top: 100px;
@@ -632,7 +889,7 @@ This file contains styling customization for fonts and colors.
   top: 60px;
   height: 0;
   width: 300px;
-  background: var(--bg-lighter-purple);
+  background: #00132A;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
@@ -641,7 +898,7 @@ This file contains styling customization for fonts and colors.
 .dropdown_menu_open {
   position: fixed;
   top: 90px;
-  background: var(--bg-lighter-purple);
+  background: #00527D;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
@@ -664,7 +921,7 @@ This file contains styling customization for fonts and colors.
 
 @media (max-width: 768px) {
   .contact-button {
-    background-color: var(--bg-lighter-purple);
+    background-color: #F3F3F3;
     color: white;
     border-radius: 50px;
     display: grid;
@@ -696,7 +953,7 @@ This file contains styling customization for fonts and colors.
   }
 
   .statement-card {
-    background-color: var(--bg-lighter-purple);
+    background-color: #F3F3F3;
     align-items: center;
     padding: 1.5rem 1rem;
     height: 100%;
@@ -732,26 +989,26 @@ This file contains styling customization for fonts and colors.
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-family: Lexend Deca, sans-serif;
-    color: white;
+    color: #00132A;
   }
 
   .statement-card-description {
     text-align: center;
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    color: white;
+    color: #00132A;
     font-weight: 400;
   }
 
   .popup-content {
     position: relative;
-    background: var(--bg-lighter-purple);
+    background: #00527D;
     border-radius: 25px;
     width: 80%;
     margin-left: 0px;
     margin-right: 0px;
     height: auto;
-    margin-top: 3em;
+    margin-top: -26rem;
     padding: 2em 2em;
     display: flex;
     justify-content: center;
@@ -809,7 +1066,7 @@ This file contains styling customization for fonts and colors.
   /* NAVIGATION BAR */
 
 .nav {
-  background-color: var(--bg-dark-purple);
+  background-color: black;
   color: white;
   width: 100%;
   min-width: auto;
@@ -844,7 +1101,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button {
-  background-color: var(--button-purple);
+  background-color: #00527D;
   height: 70%;
   align-items: center;
   justify-content: center;
@@ -855,7 +1112,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button:hover {
-  background-color: var(--button-purple-highlight);
+  background-color: #00527D;
 }
 
 #nav-register-button a {
@@ -937,6 +1194,50 @@ This file contains styling customization for fonts and colors.
   color: rgba(255, 255, 255, 0.9);
   margin-left: 30px;
 }
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .popup-content {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 1.5em 1.5em; /* Adjust padding for smaller screens */
+    top: -550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  #prizes
+  {
+  scroll-margin-top: 140px; /* Use the height of your fixed header */
+}
+} 
+
+.prizes-image-container {
+  width: 100%; /* Use a percentage of the parent container */
+  max-width: 500px; /* Maximum size of the container */
+  margin: auto; /* Center the container */
+}
+
+.prizes-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Make sure the whole image is visible */
+}
+
+/* Media query for iPad Air specific adjustments */
+@media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .prizes-image-container {
+    /* Adjust the size of the container specifically for iPad Air */
+    max-width: 400px; /* Example: you might need to reduce the size */
+  }
+}
+
 
 
 }

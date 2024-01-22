@@ -10,8 +10,9 @@ import {
   ProblemStatementCountdown,
   ProblemStatements,
   Workshops,
-  Timeline,
+  Eligibility,
   Partners,
+  Phases,
   Mentors,
   ContactUs,
   Faq,
@@ -19,6 +20,8 @@ import {
   HomePage,
   ContactUsTemp,
 } from "./components";
+import PrizeComponent from "./components/Prizes";
+import Timeline from "./Timeline";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -49,14 +52,12 @@ const App = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>            
             <About />
-            <PastEvents />
-            <ReasonsToJoin />            
+            <Phases />
+            <Timeline/>
+            <Eligibility />
+            <PrizeComponent />
             <ProblemStatements />
-            <Timeline />
-            <ProblemStatementCountdown />
-            <Partners />
-            <ContactUsTemp />
-            <Faq />
+            <Faq/>
             <Footer />
           </div>
         </div>

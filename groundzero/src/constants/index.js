@@ -75,7 +75,8 @@ import {
   consumercentric,
   sustainability,
   industryfour,
-  mapletree_new
+  mapletree_new,
+  finance
 } from "../assets";
 
 export const navLinks = [
@@ -142,27 +143,27 @@ export const reasons = [
 export const problems = [
   {
     id: 1,
-    title: "Industry 4.0",
-    details1: "Perfect for those interested in everything tech! From Internet of Things, Cloud Computing, Machine Learning & AI, the opportunities are endless.",
-    img: industryfour,
-  },
-  {
-    id: 2,
-    title: "Sustainability",
-    details1: "In this day and age, ecological, social and economic issues are present everywhere, requiring tangible solutions to deal with them. More than just a buzzword, sustainability is for teams that want to make a real impact on communities!",
-    img: sustainability,
-  },
-  {
-    id: 3,
-    title: "Healthcare",
-    details1: "MedTech? Hospital information systems? This area of focus is for anyone interested in improving healthcare systems and processes, or even just the health and wellness of people.    ",
+    title: "Health & Wellness",
+    details1: "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
   },
   {
-    id: 4,
-    title: "Consumer-centric",
-    details1: "Here, the consumer is chief. Solutions can range between anything e-commerce to F&B - as long as it targets the consumer!",
+    id: 2,
+    title: "Finance",
+    details1: "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
+    img: finance,
+  },
+  {
+    id: 3,
+    title: "E-Commerce",
+    details1: "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
     img: consumercentric,
+  },
+  {
+    id: 4,
+    title: "Sustainability",
+    details1: "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
+    img: sustainability,
   }
 ]
 
@@ -312,52 +313,56 @@ export const companies = [
 
 export const questions = [
   {
-    Question: "How much does it cost to join Ground Zero?",
-    Answer:
-      "Ground Zero is completely free for all participants! All you have to bring to the table is your innovative ideas.",
+    question: "How much does it cost to join Ground Zero?",
+    answer:
+      "Early Bird prices are $10 per person. (normal pricing $20) Follow our social media accounts for more promotions!",
   },
   {
-    Question: "How do I sign up for Ground Zero?",
-    Answer:
+    question: "How do I sign up for Ground Zero?",
+    answer:
     "You can signup for Ground Zero through the Register button above!"
   },
   {
-    Question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
-    Answer:
+    question: "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+    answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
-    Question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    Answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
+    question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
+    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
   },
   {
-    Question: "How many winners will there be?",
-    Answer: "There will be 12 teams that make it to the final pitching rounds, and 3 winning teams.\nFirst place: $5,000\nSecond place: $3,000\nThird place: $2,000.\nMystery prizes would also be awarded to teams with the most creative ideas, and other honourable mentions",
+    question: "What is included in the prize pool?",
+    answer: "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
-    Question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
-    Answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
+    question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
+    answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
   },
   {
-    Question: "Will Ground Zero happen in person or virtually?",
-    Answer: "After a few long years, Ground Zero 2023 will be held as a physical event hosted at Mapletree Business City. Preliminary pitching submission will be uploaded online, while the final rounds will be conducted in person at Mapletree Business City. For the mentor-mentee sessions, it is up to the agreement between mentors and their mentees whether they want to meet online or in-person, and if the latter, the location is also to be agreed on between both parties.",
+    question: "Who can participate in Ground Zero?",
+    answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
   },
   {
-    Question: "Who can participate in Ground Zero?",
-    Answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
+    question: "How many people can be on a team?",
+    answer: "Each team can have 3 to 5 members.",
   },
   {
-    Question: "How many people can be on a team?",
-    Answer: "Each team can have 3 to 5 members.",
+    question: "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
+    answer: "Yes! We’re open to students from any institution overseas.",
   },
+
   {
-    Question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
-    Answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
+    question : "Must I attend all days of the event?",
+    answer: "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
+    
   },
+
   {
-    Question: "What if I need to travel internationally to attend Ground Zero?",
-    Answer: "As Ground Zero has shifted to being a hybrid event, most of the event can be attended online. For the final pitching rounds carried out in-person, we highly encourage all finalists to attend physically. However, if this is not possible, the event will also be streamed online.",
+    question : "Can I join Virtually? ",
+    answer: "No, Ground Zero is a physical event.",
   },
+
 ];
 
 export const organizer = [
@@ -367,16 +372,16 @@ export const organizer = [
   },
 ];
 
-export const platinumSponsor = [
-  {
-    id: "platinumSponsor-1",
-    icon: aws,
-  },
-  {
-    id: "platinumSponsor-2",
-    icon: eatLaunchpad,
-  },
-];
+// export const platinumSponsor = [
+//   {
+//     id: "platinumSponsor-1",
+//     icon: aws,
+//   },
+//   {
+//     id: "platinumSponsor-2",
+//     icon: eatLaunchpad,
+//   },
+// ];
 
 export const thePatron = [
   {
@@ -443,16 +448,16 @@ export const partners = [
     title: "Patron Sponsor",
     content: thePatron,
   },
-  {
-    id: "diamondSponsor",
-    title: "Diamond Sponsor",
-    content: diamondSponsor,
-  },
-  {
-    id: "goldSponsor",
-    title: "Gold Sponsor",
-    content: goldSponsor,
-  },
+  // {
+  //   id: "diamondSponsor",
+  //   title: "Diamond Sponsor",
+  //   content: diamondSponsor,
+  // },
+  // {
+  //   id: "goldSponsor",
+  //   title: "Gold Sponsor",
+  //   content: goldSponsor,
+  // },
 ];
 
 export const pastEvents = [
@@ -923,17 +928,33 @@ export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
 export const aboutUs = [
   {
     id: "para1",
-    content: "Ground Zero is the largest student-led startathon in Singapore which invites aspiring entrepreneurs from all tertiary institutions and faculties to ideate and develop a startup from ground up. Within a week, participants will be challenged to select an area of focus, and come up with a startup idea from the ground up and pitch it. The winners of Ground Zero will go home with a cash prize from our $10,000 prize pool to kick start their start up ideas.",
+    content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
   },
   {
     id: "para2",
-    content: "This year, participants will be supported by a network of over 50 mentors, speakers, and judges - all experts in their respective fields to provide the best guidance possible. We are also excited to announce that we will be inviting angel investors and incubators to come down to our event to scout for talent amongst our highly valued participants.",
+    content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
   },
   {
     id: "para3",
-    content: "So what are you waiting for? Reach the top, start from Ground Zero.",
+    content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
   },
 ];
+
+// export const phases = [
+//   {
+//     id: "para1",
+//     content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
+//   },
+//   {
+//     id: "para2",
+//     content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
+//   },
+//   {
+//     id: "para3",
+//     content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
+//   },
+// ];
+
 
 export const timelineSchedule = [
   {
