@@ -121,7 +121,7 @@ const NavigationBar = ({ className }) => {
           </li>
             <li>
               <a
-                href="https://nesgroundzero2023.eventbrite.com"
+                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
                 target="_blank"
               >
                 <div id="nav-register-button">Register</div>
@@ -183,7 +183,7 @@ const NavigationBar = ({ className }) => {
           </li>
             <li>
               <a
-                href="https://nesgroundzero2023.eventbrite.com"
+                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
                 target="_blank"
               >
                 <div id="nav-register-button">Register</div>

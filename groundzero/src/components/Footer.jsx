@@ -48,9 +48,9 @@ const Footer = () => {
               <img
                 src={gzwhite}
                 alt="NES Ground Zero 2024"
-                width="150"
-                height="150"
-                style={{marginRight: '25px'}}
+                width="120"
+                height="120"
+                style={{marginRight: '15px'}}
               />
     <a href="https://www.instagram.com/nusentresoc?igsh=MXZ3dmlsZWt5ZWsxdg==">
               <img
