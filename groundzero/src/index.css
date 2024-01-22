@@ -114,6 +114,13 @@ This file contains styling customization for fonts and colors.
   text-fill-color: transparent;
 }
 
+.active {
+  border-bottom: 2px solid #64F6FF; /* Underline color */
+  color: #64F6FF; /* Text color */
+  display: inline-block; /* Ensures the border applies to the text length */
+}
+
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -234,6 +241,12 @@ This file contains styling customization for fonts and colors.
 }
 
 /* NAVIGATION BAR */
+
+/* index.css */
+.navbar-special-margin {
+  margin-left: 0px !important;
+}
+
 
 .nav {
   background-color: #00132A;
@@ -490,6 +503,26 @@ This file contains styling customization for fonts and colors.
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+  .problem-statement-cards {
+    grid-template-columns: 1fr; 
+    width: 100%; 
+    justify-items: center;
+  }
+
+  .problem-statements h2 {
+    font-size: 3xl; /* Adjust font size for the heading on smaller screens */
+    margin-bottom: 40px; /* Add margin bottom for spacing */
+  }
+
+  .problem-statements .grid-cols-1 {
+    grid-template-columns: 1fr; /* Set to a single column for smaller screens */
+    gap: 40px; 
+    margin-right: 20px;
+    margin-left: -20px;
+  }
+}
+
 /* DOWN BUTTON */
 
 .scroll-down {
@@ -712,10 +745,12 @@ This file contains styling customization for fonts and colors.
   margin-top: 3em;
   padding: 4em 4em;
   animation: drop 0.5s ease forwards;
-  top: -60%;
+  top: -70%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
 }
 
 .popup-content-inner {
@@ -967,13 +1002,13 @@ This file contains styling customization for fonts and colors.
 
   .popup-content {
     position: relative;
-    background: #2b2853;
+    background: #00527D;
     border-radius: 25px;
     width: 80%;
     margin-left: 0px;
     margin-right: 0px;
     height: auto;
-    margin-top: 3em;
+    margin-top: -26rem;
     padding: 2em 2em;
     display: flex;
     justify-content: center;
@@ -1159,5 +1194,50 @@ This file contains styling customization for fonts and colors.
   color: rgba(255, 255, 255, 0.9);
   margin-left: 30px;
 }
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .popup-content {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 1.5em 1.5em; /* Adjust padding for smaller screens */
+    top: -550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  #prizes
+  {
+  scroll-margin-top: 140px; /* Use the height of your fixed header */
+}
+} 
+
+.prizes-image-container {
+  width: 100%; /* Use a percentage of the parent container */
+  max-width: 500px; /* Maximum size of the container */
+  margin: auto; /* Center the container */
+}
+
+.prizes-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Make sure the whole image is visible */
+}
+
+/* Media query for iPad Air specific adjustments */
+@media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .prizes-image-container {
+    /* Adjust the size of the container specifically for iPad Air */
+    max-width: 400px; /* Example: you might need to reduce the size */
+  }
+}
+
+
 
 }

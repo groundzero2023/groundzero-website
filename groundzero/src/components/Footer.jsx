@@ -12,20 +12,22 @@ const Footer = () => {
           <div className="footer-left">
             <img
               src={gzwhite}
-              alt="NES Ground Zero 2023"
+              alt="NES Ground Zero 2024"
               width="150"
               height="150"
               style={{marginRight: '25px'}}
             />
+    <a href="https://www.instagram.com/nusentresoc?igsh=MXZ3dmlsZWt5ZWsxdg==">
               <img
-              src={nes}
-              alt="NES Ground Zero 2023"
-              width="80"
-              height="70"
-            />
+                src={nes}
+                alt="NES Ground Zero 2024"
+                width="80"
+                height="70"
+              />
+            </a>
           </div>
           <div className="footer-buttons">
-            <a href="https://linkedin.com/company/nesgroundzero">
+            <a href="https://www.linkedin.com/company/nes-groundzero-2024/">
               <AiFillLinkedin className="footer-button" />
             </a>
             <a href="https://instagram.com/nesgroundzero">
@@ -37,27 +39,31 @@ const Footer = () => {
           </div>
         </div>
       </MediaQuery>
+
+      
       <MediaQuery maxWidth={768}>
         <div className="grid px-10 place-items-center">
           <div className="footer-content">
             <div className="footer-left">
               <img
                 src={gzwhite}
-                alt="NES Ground Zero 2023"
-                width="150"
-                height="150"
-                style={{marginRight: '25px'}}
+                alt="NES Ground Zero 2024"
+                width="120"
+                height="120"
+                style={{marginRight: '15px'}}
               />
-               <img
-              src={nes}
-              alt="NES Ground Zero 2023"
-              width="80"
-              height="70"
-            />
+    <a href="https://www.instagram.com/nusentresoc?igsh=MXZ3dmlsZWt5ZWsxdg==">
+              <img
+                src={nes}
+                alt="NES Ground Zero 2024"
+                width="120"
+                height="120"
+              />
+            </a>
             </div>
           </div>
           <div className="grid grid-cols-3 w-[50%] mt-7 place-items-center">
-            <a href="https://linkedin.com/company/nesgroundzero">
+            <a href="https://www.linkedin.com/company/nes-groundzero-2024/">
               <AiFillLinkedin className="footer-button" />
             </a>
             <a href="https://instagram.com/nesgroundzero">

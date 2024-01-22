@@ -315,7 +315,7 @@ export const questions = [
   {
     question: "How much does it cost to join Ground Zero?",
     answer:
-      "Ground Zero 2024 costs $15 per person.",
+      "Early Bird prices are $10 per person. (normal pricing $20) Follow our social media accounts for more promotions!",
   },
   {
     question: "How do I sign up for Ground Zero?",
@@ -323,17 +323,17 @@ export const questions = [
     "You can signup for Ground Zero through the Register button above!"
   },
   {
-    question: "I have a startup idea that I want to pitch at Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+    question: "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
     question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section.",
+    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
   },
   {
-    question: "How many winners will there be?",
-    answer: "First place: $4,000 Second place: $3,000 Third place: $2,000. \n To recognise the efforts of other participating teams, we would also present awards for special categories with sponsored products and merchandise. \n Hot favourite: $300 Best pitch: $300 Impacters: $300 ",
+    question: "What is included in the prize pool?",
+    answer: "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
     question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
@@ -348,9 +348,21 @@ export const questions = [
     answer: "Each team can have 3 to 5 members.",
   },
   {
-    question: "I am a student at an international tertiary institution, but currently residing in Singapore. Can I still join Ground Zero?",
-    answer: "Definitely! We are happy to accept students from any tertiary institute across the world.",
+    question: "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
+    answer: "Yes! We’re open to students from any institution overseas.",
   },
+
+  {
+    question : "Must I attend all days of the event?",
+    answer: "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
+    
+  },
+
+  {
+    question : "Can I join Virtually? ",
+    answer: "No, Ground Zero is a physical event.",
+  },
+
 ];
 
 export const organizer = [

@@ -7,7 +7,7 @@ import MediaQuery from "react-responsive";
 const Faq = () => {
   return (
     <div>
-       <MediaQuery minWidth={768}>
+       <MediaQuery minWidth={769}>
     <div 
     id= "faq">
       <div
@@ -31,16 +31,15 @@ const Faq = () => {
 
     <MediaQuery maxWidth={768}>
     <div>
-      <div
-         >
-      <div className="bg-darkBlue w-full min-h-screen">
+    
+      <div id = "faq" className="bg-darkBlue w-full min-h-screen">
       <h1 className="font-poppins text-white text-center text-5xl mt-10 mb-20 font-light">FAQ</h1>
 
         {questions.map((section, index) => (
           <Accordion key={index} section={section} />
         ))}
         </div>
-      </div>
+    
 </div>
     </MediaQuery>
     </div>
