@@ -359,7 +359,7 @@ export const questions = [
   },
 
   {
-    question : "Can I join Virtually? ",
+    question : "Can I join virtually? ",
     answer: "No, Ground Zero is a physical event.",
   },
 
