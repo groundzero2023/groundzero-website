@@ -23,7 +23,7 @@ const HomePage = () => {
                     <br /><br />
                     <br /><br />
                     <div className="font-light text-3xl text-justify">
-                    May 12-18th 2024
+                    May 11-17th 2024
                     </div>
                     <img src={groundzeroHome} className="w-[450px] h-[150px] mt-10"></img>
                     <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
@@ -55,7 +55,7 @@ const HomePage = () => {
                     <br /><br />
                     <br /><br />
                     <div className="font-light text-3xl text-justify">
-                    May 12-18th 2024
+                    May 11-17th 2024
                     </div>
                     <img src={groundzeroHome} className="w-[380px] h-[120px] mt-10"></img>
                     <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
@@ -88,7 +88,7 @@ const HomePage = () => {
                     <br /><br />
                     <br /><br />
                     <div className="font-light text-3xl text-justify">
-                    May 12-18th 2024
+                    May 11-17th 2024
                     </div>
                     <img src={groundzeroHome} className="w-[310px] h-[110px] mt-10"></img>
                     <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
