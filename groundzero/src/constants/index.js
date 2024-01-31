@@ -315,7 +315,7 @@ export const questions = [
   {
     question: "How much does it cost to join Ground Zero?",
     answer:
-      "Early Bird prices are $10 per person. (normal pricing $20) Follow our social media accounts for more promotions!",
+      "Early Bird prices are $10 per person. (normal pricing $15) Follow our social media accounts for more promotions!",
   },
   {
     question: "How do I sign up for Ground Zero?",
@@ -359,7 +359,7 @@ export const questions = [
   },
 
   {
-    question : "Can I join Virtually? ",
+    question : "Can I join virtually? ",
     answer: "No, Ground Zero is a physical event.",
   },
 
