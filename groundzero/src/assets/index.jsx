@@ -88,6 +88,9 @@ import prizes from "./prizes.png";
 import circle from "./circle.gif";
 import bck from "./bck.png";
 import teams from "./team.jpeg";
+import metacamp from "./metacamp.png";
+import fomopay from "./fomopay.png";
+import skilledin from "./skilledin.png";
 
 export {
   ajinkya_bhat,
@@ -173,5 +176,8 @@ export {
   prizes,
   circle,
   bck,
-  teams
+  teams,
+  metacamp,
+  fomopay,
+  skilledin
 };

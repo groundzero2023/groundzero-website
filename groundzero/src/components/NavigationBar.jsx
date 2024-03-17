@@ -38,6 +38,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <Link to="/#timeline"  onClick={toggleDropdown}>Timeline</Link>
             </li>
+            <li>
+              <NavLink to="/partners" onClick={toggleDropdown}>Sponsors</NavLink>
+            </li>
 
             <li>
               <Link to="/#eligibility"  onClick={toggleDropdown}>Eligibility</Link>
@@ -91,6 +94,9 @@ const NavigationBar = ({ className }) => {
             Timeline
           </a>            
           </li>
+          <li>
+              <NavLink to="/partners">Sponsors</NavLink>
+            </li>
           <li>
             <a href="/#eligibility"
              className={activeAnchor === 'eligibility' ? 'active' : ''}
@@ -153,6 +159,10 @@ const NavigationBar = ({ className }) => {
             Timeline
           </a>            
           </li>
+
+          <li>
+              <NavLink to="/partners">Sponsors</NavLink>
+            </li>
           <li>
             <a href="/#eligibility"
              className={activeAnchor === 'eligibility' ? 'active' : ''}
