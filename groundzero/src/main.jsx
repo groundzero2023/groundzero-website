@@ -23,6 +23,7 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import { Partners } from './components'
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/contactus",
     element: <ContactUs/>
+  },
+  {
+    path: "/partners",
+    element: <Partners/>
   }
 
 ])
