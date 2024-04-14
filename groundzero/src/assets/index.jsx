@@ -91,6 +91,11 @@ import teams from "./team.jpeg";
 import metacamp from "./metacamp.png";
 import fomopay from "./fomopay.png";
 import skilledin from "./skilledin.png";
+import shirt from "./shirt.png";
+import tote from "./tote.png";
+import landyard from "./landyard.png";
+import ncs from "./ncs.png";
+import nuse from "./nuse.png";
 
 export {
   ajinkya_bhat,
@@ -179,5 +184,10 @@ export {
   teams,
   metacamp,
   fomopay,
-  skilledin
+  skilledin,
+  shirt,
+  landyard,
+  tote,
+  ncs,
+  nuse
 };

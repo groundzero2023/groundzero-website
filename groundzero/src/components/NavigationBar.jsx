@@ -52,9 +52,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <Link to="/eventschedule"  onClick={toggleDropdown}>Event Schedule</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/benefits"  onClick={toggleDropdown}>Benefits</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/#faq" onClick={toggleDropdown}>FAQ</Link>
             </li>
@@ -115,9 +115,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <NavLink to="/eventschedule">Event Schedule</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/benefits" >Benefits</NavLink>
-            </li>
+            </li> */}
             <li>
             <a href="/#faq"
              className={activeAnchor === 'faq' ? 'active' : ''}
@@ -181,9 +181,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <NavLink to="/eventschedule">Event Schedule</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/benefits" >Benefits</NavLink>
-            </li>
+            </li> */}
             <li>
             <a href="/#faq"
              className={activeAnchor === 'faq' ? 'active' : ''}
