@@ -240,6 +240,178 @@ This file contains styling customization for fonts and colors.
   filter: blur(750px);
 }
 
+/* BENEFITS */
+
+/* Benefits.css */
+.merchandise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merchandise-item {
+  position: relative;
+  margin: 20px 0;
+  /* Add width and height if necessary to contain the image and box */
+}
+
+.translucent-box {
+  position: absolute;
+  width: 100%; /* Adjust based on the size of the item */
+  height: 100%; /* Adjust based on the size of the item */
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency */
+  z-index: 0; /* The box should be below the image */
+}
+
+.merchandise-image {
+  width: 60%; /* Adjust based on the size of the item */
+  height: auto;
+  z-index: 1; /* The image should be above the box */
+  /* Align image to cover the box properly */
+  top: 0;
+  left: 0;
+}
+
+
+.text-lanyard-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Adjust the padding and margin to fit your layout */
+  padding: 20px;
+}
+
+.text-box {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency */
+  /* Define a width or use padding to control the box size */
+  padding: 20px;
+  z-index: 100; /* Above the image */
+  position: relative; /* Position relative to the text-lanyard-section */
+}
+
+.lanyard-image {
+  height: auto; /* Adjust as needed */
+  /* Adjust width as necessary, could be a percentage or fixed width */
+  width: 200px; /* Example fixed width */
+  z-index: 1; /* Above the translucent box */
+  position: relative; /* Needed to correctly position in the flex container */
+}
+
+/* SPONSORS */
+
+.sponsor-content-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor-logo-mobile {
+  width: 80%; /* Adjust as necessary */
+  margin-bottom: 20px; /* Adds space between the logos */
+}
+.sponsors-container {
+  background-color: #00132A; /* Light grey background */
+  padding: 40px;
+
+}
+
+.sponsor-level {
+  background-color: rgba(243, 243, 243, 0.28); /* Semi-transparent white */
+  padding: 10px;
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+  color: #E8830D;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  margin: 0 auto; /* Centers the element */
+  max-width: 1100px;
+  }
+
+.sponsor-level-silver {
+  background-color: rgba(243, 243, 243, 0.28); /* Semi-transparent white */
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #259DBE;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  margin: 0 auto; /* Centers the element */
+  max-width: 1000px;
+}
+
+.sponsor-level-gold {
+  background-color: rgba(243, 243, 243, 0.28); /* Semi-transparent white */
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #57D0C9;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  margin: 0 auto; /* Centers the element */
+  max-width: 1000px;
+}
+
+.sponsor-content {
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+  font-size: 20px;
+}
+
+
+.sponsor-logo {
+  width: 400px; /* Adjust based on your logo */
+  height: auto;
+  margin: 0 auto; /* Center the logo */
+  display: block; /* Ensure logo is treated as a block for centering */
+  margin-top: 60px;
+}
+
+.sponsor-logo-sg {
+  width: 400px; /* Adjust based on your logo */
+  height: auto;
+  margin: 0 auto; /* Center the logo */
+  display: block; /* Ensure logo is treated as a block for centering */
+  margin-top: 20px;
+  border-radius: 0.6cm;
+}
+
+.sponsor-description h1 {
+  margin-top: 0;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.sponsor-logo-container {
+  margin-bottom: 45px; /* Space between logo and text */
+}
+
+.sponsor-logo-container-s {
+  display: grid; /* Use CSS grid */
+  grid-template-columns: auto auto; /* Display two columns with automatic widths */
+}
+
+.sponsor-description p {
+  max-width: 900px; /* Or any other value that suits your design */
+  margin: 0 auto; /* This centers the div */
+  text-align: center;   
+}
+@media (max-width: 768px) {
+  .sponsor-logo-container-s {
+    flex-direction: column; /* Stack child elements vertically */
+  }
+
+  .sponsor-logo-sg {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    margin: 0 auto 10px; /* Center the logo with automatic horizontal margins and add some space below */
+  }
+}
+
+
 /* NAVIGATION BAR */
 
 /* index.css */
@@ -504,6 +676,14 @@ This file contains styling customization for fonts and colors.
 }
 
 @media screen and (max-width: 768px) {
+  .sponsor-logo-container-s {
+    flex-direction: column; /* Stack child elements vertically */
+  }
+
+  .sponsor-logo-sg {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    margin: 0 auto 10px; /* Center the logo with automatic horizontal margins and add some space below */
+  }
   .problem-statement-cards {
     grid-template-columns: 1fr; 
     width: 100%; 
@@ -920,6 +1100,14 @@ This file contains styling customization for fonts and colors.
 
 
 @media (max-width: 768px) {
+  .sponsor-logo-container-s {
+    flex-direction: column; /* Stack child elements vertically */
+  }
+
+  .sponsor-logo-sg {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    margin: 0 auto 10px; /* Center the logo with automatic horizontal margins and add some space below */
+  }
   .contact-button {
     background-color: #F3F3F3;
     color: white;

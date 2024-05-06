@@ -38,6 +38,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <Link to="/#timeline"  onClick={toggleDropdown}>Timeline</Link>
             </li>
+            <li>
+              <NavLink to="/partners" onClick={toggleDropdown}>Sponsors</NavLink>
+            </li>
 
             <li>
               <Link to="/#eligibility"  onClick={toggleDropdown}>Eligibility</Link>
@@ -49,9 +52,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <Link to="/eventschedule"  onClick={toggleDropdown}>Event Schedule</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/benefits"  onClick={toggleDropdown}>Benefits</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/#faq" onClick={toggleDropdown}>FAQ</Link>
             </li>
@@ -92,6 +95,9 @@ const NavigationBar = ({ className }) => {
           </a>            
           </li>
           <li>
+              <NavLink to="/partners">Sponsors</NavLink>
+            </li>
+          <li>
             <a href="/#eligibility"
              className={activeAnchor === 'eligibility' ? 'active' : ''}
              onClick={() => handleAnchorClick('eligibility')}>
@@ -109,9 +115,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <NavLink to="/eventschedule">Event Schedule</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/benefits" >Benefits</NavLink>
-            </li>
+            </li> */}
             <li>
             <a href="/#faq"
              className={activeAnchor === 'faq' ? 'active' : ''}
@@ -153,6 +159,10 @@ const NavigationBar = ({ className }) => {
             Timeline
           </a>            
           </li>
+
+          <li>
+              <NavLink to="/partners">Sponsors</NavLink>
+            </li>
           <li>
             <a href="/#eligibility"
              className={activeAnchor === 'eligibility' ? 'active' : ''}
@@ -171,9 +181,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <NavLink to="/eventschedule">Event Schedule</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/benefits" >Benefits</NavLink>
-            </li>
+            </li> */}
             <li>
             <a href="/#faq"
              className={activeAnchor === 'faq' ? 'active' : ''}

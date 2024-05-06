@@ -28,5 +28,3 @@ BENEFITS          </h1>
 }
 
 export default Benefits;
-
-
