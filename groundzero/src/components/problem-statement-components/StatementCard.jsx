@@ -30,10 +30,13 @@ const StatementCard = (props) => {
     const linkUrl = "/problems/" + id;
 
     if (props.type == "problem") {
+      console.log(data);
       return (
         <>
           <Content data={data} setModalIsOpen={setModalIsOpen} />
-          {modalIsOpen ? <Modal setModalIsOpen={setModalIsOpen} data={data} /> : null}
+          {modalIsOpen ? (
+            <Modal setModalIsOpen={setModalIsOpen} data={data} />
+          ) : null}
         </>
       );
     } else if (props.type == "reason") {
@@ -48,12 +51,12 @@ const Content = (props) => {
     <div className="statement-card" onClick={() => props.setModalIsOpen(true)}>
       <div className="statement-card-dummy">
         <div>
-      <div className="statement-card-image">
-        <img src={data.img}></img>
-      </div>
-      <div className="statement-card-header">{data.title}</div>
-      <div className="statement-card-description">{data.description}</div>
-      </div>
+          <div className="statement-card-image">
+            <img src={data.img}></img>
+          </div>
+          <div className="statement-card-header">{data.title}</div>
+          <div className="statement-card-description">{data.description}</div>
+        </div>
       </div>
     </div>
   );
