@@ -97,6 +97,14 @@ This file contains styling customization for fonts and colors.
   font-weight: 600;
 }
 
+.popup-description-small p {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -966,10 +974,18 @@ This file contains styling customization for fonts and colors.
 }
 
 .popup-description {
-  font-size: 20px;
+  font-size: 17px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  color: #00132a;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.popup-description-small {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
   margin-top: 15px;
 }
 
@@ -1228,7 +1244,7 @@ li {
   }
 
   .popup-description {
-    font-size: 17px;
+    font-size: 15px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     color: white;

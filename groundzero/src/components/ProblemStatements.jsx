@@ -2,10 +2,11 @@ import React from "react";
 import styles from "../style";
 import StatementCard from "./problem-statement-components/StatementCard";
 import { blob } from "../assets";
+import { useState, useEffect } from "react";
+import { problemStatements } from "../constants/index";
 
 const ProblemStatements = () => {
-  const [data, setData] = useState({});
-  
+  const [probState, setProbState] = useState([]);
   return (
     <div className="problem-statements" id="problems">
       <div
@@ -20,21 +21,14 @@ const ProblemStatements = () => {
         </div>
         <div className="flex flex-col items-center w-full px-12 group">
           <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 mx-auto w-full">
-            {generateCards()}
+            {generateCards(setProbState)}
           </div>
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-full text-center mt-4">
             <div className="text-white">
               <p>Problem Statements:</p>
-              <p>
-                1. How can generative AI be integrated into e-commerce platforms
-                to dynamically display the environmental impact of products
-                based on materials, production, and shipping?
-              </p>
-              <p>
-                2. How can generative AI be used to create a more inclusive
-                online shopping experience for customers with vision impairments
-                or other challenges?
-              </p>
+              {probState.map((detail, index) => (
+                <p key={index}>{detail}</p>
+              ))}
             </div>
           </div>
           <br></br>
@@ -44,12 +38,16 @@ const ProblemStatements = () => {
   );
 };
 
-const generateCards = () => {
+const generateCards = (setProbState) => {
   let content = [];
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < problemStatements.length; i++) {
     content.push(
-      <div>
-        <StatementCard id={i} type="problem" />
+      <div
+        key={problemStatements[i].id}
+        onMouseEnter={() => setProbState(problemStatements[i].details)}
+        onMouseLeave={() => setProbState([])}
+      >
+        <StatementCard id={problemStatements[i].id - 1} type="problem" />
       </div>
     );
   }

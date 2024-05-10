@@ -16,7 +16,6 @@ const Modal = (props) => {
         right: 0,
         bottom: 0,
         zIndex: 100,
-
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -24,29 +23,47 @@ const Modal = (props) => {
       }}
     >
       <MediaQuery minWidth={768}>
-      <div onClick={(e) => e.stopPropagation()} className="popup-content">
-        <div className="popup-content-inner">
-          <div className="popup-image">
-            <img src={props.data.img} />
+        <div onClick={(e) => e.stopPropagation()} className="popup-content">
+          <div className="popup-content-inner">
+            <div className="popup-image">
+              <img src={props.data.img} />
+            </div>
+            <div className="popup-right">
+              <div className="popup-heading">{props.data.title}</div>
+              <div className="popup-description">{props.data.details1}</div>
+            </div>
+            <IoClose
+              className="popup-close-button"
+              onClick={() => props.setModalIsOpen(false)}
+            />
           </div>
-          <div className="popup-right">
-            <div className="popup-heading">{props.data.title}</div>
-            <div className="popup-description">{props.data.details1}</div>
-          </div>
-          <IoClose className="popup-close-button" onClick={() => props.setModalIsOpen(false)}/>
         </div>
-      </div>
       </MediaQuery>
       <MediaQuery maxWidth={768}>
-      <div onClick={(e) => e.stopPropagation()} className="popup-content">
-        <div className="popup-content-inner-small">
-          <div className="popup-right">
-            <div className="popup-heading">{props.data.title}</div>
-            <div className="popup-description">{props.data.details1}</div>
+        <div onClick={(e) => e.stopPropagation()} className="popup-content">
+          <div className="popup-content-inner-small">
+            <div className="popup-right">
+              <div className="popup-heading">{props.data.title}</div>
+              <div className="popup-description-small">
+                {props.data.details1}
+              </div>
+              <div className="popup-description-small">Problem statements:</div>
+              <div className="popup-description-small">
+                {props.data.probstatements.map((statement) => {
+                  return (
+                    <p className="popup-descriptions-small" key={statement}>
+                      {statement}
+                    </p>
+                  ); // Ensure you return the JSX
+                })}
+              </div>
+            </div>
+            <IoClose
+              className="popup-close-button"
+              onClick={() => props.setModalIsOpen(false)}
+            />
           </div>
-          <IoClose className="popup-close-button" onClick={() => props.setModalIsOpen(false)}/>
         </div>
-      </div>
       </MediaQuery>
     </div>
   );

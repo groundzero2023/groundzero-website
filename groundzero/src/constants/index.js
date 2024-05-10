@@ -184,6 +184,9 @@ export const problems = [
     details1:
       "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
+    probstatements: [
+      "How can generative AI be utilized to create healthcare solutions that are affordable and accessible to marginalized communities, and at the same time personalized to the needs and health conditions of individuals.",
+    ],
   },
   {
     id: 2,
@@ -191,6 +194,10 @@ export const problems = [
     details1:
       "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
     img: finance,
+    probstatements: [
+      "How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
+      "How can generative AI be used to design new materials or processes with specific properties that lead to more sustainable production practices?",
+    ],
   },
   {
     id: 3,
@@ -198,6 +205,10 @@ export const problems = [
     details1:
       "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
     img: consumercentric,
+    probstatements: [
+      "How can generative AI be integrated into e-commerce platforms to dynamically display the environmental impact of products based on materials, production and shipping?",
+      "How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
+    ],
   },
   {
     id: 4,
@@ -205,6 +216,10 @@ export const problems = [
     details1:
       "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
     img: sustainability,
+    probstatements: [
+      "How can generative AI be used to develop systems that in real-time identify anomalies and prevent fraudulent financial activities?",
+      "How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
+    ],
   },
 ];
 

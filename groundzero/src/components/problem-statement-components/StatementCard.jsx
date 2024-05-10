@@ -30,7 +30,6 @@ const StatementCard = (props) => {
     const linkUrl = "/problems/" + id;
 
     if (props.type == "problem") {
-      console.log(data);
       return (
         <>
           <Content data={data} setModalIsOpen={setModalIsOpen} />
