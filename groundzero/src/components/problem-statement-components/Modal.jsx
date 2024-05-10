@@ -54,7 +54,7 @@ const Modal = (props) => {
                     <p className="popup-descriptions-small" key={statement}>
                       {statement}
                     </p>
-                  ); // Ensure you return the JSX
+                  );
                 })}
               </div>
             </div>
