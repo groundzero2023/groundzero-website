@@ -148,36 +148,36 @@ export const problemStatements = [
     id: 1,
     title: "Health & Wellness",
     details: [
-      "How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
-      "How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
-      "How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
+      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
+      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
+      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
     ],
   },
   {
     id: 2,
     title: "Sustainability",
     details: [
-      "How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
-      "How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
-      "Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
+      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
+      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
+      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
     ],
   },
   {
     id: 3,
     title: " E-commerce",
     details: [
-      "How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
-      "Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
-      "Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
+      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
+      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
+      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
     ],
   },
   {
     id: 4,
     title: "Finance",
     details: [
-      "How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
-      "How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
-      "Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
+      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
+      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
+      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
     ],
   },
 ];
@@ -190,9 +190,9 @@ export const problems = [
       "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
     probstatements: [
-      "How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
-      "How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
-      "How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
+      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
+      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
+      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
     ],
   },
   {
@@ -202,9 +202,9 @@ export const problems = [
       "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
     img: finance,
     probstatements: [
-      "How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
-      "How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
-      "Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
+      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
+      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
+      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
     ],
   },
   {
@@ -214,9 +214,9 @@ export const problems = [
       "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
     img: consumercentric,
     probstatements: [
-      "How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
-      "Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
-      "Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
+      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
+      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
+      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
     ],
   },
   {
@@ -226,9 +226,9 @@ export const problems = [
       "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
     img: sustainability,
     probstatements: [
-      "How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
-      "How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
-      "Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
+      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
+      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
+      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
     ],
   },
 ];
