@@ -1,33 +1,32 @@
-  import React from "react";
-  import NavigationBar from "./NavigationBar";
-  import {bck } from "../assets";
-  import "../index.css";
+import React from "react";
+import NavigationBar from "./NavigationBar";
+import gz from "../assets/groundtime.png";
+import "../index.css";
+console.log(gz);
 
-  function EventSchedule() {
-    return (
-      <>
+function EventSchedule() {
+  return (
+    <>
       <div className="bg-darkBlue w-full overflow-hidden min-h-screen">
-        <NavigationBar  className="navbar-special-margin" />
+        <NavigationBar className="navbar-special-margin" />
         <div className="pt-20 pb-10 px-4">
-            <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light ">
-              EVENT SCHEDULE
-            </h1>
-            <br>
-      
-            </br>
-          </div>
-          <p style={{textAlign: "center" }}
-          
-          className="text-3xl font-poppins text-white font-light font-thin mt-100">
-                <br>
-            </br>
-        COMING SOON.
-          </p>
-          </div>
-      </>
-    );
-  }
+          <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light ">
+            EVENT SCHEDULE
+          </h1>
+          <br></br>
+        </div>
 
-  export default EventSchedule;
+        <br></br>
+        <div className="flex justify-center items-center mt-24">
+          <img
+            src={gz}
+            alt="Event Schedule Coming Soon"
+            className="max-w-full h-auto"
+          />
+        </div>
+      </div>
+    </>
+  );
+}
 
-
+export default EventSchedule;

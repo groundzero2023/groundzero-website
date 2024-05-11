@@ -23,7 +23,7 @@ This file contains styling customization for fonts and colors.
   --button-purple: #a733bb;
   --button-purple-highlight: #d155e7;
   --past-event-orange: #f28f48;
-  --background: #00132A;
+  --background: #00132a;
 
   --gh-pattern-1: #fff4f9;
   --gh-pattern-2: #ffebf1;
@@ -89,13 +89,20 @@ This file contains styling customization for fonts and colors.
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
-
 }
 
 * {
   scroll-behavior: smooth;
   font-family: Plus Jakarta Sans, sans-serif;
   font-weight: 600;
+}
+
+.popup-description-small p {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 15px;
 }
 
 .text-gradient {
@@ -114,12 +121,18 @@ This file contains styling customization for fonts and colors.
   text-fill-color: transparent;
 }
 
-.active {
-  border-bottom: 2px solid #64F6FF; /* Underline color */
-  color: #64F6FF; /* Text color */
-  display: inline-block; /* Ensures the border applies to the text length */
+.text-white p {
+  margin-bottom: 10px; /* Adds space below each paragraph */
+  padding-left: 20px; /* Adds some padding to the left for better readability */
+  text-indent: -20px; /* Optional: Indents the first line of each paragraph */
+  line-height: 1.6; /* Increases the line height for better readability */
 }
 
+.active {
+  border-bottom: 2px solid #64f6ff; /* Underline color */
+  color: #64f6ff; /* Text color */
+  display: inline-block; /* Ensures the border applies to the text length */
+}
 
 .bg-blue-gradient {
   background: linear-gradient(
@@ -164,7 +177,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .bg-purple {
-  background: #00132A;
+  background: #00132a;
 }
 
 .box-shadow {
@@ -272,7 +285,6 @@ This file contains styling customization for fonts and colors.
   left: 0;
 }
 
-
 .text-lanyard-section {
   display: flex;
   justify-content: space-between;
@@ -310,9 +322,8 @@ This file contains styling customization for fonts and colors.
   margin-bottom: 20px; /* Adds space between the logos */
 }
 .sponsors-container {
-  background-color: #00132A; /* Light grey background */
+  background-color: #00132a; /* Light grey background */
   padding: 40px;
-
 }
 
 .sponsor-level {
@@ -321,12 +332,12 @@ This file contains styling customization for fonts and colors.
   font-size: 39px;
   font-weight: bold;
   text-align: center;
-  color: #E8830D;
+  color: #e8830d;
   margin-bottom: 40px;
   border-radius: 25px;
   margin: 0 auto; /* Centers the element */
   max-width: 1100px;
-  }
+}
 
 .sponsor-level-silver {
   background-color: rgba(243, 243, 243, 0.28); /* Semi-transparent white */
@@ -334,7 +345,7 @@ This file contains styling customization for fonts and colors.
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: #259DBE;
+  color: #259dbe;
   margin-bottom: 40px;
   border-radius: 25px;
   margin: 0 auto; /* Centers the element */
@@ -347,7 +358,7 @@ This file contains styling customization for fonts and colors.
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: #57D0C9;
+  color: #57d0c9;
   margin-bottom: 40px;
   border-radius: 25px;
   margin: 0 auto; /* Centers the element */
@@ -361,7 +372,6 @@ This file contains styling customization for fonts and colors.
   text-align: center; /* Center align the content */
   font-size: 20px;
 }
-
 
 .sponsor-logo {
   width: 400px; /* Adjust based on your logo */
@@ -398,7 +408,7 @@ This file contains styling customization for fonts and colors.
 .sponsor-description p {
   max-width: 900px; /* Or any other value that suits your design */
   margin: 0 auto; /* This centers the div */
-  text-align: center;   
+  text-align: center;
 }
 @media (max-width: 768px) {
   .sponsor-logo-container-s {
@@ -411,7 +421,6 @@ This file contains styling customization for fonts and colors.
   }
 }
 
-
 /* NAVIGATION BAR */
 
 /* index.css */
@@ -419,9 +428,8 @@ This file contains styling customization for fonts and colors.
   margin-left: 0px !important;
 }
 
-
 .nav {
-  background-color: #00132A;
+  background-color: #00132a;
   color: white;
   width: 100%;
   min-width: auto;
@@ -452,11 +460,11 @@ This file contains styling customization for fonts and colors.
   text-decoration: none;
   height: 100%;
   display: flex;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 #nav-register-button {
-  background-color: #00132A;
+  background-color: #00132a;
   border: 2px solid white;
   height: 70%;
   align-items: center;
@@ -468,7 +476,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button:hover {
- background-color: #01234D;
+  background-color: #01234d;
 }
 
 #nav-register-button a {
@@ -482,8 +490,6 @@ This file contains styling customization for fonts and colors.
   border-radius: 30px;
   font-weight: 600;
 }
-
-
 
 .header-container {
   display: flex;
@@ -536,8 +542,7 @@ This file contains styling customization for fonts and colors.
   font-size: 20px;
   font-weight: lighter;
   margin-top: 15px;
-  color:white;
-  
+  color: white;
 }
 
 .underline {
@@ -554,12 +559,11 @@ This file contains styling customization for fonts and colors.
 }
 
 .column-container:hover {
-  background-color: #01234D;
+  background-color: #01234d;
   width: 100%;
-  
 }
 .column-text {
-  color: white
+  color: white;
 }
 
 .text-container {
@@ -568,7 +572,7 @@ This file contains styling customization for fonts and colors.
   opacity: 1;
   animation-name: textanimate;
   animation-duration: 1s;
-  color:#29B1ED;
+  color: #29b1ed;
 }
 
 @keyframes textanimate {
@@ -581,7 +585,6 @@ This file contains styling customization for fonts and colors.
     max-height: 350px;
   }
 }
-
 
 /* For navbar fixed position and link scroll test purposes  */
 /* .about,.signup,.timeline,.problems,.contact {
@@ -685,8 +688,8 @@ This file contains styling customization for fonts and colors.
     margin: 0 auto 10px; /* Center the logo with automatic horizontal margins and add some space below */
   }
   .problem-statement-cards {
-    grid-template-columns: 1fr; 
-    width: 100%; 
+    grid-template-columns: 1fr;
+    width: 100%;
     justify-items: center;
   }
 
@@ -697,7 +700,7 @@ This file contains styling customization for fonts and colors.
 
   .problem-statements .grid-cols-1 {
     grid-template-columns: 1fr; /* Set to a single column for smaller screens */
-    gap: 40px; 
+    gap: 40px;
     margin-right: 20px;
     margin-left: -20px;
   }
@@ -750,13 +753,12 @@ This file contains styling customization for fonts and colors.
   }
 }
 
-
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
   width: 80%;
   height: 300px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   align-items: center;
   padding: 3rem 2rem;
   margin-left: 50px;
@@ -779,6 +781,17 @@ This file contains styling customization for fonts and colors.
   cursor: pointer;
 }
 
+.group:hover .group-hover\:opacity-100 {
+  font-size: 30px;
+  opacity: 1;
+}
+
+.group-hover\:opacity-100 {
+  opacity: 0;
+  font-size: 30px;
+  transition: opacity 0.3s ease;
+}
+
 .statement-card-image {
   align-items: center;
   margin-left: auto;
@@ -794,14 +807,14 @@ This file contains styling customization for fonts and colors.
   padding-bottom: 0.5rem;
   font-family: Poppins, sans-serif;
   font-weight: lighter;
-  color: #00132A;
+  color: #00132a;
 }
 
 .statement-card-description {
   text-align: center;
   font-size: 16px;
   font-family: Poppins, sans-serif;
-  color: #00132A;
+  color: #00132a;
   font-weight: 400;
 }
 
@@ -861,7 +874,7 @@ This file contains styling customization for fonts and colors.
 
 .display-button {
   margin: 3.5rem 0;
-  background-color: #00132A;
+  background-color: #00132a;
   border-radius: 45px;
   transition: 0.1s;
   width: 260px;
@@ -885,7 +898,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .display-button:hover {
-  background-color: #01234D
+  background-color: #01234d;
 }
 
 .display-button a {
@@ -916,7 +929,7 @@ This file contains styling customization for fonts and colors.
 
 .popup-content {
   position: relative;
-  background: #E3E0E0;
+  background: #e3e0e0;
   border-radius: 25px;
   width: auto;
   margin-left: 20%;
@@ -930,7 +943,6 @@ This file contains styling customization for fonts and colors.
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .popup-content-inner {
@@ -945,7 +957,7 @@ This file contains styling customization for fonts and colors.
   margin-top: auto;
   margin-bottom: auto;
   display: grid;
-  grid-template-columns: 1fr 40px; 
+  grid-template-columns: 1fr 40px;
   gap: 1em;
 }
 
@@ -958,14 +970,22 @@ This file contains styling customization for fonts and colors.
 .popup-heading {
   font-size: 40px;
   font-family: Poppins, sans-serif;
-  color: #00132A;
+  color: #00132a;
 }
 
 .popup-description {
-  font-size: 20px;
+  font-size: 17px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  color: #00132A;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.popup-description-small {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
   margin-top: 15px;
 }
 
@@ -1026,7 +1046,7 @@ This file contains styling customization for fonts and colors.
   justify-content: center;
   align-items: center;
   padding: 3em 20%;
-  background-image: linear-gradient(to right, #0A1CFE, #00527D, #DB4200);
+  background-image: linear-gradient(to right, #0a1cfe, #00527d, #db4200);
   margin-left: -20%;
   margin-right: -20%;
   margin-top: 100px;
@@ -1069,7 +1089,7 @@ This file contains styling customization for fonts and colors.
   top: 60px;
   height: 0;
   width: 300px;
-  background: #00132A;
+  background: #00132a;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
@@ -1078,7 +1098,7 @@ This file contains styling customization for fonts and colors.
 .dropdown_menu_open {
   position: fixed;
   top: 90px;
-  background: #00527D;
+  background: #00527d;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
@@ -1091,13 +1111,13 @@ This file contains styling customization for fonts and colors.
   width: 70%;
 }
 
-.dropdown_menu ul, li {
+.dropdown_menu ul,
+li {
   padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 @media (max-width: 768px) {
   .sponsor-logo-container-s {
@@ -1109,7 +1129,7 @@ This file contains styling customization for fonts and colors.
     margin: 0 auto 10px; /* Center the logo with automatic horizontal margins and add some space below */
   }
   .contact-button {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     color: white;
     border-radius: 50px;
     display: grid;
@@ -1141,7 +1161,7 @@ This file contains styling customization for fonts and colors.
   }
 
   .statement-card {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     align-items: center;
     padding: 1.5rem 1rem;
     height: 100%;
@@ -1177,20 +1197,20 @@ This file contains styling customization for fonts and colors.
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-family: Lexend Deca, sans-serif;
-    color: #00132A;
+    color: #00132a;
   }
 
   .statement-card-description {
     text-align: center;
     font-size: 16px;
     font-family: Poppins, sans-serif;
-    color: #00132A;
+    color: #00132a;
     font-weight: 400;
   }
 
   .popup-content {
     position: relative;
-    background: #00527D;
+    background: #00527d;
     border-radius: 25px;
     width: 80%;
     margin-left: 0px;
@@ -1224,7 +1244,7 @@ This file contains styling customization for fonts and colors.
   }
 
   .popup-description {
-    font-size: 17px;
+    font-size: 15px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     color: white;
@@ -1253,179 +1273,171 @@ This file contains styling customization for fonts and colors.
 
   /* NAVIGATION BAR */
 
-.nav {
-  background-color: black;
-  color: white;
-  width: 100%;
-  min-width: auto;
-  max-width: auto;
-  float: left;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 1rem;
-  padding: 0.5rem 2rem;
-  position: fixed;
-  z-index: 40;
-  top: 0;
-}
-
-.nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  align-items: center;
-  display: flex;
-  gap: 1rem;
-  cursor: pointer;
-}
-
-.nav a {
-  color: inherit;
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  padding: 1rem;
-}
-
-#nav-register-button {
-  background-color: #00527D;
-  height: 70%;
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  padding: 0.5rem 2rem;
-  border-radius: 30px;
-  transition: 0.1s;
-}
-
-#nav-register-button:hover {
-  background-color: #00527D;
-}
-
-#nav-register-button a {
-  color: white;
-  width: inherit;
-  height: 90%;
-  align-items: center;
-  display: inline-flex;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  border-radius: 30px;
-  font-weight: 600;
-}
-
-.dropdown_menu {
-  /* display: none; */
-  position: absolute;
-  right: 2rem;
-  top: 100px;
-  height: 0;
-  width: 300px;
-  background: var(--bg-lighter-purple);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.dropdown_menu.open {
-  position: absolute;
-  top: 100px;
-  margin-top: 100px;
-  height: 240px;
-}
-
-.dropdown_menu li {
-  padding: 0.7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2em 20%;
-  background-color: var(--bg-lighter-purple);
-  margin-left: -20%;
-  margin-right: -20%;
-  margin-top: 100px;
-}
-
-.footer-content {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-}
-
-.footer-button {
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.footer-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-text {
-  font-family: Lexend Deca, sans-serif;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  margin-left: 30px;
-}
-
-@media screen and (max-width: 360px) and (max-height: 740px) {
-  .popup-content {
-    width: 90%; /* Adjust width for smaller screens */
-    padding: 1.5em 1.5em; /* Adjust padding for smaller screens */
-    top: -550px;
+  .nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-width: auto;
+    max-width: auto;
+    float: left;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    position: fixed;
+    z-index: 40;
+    top: 0;
+  }
+
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+  }
+
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+  }
+
+  #nav-register-button {
+    background-color: #00527d;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    transition: 0.1s;
+  }
+
+  #nav-register-button:hover {
+    background-color: #00527d;
+  }
+
+  #nav-register-button a {
+    color: white;
+    width: inherit;
+    height: 90%;
+    align-items: center;
+    display: inline-flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+
+  .dropdown_menu {
+    /* display: none; */
+    position: absolute;
+    right: 2rem;
+    top: 100px;
+    height: 0;
+    width: 300px;
+    background: var(--bg-lighter-purple);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .dropdown_menu.open {
+    position: absolute;
+    top: 100px;
+    margin-top: 100px;
+    height: 240px;
+  }
+
+  .dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 20%;
+    background-color: var(--bg-lighter-purple);
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-top: 100px;
+  }
+
+  .footer-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer-button {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .footer-left {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
-}
 
-@media (max-width: 1024px) {
-  #prizes
-  {
-  scroll-margin-top: 140px; /* Use the height of your fixed header */
-}
-} 
+  .footer-text {
+    font-family: Lexend Deca, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 30px;
+  }
 
-.prizes-image-container {
-  width: 100%; /* Use a percentage of the parent container */
-  max-width: 500px; /* Maximum size of the container */
-  margin: auto; /* Center the container */
-}
+  @media screen and (max-width: 360px) and (max-height: 740px) {
+    .popup-content {
+      width: 90%; /* Adjust width for smaller screens */
+      padding: 1.5em 1.5em; /* Adjust padding for smaller screens */
+      top: -550px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 
-.prizes-image {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Make sure the whole image is visible */
-}
-
-/* Media query for iPad Air specific adjustments */
-@media only screen 
-  and (min-device-width: 820px) 
-  and (max-device-width: 1180px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  @media (max-width: 1024px) {
+    #prizes {
+      scroll-margin-top: 140px; /* Use the height of your fixed header */
+    }
+  }
 
   .prizes-image-container {
-    /* Adjust the size of the container specifically for iPad Air */
-    max-width: 400px; /* Example: you might need to reduce the size */
+    width: 100%; /* Use a percentage of the parent container */
+    max-width: 500px; /* Maximum size of the container */
+    margin: auto; /* Center the container */
   }
-}
 
+  .prizes-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Make sure the whole image is visible */
+  }
 
-
+  /* Media query for iPad Air specific adjustments */
+  @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+    .prizes-image-container {
+      /* Adjust the size of the container specifically for iPad Air */
+      max-width: 400px; /* Example: you might need to reduce the size */
+    }
+  }
 }
