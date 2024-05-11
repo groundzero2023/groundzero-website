@@ -36,13 +36,13 @@ import {
   patrick_ng,
   phang_wei_jun,
   richard_ruddy,
-  sam_ho, 
+  sam_ho,
   steven_chua,
   suwira_teo,
   viveka_kalidasan,
   wei_liang_lim,
   wei_zhuang,
-  ye_sheng_tan, 
+  ye_sheng_tan,
   accelerating,
   airbnb,
   aws,
@@ -76,7 +76,7 @@ import {
   sustainability,
   industryfour,
   mapletree_new,
-  finance
+  finance,
 } from "../assets";
 
 export const navLinks = [
@@ -124,48 +124,114 @@ export const reasons = [
     id: 1,
     img: network,
     title: "Network",
-    description: "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
+    description:
+      "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
   },
   {
     id: 2,
     img: mentorship,
     title: "Seek guidance through mentorship",
-    description: "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
+    description:
+      "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
   },
   {
     id: 3,
     img: ideate,
     title: "Ideate, Pitch, and Win",
-    description: "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
-  }
-]
+    description:
+      "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
+  },
+];
+
+export const problemStatements = [
+  {
+    id: 1,
+    title: "Health & Wellness",
+    details: [
+      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
+      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
+      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Sustainability",
+    details: [
+      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
+      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
+      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
+    ],
+  },
+  {
+    id: 3,
+    title: " E-commerce",
+    details: [
+      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
+      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
+      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
+    ],
+  },
+  {
+    id: 4,
+    title: "Finance",
+    details: [
+      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
+      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
+      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
+    ],
+  },
+];
 
 export const problems = [
   {
     id: 1,
     title: "Health & Wellness",
-    details1: "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
+    details1:
+      "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
     img: healthcare,
+    probstatements: [
+      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
+      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
+      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
+    ],
   },
   {
     id: 2,
     title: "Finance",
-    details1: "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
+    details1:
+      "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
     img: finance,
+    probstatements: [
+      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
+      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
+      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
+    ],
   },
   {
     id: 3,
     title: "E-Commerce",
-    details1: "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
+    details1:
+      "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
     img: consumercentric,
+    probstatements: [
+      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
+      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
+      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
+    ],
   },
   {
     id: 4,
     title: "Sustainability",
-    details1: "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
+    details1:
+      "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
     img: sustainability,
-  }
-]
+    probstatements: [
+      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
+      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
+      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
+    ],
+  },
+];
 
 export const stats = [
   {
@@ -319,50 +385,56 @@ export const questions = [
   },
   {
     question: "How do I sign up for Ground Zero?",
-    answer:
-    "You can signup for Ground Zero through the Register button above!"
+    answer: "You can signup for Ground Zero through the Register button above!",
   },
   {
-    question: "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+    question:
+      "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
-    question: "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
-    answer: "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
+    question:
+      "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
+    answer:
+      "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
   },
   {
     question: "What is included in the prize pool?",
-    answer: "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
+    answer:
+      "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
-    question: "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
-    answer: "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
+    question:
+      "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
+    answer:
+      "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
   },
   {
     question: "Who can participate in Ground Zero?",
-    answer: "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
+    answer:
+      "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
   },
   {
     question: "How many people can be on a team?",
     answer: "Each team can have 3 to 5 members.",
   },
   {
-    question: "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
+    question:
+      "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
     answer: "Yes! We’re open to students from any institution overseas.",
   },
 
   {
-    question : "Must I attend all days of the event?",
-    answer: "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
-    
+    question: "Must I attend all days of the event?",
+    answer:
+      "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
   },
 
   {
-    question : "Can I join virtually? ",
+    question: "Can I join virtually? ",
     answer: "No, Ground Zero is a physical event.",
   },
-
 ];
 
 export const organizer = [
@@ -530,413 +602,340 @@ export const workshops = [
 
 export const mentors = [
   {
-    title:"Sam Ho",
-    subtitle:["Founder"],
+    title: "Sam Ho",
+    subtitle: ["Founder"],
     info: ["We CARE"],
-    personalLink:"https://www.linkedin.com/in/ssam-ho/",
+    personalLink: "https://www.linkedin.com/in/ssam-ho/",
     imgsrc: sam_ho,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Steven Chua",
-    subtitle:["Co-Founder"],
+    title: "Steven Chua",
+    subtitle: ["Co-Founder"],
     info: ["Inner Circle Network"],
-    personalLink:"https://www.linkedin.com/in/stevenchuajc/",
+    personalLink: "https://www.linkedin.com/in/stevenchuajc/",
     imgsrc: steven_chua,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Andrew Soh",
-    subtitle:["Founder & CEO"],
+    title: "Andrew Soh",
+    subtitle: ["Founder & CEO"],
     info: ["Fundigo"],
-    personalLink:"https://www.linkedin.com/in/andrew-soh-b81a2b206/",
+    personalLink: "https://www.linkedin.com/in/andrew-soh-b81a2b206/",
     imgsrc: andrew_soh,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Richard Ruddy",
-    subtitle:["President & Co-Founder"],
+    title: "Richard Ruddy",
+    subtitle: ["President & Co-Founder"],
     info: ["Nuguru"],
-    personalLink:"https://www.linkedin.com/in/richard-ruddy-b79a5122/",
+    personalLink: "https://www.linkedin.com/in/richard-ruddy-b79a5122/",
     imgsrc: richard_ruddy,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Ye Sheng Tan",
-    subtitle:["Startup Mentor"],
+    title: "Ye Sheng Tan",
+    subtitle: ["Startup Mentor"],
     info: ["500 Global"],
-    personalLink:"https://www.linkedin.com/in/tanyesheng/",
+    personalLink: "https://www.linkedin.com/in/tanyesheng/",
     imgsrc: ye_sheng_tan,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Chet Yong",
-    subtitle:["Expert Mentor"],
+    title: "Chet Yong",
+    subtitle: ["Expert Mentor"],
     info: ["Innovators Commersialisation Program"],
-    personalLink:"https://www.linkedin.com/in/chetyong/",
+    personalLink: "https://www.linkedin.com/in/chetyong/",
     imgsrc: chet_yong,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Mohan Belani",
-    subtitle:["Co-Founder & CEO"],
+    title: "Mohan Belani",
+    subtitle: ["Co-Founder & CEO"],
     info: ["e27"],
-    personalLink:"https://www.linkedin.com/in/mohanbelani",
+    personalLink: "https://www.linkedin.com/in/mohanbelani",
     imgsrc: mohan_belani,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Douglas Peris",
-    subtitle:["Program Coach & Mentor"],
+    title: "Douglas Peris",
+    subtitle: ["Program Coach & Mentor"],
     info: ["Hyper Accelerator"],
-    personalLink:"https://www.linkedin.com/in/douglasperis",
+    personalLink: "https://www.linkedin.com/in/douglasperis",
     imgsrc: douglas_peris,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Evan Chow",
-    subtitle:["Co-Founder & CEO"],
+    title: "Evan Chow",
+    subtitle: ["Co-Founder & CEO"],
     info: ["Quest"],
-    personalLink:"https://www.linkedin.com/in/evan-chow/",
+    personalLink: "https://www.linkedin.com/in/evan-chow/",
     imgsrc: evan_chow,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Chandra Tjan",
-    subtitle:["Co-Founder & General Partner"],
+    title: "Chandra Tjan",
+    subtitle: ["Co-Founder & General Partner"],
     info: ["Alpha JWC Ventures"],
-    personalLink:"https://linkedin.com/in/chandratjan",
+    personalLink: "https://linkedin.com/in/chandratjan",
     imgsrc: chandra_tjan,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Donna Daritan",
-    subtitle:["Startup Mentor"],
+    title: "Donna Daritan",
+    subtitle: ["Startup Mentor"],
     info: ["Asia Insitute of Mentoring & Startupbootcamp FinTech"],
-    personalLink:"https://linkedin.com/in/donnadaritan",
+    personalLink: "https://linkedin.com/in/donnadaritan",
     imgsrc: donna_daritan,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Dennis Poh",
-    subtitle:["Founder & CEO"],
+    title: "Dennis Poh",
+    subtitle: ["Founder & CEO"],
     info: ["Legatcy"],
-    personalLink:"https://www.linkedin.com/in/dennis-poh-csa-cert-9693652a/",
+    personalLink: "https://www.linkedin.com/in/dennis-poh-csa-cert-9693652a/",
     imgsrc: dennis_poh,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Patrick Ng",
-    subtitle:["Founder"],
+    title: "Patrick Ng",
+    subtitle: ["Founder"],
     info: ["Spark Launchpad"],
-    personalLink:"https://www.linkedin.com/in/peisin/?originalSubdomain=sg",
+    personalLink: "https://www.linkedin.com/in/peisin/?originalSubdomain=sg",
     imgsrc: patrick_ng,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Arin Alois Loy",
-    subtitle:["Startup and Industry Mentor"],
+    title: "Arin Alois Loy",
+    subtitle: ["Startup and Industry Mentor"],
     info: ["NTU"],
-    personalLink:"https://www.linkedin.com/in/arinalois/",
+    personalLink: "https://www.linkedin.com/in/arinalois/",
     imgsrc: arin_alois_loy,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Melvin Ho",
-    subtitle:["CEO"],
+    title: "Melvin Ho",
+    subtitle: ["CEO"],
     info: ["Bizsquare Group"],
-    personalLink:"https://www.linkedin.com/in/melvin-ho-45055554/?originalSubdomain=sg",
+    personalLink:
+      "https://www.linkedin.com/in/melvin-ho-45055554/?originalSubdomain=sg",
     imgsrc: melvin_ho,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Viveka Kalidasan",
-    subtitle:["Co-Founder/CEO/Director"],
+    title: "Viveka Kalidasan",
+    subtitle: ["Co-Founder/CEO/Director"],
     info: ["Edify"],
-    personalLink:"https://www.linkedin.com/in/vivekakalidasan/",
+    personalLink: "https://www.linkedin.com/in/vivekakalidasan/",
     imgsrc: viveka_kalidasan,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Kenneth Lou",
-    subtitle:["Co-Founder"],
+    title: "Kenneth Lou",
+    subtitle: ["Co-Founder"],
     info: ["Seedly"],
-    personalLink:"https://www.linkedin.com/in/kenneth-lou/",
+    personalLink: "https://www.linkedin.com/in/kenneth-lou/",
     imgsrc: kenneth_lou,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Jeremy Loh",
-    subtitle:["Co-Founder & Partner"],
+    title: "Jeremy Loh",
+    subtitle: ["Co-Founder & Partner"],
     info: ["Genesis Alternative Ventures"],
-    personalLink:"https://www.linkedin.com/in/drmmhloh",
+    personalLink: "https://www.linkedin.com/in/drmmhloh",
     imgsrc: jeremy_loh,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Max Giammario",
-    subtitle:["CEO"],
+    title: "Max Giammario",
+    subtitle: ["CEO"],
     info: ["MetaPals"],
-    personalLink:"https://www.linkedin.com/in/maxgiammario/",
+    personalLink: "https://www.linkedin.com/in/maxgiammario/",
     imgsrc: max_giammario,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Francis Lee",
-    subtitle:["Co-Founder"],
+    title: "Francis Lee",
+    subtitle: ["Co-Founder"],
     info: ["Lalia"],
-    personalLink:"https://www.linkedin.com/in/fustilio/",
+    personalLink: "https://www.linkedin.com/in/fustilio/",
     imgsrc: francis_lee,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Ajinkya Bhat",
-    subtitle:["Co-Founder & CEO"],
+    title: "Ajinkya Bhat",
+    subtitle: ["Co-Founder & CEO"],
     info: ["Seamless XR"],
-    personalLink:"https://www.linkedin.com/in/ajinkya-bhat23/",
+    personalLink: "https://www.linkedin.com/in/ajinkya-bhat23/",
     imgsrc: ajinkya_bhat,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Suwira Teo",
-    subtitle:["Co-Founder"],
+    title: "Suwira Teo",
+    subtitle: ["Co-Founder"],
     info: ["Aleph Technologies"],
-    personalLink:"https://www.linkedin.com/in/suwirateo/",
+    personalLink: "https://www.linkedin.com/in/suwirateo/",
     imgsrc: suwira_teo,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Lucas Yeo",
-    subtitle:["Co-Founder & CEO"],
+    title: "Lucas Yeo",
+    subtitle: ["Co-Founder & CEO"],
     info: ["Docuf.AI"],
-    personalLink:"https://www.linkedin.com/in/lucasyeo/",
+    personalLink: "https://www.linkedin.com/in/lucasyeo/",
     imgsrc: lucas_yeo,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Daryl Lim",
-    subtitle:["Business Operations"],
+    title: "Daryl Lim",
+    subtitle: ["Business Operations"],
     info: ["Paladium"],
-    personalLink:"https://www.linkedin.com/in/daryllim95/",
+    personalLink: "https://www.linkedin.com/in/daryllim95/",
     imgsrc: daryl_lim,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Wei Zhuang (Lenard)",
-    subtitle:["Founder & CEO"],
+    title: "Wei Zhuang (Lenard)",
+    subtitle: ["Founder & CEO"],
     info: ["Ailytics"],
-    personalLink:"https://www.linkedin.com/in/wei-zhuang-tan/",
+    personalLink: "https://www.linkedin.com/in/wei-zhuang-tan/",
     imgsrc: wei_zhuang,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Phang Wei Jun",
-    subtitle:["Co-Founder"],
+    title: "Phang Wei Jun",
+    subtitle: ["Co-Founder"],
     info: ["Lalia"],
-    personalLink:"https://www.linkedin.com/in/phang-wei-jun/",
+    personalLink: "https://www.linkedin.com/in/phang-wei-jun/",
     imgsrc: phang_wei_jun,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Elena Chow",
-    subtitle:["Founder"],
+    title: "Elena Chow",
+    subtitle: ["Founder"],
     info: ["ConnectOne"],
-    personalLink:"http://linkedin.com/in/elenachow",
+    personalLink: "http://linkedin.com/in/elenachow",
     imgsrc: elena_chow,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Wei Liang Lim",
-    subtitle:["Deputy CEO"],
+    title: "Wei Liang Lim",
+    subtitle: ["Deputy CEO"],
     info: ["Social Impact Catalyst"],
-    personalLink:"https://www.linkedin.com/in/weilianglim/",
+    personalLink: "https://www.linkedin.com/in/weilianglim/",
     imgsrc: wei_liang_lim,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Palash Jain",
-    subtitle:["Founder & CEO"],
+    title: "Palash Jain",
+    subtitle: ["Founder & CEO"],
     info: ["Think Design Make"],
-    personalLink:"https://www.linkedin.com/in/palashjain96/?originalSubdomain=sg",
+    personalLink:
+      "https://www.linkedin.com/in/palashjain96/?originalSubdomain=sg",
     imgsrc: palash_jain,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Dhawal Shah",
-    subtitle:["Limited Partner & Mentor"],
+    title: "Dhawal Shah",
+    subtitle: ["Limited Partner & Mentor"],
     info: ["Accelerating Asia"],
-    personalLink:"https://www.linkedin.com/in/dhawaljshah",
+    personalLink: "https://www.linkedin.com/in/dhawaljshah",
     imgsrc: dhawal_shah,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Arjun Arora",
-    subtitle:["Co-Founder & CEO"],
+    title: "Arjun Arora",
+    subtitle: ["Co-Founder & CEO"],
     info: ["Betafi"],
-    personalLink:"https://www.linkedin.com/in/arjunarora108/",
+    personalLink: "https://www.linkedin.com/in/arjunarora108/",
     imgsrc: arjun_arora,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Jeffrey Chua",
-    subtitle:["Co-Founder & Ex-CEO"],
+    title: "Jeffrey Chua",
+    subtitle: ["Co-Founder & Ex-CEO"],
     info: ["Millennium Enterprise"],
-    personalLink:"https://www.linkedin.com/in/jeffreychuapl/",
+    personalLink: "https://www.linkedin.com/in/jeffreychuapl/",
     imgsrc: jeffrey_chua,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Darrell Zhang",
-    subtitle:["Co-Founder"],
+    title: "Darrell Zhang",
+    subtitle: ["Co-Founder"],
     info: ["NextBlock"],
-    personalLink:"https://www.linkedin.com/in/darrellzhang",
+    personalLink: "https://www.linkedin.com/in/darrellzhang",
     imgsrc: darrell_zhang,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Don Tsai",
-    subtitle:["Chairman/Founder"],
+    title: "Don Tsai",
+    subtitle: ["Chairman/Founder"],
     info: ["First Wave"],
-    personalLink:"https://www.linkedin.com/in/dontsai",
+    personalLink: "https://www.linkedin.com/in/dontsai",
     imgsrc: don_tsai,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Freddie Luchterhand-Dare",
-    subtitle:["Vice President"],
+    title: "Freddie Luchterhand-Dare",
+    subtitle: ["Vice President"],
     info: ["Openspace Ventures"],
-    personalLink:"https://www.linkedin.com/in/frederickluchterhand/",
+    personalLink: "https://www.linkedin.com/in/frederickluchterhand/",
     imgsrc: freddie_luchterhand_dare,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Eric Lam",
-    subtitle:["Venture Principal"],
+    title: "Eric Lam",
+    subtitle: ["Venture Principal"],
     info: ["Recast Ventures"],
-    personalLink:"https://www.linkedin.com/in/lam-eric/",
+    personalLink: "https://www.linkedin.com/in/lam-eric/",
     imgsrc: eric_lam,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"Jonas Chen",
-    subtitle:["Co-Founder"],
+    title: "Jonas Chen",
+    subtitle: ["Co-Founder"],
     info: ["Metacamp"],
-    personalLink:"https://www.linkedin.com/in/jonas-chen/",
+    personalLink: "https://www.linkedin.com/in/jonas-chen/",
     imgsrc: jonas_chen,
-    description: [
-        "-",
-    ]
+    description: ["-"],
   },
   {
-    title:"Alvin Ng",
-    subtitle:["Venture Creation, Investment, and Acceleration"],
+    title: "Alvin Ng",
+    subtitle: ["Venture Creation, Investment, and Acceleration"],
     info: ["Farquhar Capital"],
-    personalLink:"https://www.linkedin.com/in/alvinjmng/",
+    personalLink: "https://www.linkedin.com/in/alvinjmng/",
     imgsrc: alvin_ng,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
   {
-    title:"James Conde",
-    subtitle:["Senior Associate, Investor Relations and Portfolio"],
+    title: "James Conde",
+    subtitle: ["Senior Associate, Investor Relations and Portfolio"],
     info: ["Plug and Play Tech Center"],
-    personalLink:"https://www.linkedin.com/in/james-conde/",
+    personalLink: "https://www.linkedin.com/in/james-conde/",
     imgsrc: james_conde,
-    description: [
-        "-"
-    ]
+    description: ["-"],
   },
 ];
 
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800"
+export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800";
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [
   {
     id: "para1",
-    content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
+    content:
+      "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
   },
   {
     id: "para2",
-    content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
+    content:
+      "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
   },
   {
     id: "para3",
-    content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
+    content:
+      "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
   },
 ];
 
@@ -955,7 +954,6 @@ export const aboutUs = [
 //   },
 // ];
 
-
 export const timelineSchedule = [
   {
     title: ["Registration opens"],
@@ -966,7 +964,13 @@ export const timelineSchedule = [
     date: "2023-05-01T12:00:00",
   },
   {
-    title: ["Opening Ceremony", "Patron Sponsor Talk", "Mentor Introduction", "Panel Discussion", "Workshops"],
+    title: [
+      "Opening Ceremony",
+      "Patron Sponsor Talk",
+      "Mentor Introduction",
+      "Panel Discussion",
+      "Workshops",
+    ],
     date: "2023-05-08T12:00:00",
   },
   {
@@ -986,7 +990,12 @@ export const timelineSchedule = [
     date: "2023-05-12T12:00:00",
   },
   {
-    title: ["Finals Judging", "Award Ceremony", "Closing Address", "Networking Dinner"],
+    title: [
+      "Finals Judging",
+      "Award Ceremony",
+      "Closing Address",
+      "Networking Dinner",
+    ],
     date: "2023-05-13T12:00:00",
   },
 ];
@@ -994,14 +1003,17 @@ export const timelineSchedule = [
 export const pastEventDescription = [
   {
     id: "para1",
-    content: "Ground Zero has been one of the largest student led Startathons in Singapore.",
+    content:
+      "Ground Zero has been one of the largest student led Startathons in Singapore.",
   },
   {
     id: "para2",
-    content: "Despite the covid situation, we still managed to accumulate over 200 participants for GZ 2021. Subsequently, over 381 participants registered for the following year for GZ 2022.",
+    content:
+      "Despite the covid situation, we still managed to accumulate over 200 participants for GZ 2021. Subsequently, over 381 participants registered for the following year for GZ 2022.",
   },
   {
     id: "para3",
-    content: "Ground Zero is filled with students from all faculties equipped with different skillsets sharing a common entrepreneurial spirit looking to make a difference. For GZ 2022, there were 31.2% from Computing, 24.1% from Business, 21.5% from Engineering and 7% from the Science faculty. Ground Zero has also been one of the NES events that has been able to have the most mentors for participants with over 50 speakers, mentors, and judges to guide our participants in various expertise areas.",
+    content:
+      "Ground Zero is filled with students from all faculties equipped with different skillsets sharing a common entrepreneurial spirit looking to make a difference. For GZ 2022, there were 31.2% from Computing, 24.1% from Business, 21.5% from Engineering and 7% from the Science faculty. Ground Zero has also been one of the NES events that has been able to have the most mentors for participants with over 50 speakers, mentors, and judges to guide our participants in various expertise areas.",
   },
 ];
