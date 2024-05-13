@@ -4,6 +4,7 @@ import { mapletree, metacamp, fomopay, skilledin, ncs,nuse} from '../assets';
 import NavigationBar from "./NavigationBar";
 import Footer2 from './Footer2';
 import MediaQuery from 'react-responsive';
+import FOMOPayDetails from './FomoPay';
 
 
 
@@ -90,10 +91,8 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 <div className="sponsor-description">
                   <br></br>
                   <br></br>
-                    <h1>About FOMO Pay:</h1>
                     <p>
-                    Founded in 2015, FOMO Pay is a one-stop QR Code Payment Solution Provider in Singapore. FOMO Pay provides a wide range of services including QR Code Payment, E-Wallet Payment, and Cross-Border Payment. FOMO Pay has served over 10,000 merchants and is the first to provide WeChat Pay and Alipay in Singapore. FOMO Pay has also expanded its services to Malaysia, Indonesia, and Hong Kong.
-                    
+<FOMOPayDetails></FOMOPayDetails>           
                     </p>
                 </div>
                 </div>
@@ -190,7 +189,13 @@ Its initiatives and global connections support a range of entrepreneurial journe
                   <br></br>
                     <h1>About FOMO Pay:</h1>
                     <p>
-                    Founded in 2015, FOMO Pay is a one-stop QR Code Payment Solution Provider in Singapore. FOMO Pay provides a wide range of services including QR Code Payment, E-Wallet Payment, and Cross-Border Payment. FOMO Pay has served over 10,000 merchants and is the first to provide WeChat Pay and Alipay in Singapore. FOMO Pay has also expanded its services to Malaysia, Indonesia, and Hong Kong.
+                    Founded in 2015, FOMO Pay Pte Ltd is a major payment institution (License No. PS20200145) regulated under the Payment Services Act in Singapore, licensed by the Monetary Authority of Singapore (MAS) to conduct Cross-border Money Transfer Service, Domestic Money Transfer Service, Digital Payment Token Service, and Merchant Acquisition Service. The firm has become a leading one-stop digital payment, digital banking, and digital asset solution provider. It is currently building Asia’s fully licensed financial platform, helping institutions and businesses connect between fiat and digital currency. The firm offers its three flagship products:
+
+FOMO Payment – One-stop digital payment solution for merchants, corporates and financial institutions
+FOMO iBank – Facilitate businesses’ everyday requirements for transactional banking needs
+FOMO Treasury – One-stop digital asset services provider bridging Web 2.0 & Web 3.0
+
+Visit www.fomopay.com for more information.
                     
                     </p>
                 </div>
