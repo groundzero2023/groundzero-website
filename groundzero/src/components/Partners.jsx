@@ -1,6 +1,6 @@
 import React from 'react';
 import "../index.css";
-import { mapletree, metacamp, fomopay, skilledin, ncs,nuse} from '../assets';
+import { mapletree, metacamp, fomopay, skilledin, ncs,nuse, lumos, visionpal, broskin, bumpp, simplebooth, centrep, boulder, mobio, nussu, airalo, pdtsponsors, communitypartners} from '../assets';
 import NavigationBar from "./NavigationBar";
 import Footer2 from './Footer2';
 import MediaQuery from 'react-responsive';
@@ -109,6 +109,33 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 </div>
                 </div>
         </div>
+        <div className="sponsors-container">
+            <div className="sponsor-level-silver">Product Sponsors</div>
+            <div className="sponsor-content">
+              <div className='sponsor-logo-container-s'>
+                <img src={pdtsponsors} className="sponsorpdl-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-silver">Community Partners</div>
+            <div className="sponsor-content">
+              <div className='sponsor-logo-container-s'>
+                <img src={communitypartners} className="sponsorpdl-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
+
+                </div>
+                </div>
+        </div>
         </div>
         </MediaQuery>
         <MediaQuery maxWidth={768}>
@@ -204,6 +231,34 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 <br></br>
                 <br></br>
                 <img src={skilledin} className="sponsor-logo-sg" />
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-others">Product Sponsors</div>
+            <div className="sponsor1-content-mobile">
+              <div className='sponsor-logo-container-s'>
+                <img src={pdtsponsors} className="sponsorpd-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-others">Community Partners</div>
+            <div className="sponsor1-content-mobile">
+              <div className='sponsor-logo-container-s'>
+                <img src={communitypartners} className="sponsorpd-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
 
                 </div>
                 </div>
